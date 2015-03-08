@@ -43,7 +43,43 @@ if(1 == $_GET['tipo']){
             <!-- END Get Started Title -->
 
             <!-- Get Started Content -->
-            Start your creative project!
+            <form action="novo_titulo.php" method="POST">
+                <table width="100%">
+                    <tr>
+                        <td width="150px"><b>Conta do Título</b></td>
+                        <td colspan="3"><input type="text"  style="width: 80%" name="conta" id="conta"/>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="150px"><b>Cliente / Fornecedor </b></td>
+                        <td colspan="3"><input type="text" readonly style="width: 80%" name="cliente_fornecedor" id="cliente_fornecedor"/>
+                            <input type="hidden" style="width: 80%" name="cliente_fornecedor_id" id="cliente_fornecedor_id"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="150px"><b>Documento Fiscal </b></td>
+                        <td colspan=""><input type="text" style="width: 200px" name="documento_fiscal" id="documento_fiscal"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="150px"><b>Vencimento </b></td>
+                        <td colspan=""><input type="text"  maxlength="10" id="vencimento" name="vencimento" class="input-datepicker"
+                                   data-date-format="dd/mm/yyyy" placeholder="dd/mm/yyyy" style="width: 200px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="150px"><b>Parcelas</b></td>
+                        <td colspan=""><input type="text" value="1" style="width: 50px" name="parcelas" id="parcelas"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="150px"><b>Valor do Título </b></td>
+                        <td colspan=""><input type="text" class="f_moeda" style="width: 100px" name="valor" id="valor"/>
+                        </td>
+                    </tr>
+                </table>
+            </form>
             <!-- END Get Started Content -->
         </div>
         <!-- END Get Started Block -->
