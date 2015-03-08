@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="MySQL - ceteps1_2@dbmy0058.whservidor.com" uuid="4aae0dcb-4cc1-4f38-acd0-bf57153935b8">
+    <database-info product="MySQL" version="5.1.66-community-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.34 ( Revision: jess.balint@oracle.com-20141014163213-wqbwpf1ok2kvo1om )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <schema name="" catalog="ceteps1_2"/>
+    <table name="app_menu" schema="" catalog="ceteps1_2" type="TABLE">
+      <column name="id_menu" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="menu" sqlType="VARCHAR" length="30" precision="0" nullable="false" jdbcType="12"/>
+      <column name="icone" sqlType="VARCHAR" length="30" precision="0" nullable="false" jdbcType="12"/>
+      <column name="link" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <column name="submenu" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" def="MA=="/>
+      <column name="nivel_permissoes" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <column name="permissoes" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id_menu"/>
+    </table>
+    <table name="app_submenu" schema="" catalog="ceteps1_2" type="TABLE">
+      <column name="id_submenu" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="id_raiz" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="id_subraiz" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="menu" sqlType="VARCHAR" length="30" precision="0" nullable="false" jdbcType="12"/>
+      <column name="link" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <column name="submenu" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" def="MA=="/>
+      <column name="nivel_permissoes" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12" def="JzAn"/>
+      <column name="permissoes" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12" def="JzAn"/>
+      <primary-key name="PRIMARY" columns="id_submenu"/>
+    </table>
+    <table name="cliente_fornecedor" schema="" catalog="ceteps1_2" type="TABLE">
+      <column name="codigo" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="razao_social" sqlType="VARCHAR" length="200" precision="0" nullable="false" jdbcType="12"/>
+      <column name="nome_fantasia" sqlType="VARCHAR" length="200" precision="0" nullable="false" jdbcType="12"/>
+      <column name="tipo_documento" sqlType="TINYINT" length="3" precision="0" nullable="false" jdbcType="-6"/>
+      <column name="documento" sqlType="VARCHAR" length="30" precision="0" nullable="false" jdbcType="12"/>
+      <column name="insc_estadual" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <column name="insc_municipal" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <column name="endereco" sqlType="VARCHAR" length="150" precision="0" nullable="false" jdbcType="12"/>
+      <column name="numero" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12"/>
+      <column name="bairro" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <column name="cidade" sqlType="VARCHAR" length="200" precision="0" nullable="false" jdbcType="12"/>
+      <column name="uf" sqlType="VARCHAR" length="2" precision="0" nullable="false" jdbcType="12"/>
+      <column name="cep" sqlType="VARCHAR" length="10" precision="0" nullable="false" jdbcType="12"/>
+      <column name="telefone" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12"/>
+      <column name="celular" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12"/>
+      <column name="contatos" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <column name="emails" sqlType="VARCHAR" length="300" precision="0" nullable="false" jdbcType="12"/>
+      <column name="site" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <column name="observacoes" sqlType="TEXT" length="65535" precision="0" nullable="false" jdbcType="-1"/>
+      <column name="data_cadastro" sqlType="DATETIME" length="19" precision="0" nullable="false" jdbcType="93"/>
+      <column name="status_cliente" sqlType="TINYINT" length="3" precision="0" nullable="false" jdbcType="-6"/>
+      <primary-key name="PRIMARY" columns="codigo"/>
+      <index name="cnpj" unique="true" columns="documento"/>
+    </table>
+    <table name="config_app" schema="" catalog="ceteps1_2" type="TABLE">
+      <column name="id_config" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="nome_app" sqlType="VARCHAR" length="40" precision="0" nullable="false" jdbcType="12"/>
+      <column name="pasta_root" sqlType="VARCHAR" length="30" precision="0" nullable="false" jdbcType="12"/>
+      <column name="manutencao" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" def="MA=="/>
+      <column name="site" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <column name="footer" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id_config"/>
+    </table>
+    <table name="mapa_arquivos" schema="" catalog="ceteps1_2" type="TABLE">
+      <column name="id_arquivo" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="arquivo" sqlType="VARCHAR" length="150" precision="0" nullable="false" jdbcType="12"/>
+      <column name="titulo" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <column name="caminho" sqlType="TEXT" length="65535" precision="0" nullable="false" jdbcType="-1"/>
+      <column name="permissoes" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12" def="JzAn"/>
+      <primary-key name="PRIMARY" columns="id_arquivo"/>
+    </table>
+    <table name="site_banners" schema="" catalog="ceteps1_2" type="TABLE">
+      <column name="id_banner" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="img" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <column name="link" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id_banner"/>
+    </table>
+    <table name="site_noticias" schema="" catalog="ceteps1_2" type="TABLE">
+      <column name="id_noticia" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="titulo" sqlType="VARCHAR" length="300" precision="0" nullable="false" jdbcType="12"/>
+      <column name="imagem" sqlType="VARCHAR" length="150" precision="0" nullable="false" jdbcType="12"/>
+      <column name="data" sqlType="DATE" length="10" precision="0" nullable="false" jdbcType="91"/>
+      <column name="conteudo" sqlType="TEXT" length="65535" precision="0" nullable="false" jdbcType="-1"/>
+      <primary-key name="PRIMARY" columns="id_noticia"/>
+    </table>
+    <table name="status_cliente" schema="" catalog="ceteps1_2" type="TABLE">
+      <column name="id_status" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="status_cliente" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id_status"/>
+    </table>
+    <table name="tipos_documento" schema="" catalog="ceteps1_2" type="TABLE">
+      <column name="id_tipo_documento" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="div_tab" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <column name="tipo_cliente" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <column name="tipo_documento" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <column name="formulario" sqlType="TEXT" length="65535" precision="0" nullable="false" jdbcType="-1"/>
+      <primary-key name="PRIMARY" columns="id_tipo_documento"/>
+    </table>
+    <table name="usuarios" schema="" catalog="ceteps1_2" type="TABLE">
+      <column name="id_usuario" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="usuario" sqlType="VARCHAR" length="30" precision="0" nullable="false" jdbcType="12"/>
+      <column name="senha" sqlType="VARCHAR" length="30" precision="0" nullable="false" jdbcType="12"/>
+      <column name="foto" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12" def="J2ltZy9wbGFjZWhvbGRlcnMvYXZhdGFycy9hdmF0YXI5LmpwZyc="/>
+      <column name="nome" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <column name="nivel" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="nivel_nome" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <column name="empresa" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="filial" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id_usuario"/>
+    </table>
+  </data-source>
+</component>

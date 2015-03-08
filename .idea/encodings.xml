@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.idea" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acesso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acesso/cad_noticia.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ckeditor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/img" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/inc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/inc/page_sidebar_alt.php" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/inc/sql.php" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/index.php" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/pages/readyLogin.js" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/website" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
+

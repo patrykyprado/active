@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2252527725">
+    <data-source source="LOCAL" name="MySQL - ceteps1_2@dbmy0058.whservidor.com" uuid="4aae0dcb-4cc1-4f38-acd0-bf57153935b8">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://dbmy0058.whservidor.com:3306/ceteps1_2</jdbc-url>
+      <user-name>ceteps1_2</user-name>
+      <user-password>dfcddfcfdfd9dfdedfcbdfc5dfeadf98df9adf9bdf9f</user-password>
+      <schema-pattern>ceteps1_2.*</schema-pattern>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
