@@ -13,7 +13,7 @@ function func_config_app()
 {
     global $conn;
     $sql_config = "SELECT * FROM config_app";
-    //PEGA OS DADOS DA APLICAÇÃO
+    //PEGA OS DADOS DA APLICAï¿½ï¿½O
     $sql_config_app = $conn->prepare($sql_config);
     $sql_config_app->execute();
     return $sql_config_app;
@@ -31,7 +31,7 @@ function func_pagina($pagina)
 function func_usuario($id_usuario){
     global $conn;
     $sql_usuario = "SELECT * FROM usuarios WHERE id_usuario LIKE '$id_usuario'";
-    //PEGA OS DADOS DO USUÁRIO LOGADO
+    //PEGA OS DADOS DO USUï¿½RIO LOGADO
     $sql_usuario_dados = $conn->prepare($sql_usuario);
     $sql_usuario_dados->execute();
     return $sql_usuario_dados;
@@ -82,8 +82,9 @@ function func_drop_cidade($uf){
 
 function func_cad_cliente($dados_cliente){
     global $conn;
-        $sql_cad_cliente = "INSERT INTO cliente_fornecedor (codigo, razao_social, nome_fantasia, cnpj,insc_estadual, insc_municipal,tipo_documento
-        endereco, numero, bairro, cidade, uf, cep, telefone, celular, contatos, emails, site, observacoes, data_cadastro, status_cliente) VALUES
+        $sql_cad_cliente = "INSERT INTO cliente_fornecedor (codigo, razao_social, nome_fantasia, documento,
+        insc_estadual, insc_municipal, tipo_documento, endereco, numero, bairro, cidade, uf, cep, telefone,
+         celular, contatos, emails, site, observacoes, data_cadastro, status_cliente) VALUES
         (NULL, '".$dados_cliente['razao_social']."','".$dados_cliente['nome_fantasia']."', '".$dados_cliente['cnpj']."',
         '".$dados_cliente['insc_estadual']."','".$dados_cliente['insc_municipal']."','".$dados_cliente['tipo_documento']."',
         '".$dados_cliente['endereco']."','".$dados_cliente['numero']."', '".$dados_cliente['bairro']."', '".$dados_cliente['cidade']."',
@@ -95,9 +96,15 @@ function func_cad_cliente($dados_cliente){
         $sql_inserir_cliente->execute();
         $total_inserido = $sql_inserir_cliente->rowCount();
         if($total_inserido == 0){
-            return 'Não foi possível inserir o cliente!';
+            return "<script language=\"javascript\">
+    alert('NÃ£o foi possÃ­vel cadastrar o cliente. Erro.');
+    </script>";
+
         } else {
-            return 'Cliente cadastrado com sucesso!';
+            return "<script language=\"javascript\">
+    alert('Cliente cadastrado com sucesso!.');
+    location.href= 'listar_clientes.php';
+    </script>";
         }
 
 }
@@ -105,10 +112,12 @@ function func_cad_cliente($dados_cliente){
 function func_lista_cliente_fornecedor($pagina, $busca){
     global $conn;
     if($busca != null){
-        $sql_busca = " WHERE (nome_fantasia LIKE '%$busca%' OR razao_social LIKE '%$busca%' OR cnpj LIKE '%$busca%' OR codigo LIKE '$busca')";
+        $sql_busca = " WHERE (nome_fantasia LIKE '%$busca%' OR razao_social LIKE '%$busca%' OR documento LIKE '%$busca%' OR codigo LIKE '$busca')";
     }
     if($pagina == 0){
-        $sql_lista_cliente_fornecedor= "SELECT codigo, razao_social, cnpj, nome_fantasia, tipo_cliente FROM cliente_fornecedor $sql_busca";
+        $sql_lista_cliente_fornecedor= "SELECT codigo, razao_social, documento, nome_fantasia, tipo_documento,
+        status_cliente
+         FROM cliente_fornecedor $sql_busca";
     }
     //PEGA OS DADOS PARA LISTAR OS CLIENTES ATIVOS
     $sql_listagem_cliente_fornecedor = $conn->prepare($sql_lista_cliente_fornecedor);
@@ -129,7 +138,7 @@ function func_editar_cliente_fornecedor($id_cliente){
 
 function func_edicao_cliente($dados_cliente){
     global $conn;
-    $sql_editar_cliente = "UPDATE cliente_fornecedor SET razao_social = '".$dados_cliente['razao_social']."', nome_fantasia ='".$dados_cliente['nome_fantasia']."', cnpj='".$dados_cliente['cnpj']."',
+    $sql_editar_cliente = "UPDATE cliente_fornecedor SET razao_social = '".$dados_cliente['razao_social']."', nome_fantasia ='".$dados_cliente['nome_fantasia']."', documento='".$dados_cliente['cnpj']."',
        endereco = '".$dados_cliente['endereco']."', numero = '".$dados_cliente['numero']."', bairro ='".$dados_cliente['bairro']."', cidade ='".$dados_cliente['cidade']."',
         uf = '".$dados_cliente['uf']."', cep='".$dados_cliente['cep']."', telefone='".$dados_cliente['telefone']."', celular='".$dados_cliente['celular']."',
        contatos = '".$dados_cliente['contatos']."', emails ='".$dados_cliente['email']."',
@@ -139,7 +148,7 @@ function func_edicao_cliente($dados_cliente){
     $sql_edicao_cliente->execute();
     $total_alterado = $sql_edicao_cliente->rowCount();
     if($total_alterado == 0){
-        return 'Nenhuma alteração foi realizada!';
+        return 'Nenhuma alteraï¿½ï¿½o foi realizada!';
     } else {
         return 'Todos os dados foram atualizados!';
     }
@@ -159,7 +168,7 @@ function func_inativar_cliente($id_cliente,$get_tipo){
         $texto_comp = 'Inativado';
     }
     if($total_alterado == 0){
-        return 'Não foi possível realizar a ação.!';
+        return 'Nï¿½o foi possï¿½vel realizar a aï¿½ï¿½o.!';
     } else {
         return "$texto_comp com sucesso!";
     }
@@ -213,7 +222,7 @@ function func_edicao_banner($array_banner){
     $sql_salvar_edicao->execute();
     $total_alterado = $sql_salvar_edicao->rowCount();
     if($total_alterado == 0){
-        return 'Não foi possível realizar a ação.!';
+        return 'Nï¿½o foi possï¿½vel realizar a aï¿½ï¿½o.!';
     } else {
         return "Banner alterado com sucesso!";
     }
@@ -229,12 +238,12 @@ function func_cad_noticia($dados_noticia){
     $total_inserido = $sql_inserir_noticia->rowCount();
     if($total_inserido == 0){
         return "<script language=\"javascript\">
-        alert('Erro ao inserir notícia');
+        alert('Erro ao inserir notï¿½cia');
         location.href='listar_noticias.php';
     </script>";
     } else {
         return "<script language=\"javascript\">
-        alert('Notícia inserida com sucesso!');
+        alert('Notï¿½cia inserida com sucesso!');
         location.href='cad_noticia.php';
         </script>";
     }

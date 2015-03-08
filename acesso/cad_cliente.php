@@ -10,7 +10,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
     $cad_cliente_array = array();
     $cad_cliente_array['razao_social'] = $_POST['razao_social'];
     $cad_cliente_array['nome_fantasia'] = $_POST['nome_fantasia'];
-    $cad_cliente_array['cnpj'] = $_POST['cnpj'];
+    $cad_cliente_array['cnpj'] = $_POST['documento'];
     $cad_cliente_array['endereco'] = $_POST['endereco'];
     $cad_cliente_array['insc_municipal'] = $_POST['insc_municipal'];
     $cad_cliente_array['insc_estadual'] = $_POST['insc_estadual'];
@@ -29,12 +29,11 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
     $cad_cliente_array['datahora'] = date("Y-m-d H:i:s");
     $cad_cliente_array['status_cliente'] =  1;
     $cad_cliente_array['tipo_documento'] =  $_POST['tipo_documento'];
-
+    if(2 == $cad_cliente_array['tipo_documento'])
+        $cad_cliente_array['razao_social'] = $cad_cliente_array['nome_fantasia'];
+    //envia dados para o sql.php para inserir em banco de dados
     $inserir_cliente = func_cad_cliente($cad_cliente_array);
-
-    echo "<script language=\"javascript\">
-    alert('".$inserir_cliente."');
-    </script>";
+    echo $inserir_cliente;
 
 }
 
@@ -118,7 +117,11 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 </script>
 <script type="text/javascript">
     $(document).ready(function(){
-        $("#cnpj").mask("99.999.999/9999-99");});
+        $("#cnpj").mask("99.999.999/9999-99");
+        $("#cpf").mask("999.999.999-99");
+
+    });
+
 </script>
 
 

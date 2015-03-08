@@ -8,7 +8,7 @@ include '../inc/restricao.php'?>
 
 $sql_cliente_fornecedor = func_lista_cliente_fornecedor(0,null);
 $total_encontrado = $sql_cliente_fornecedor->rowCount();
-if($_GET['acao'] == 1){//acao de edição
+if($_GET['acao'] == 1){//acao de edi??o
     $edicao_cliente_array = array();
     $edicao_cliente_array['codigo'] = $_GET['codigo'];
     $edicao_cliente_array['razao_social'] = $_GET['razao_social'];
@@ -25,7 +25,7 @@ if($_GET['acao'] == 1){//acao de edição
     $edicao_cliente_array['email']= $_GET['email'];
     $edicao_cliente_array['telefone'] = $_GET['telefone'];
     $edicao_cliente_array['celular'] = $_GET['celular'];
-    //CONFIRMA A EDIÇÃO
+    //CONFIRMA A EDI??O
     $editar_cliente = func_edicao_cliente($edicao_cliente_array);
     echo "<script language=\"javascript\">
     alert('".$editar_cliente."');
@@ -89,9 +89,10 @@ if($_GET['acao'] == 2){//INATIVAR CLIENTE
                    $cliente_codigo = $dados_cliente_fornecedor['codigo'];
                    $cliente_razao_social = $dados_cliente_fornecedor['razao_social'];
                    $cliente_nome_fantasia = $dados_cliente_fornecedor['nome_fantasia'];
-                   $cliente_cnpj = $dados_cliente_fornecedor['cnpj'];
-                   $cliente_tipo = $dados_cliente_fornecedor['tipo_cliente'];
-                   if($cliente_tipo != '0'){
+                   $cliente_cnpj = $dados_cliente_fornecedor['documento'];
+                   $cliente_status = $dados_cliente_fornecedor['status_cliente'];
+                   $cliente_tipo = $dados_cliente_fornecedor['tipo_documento'];
+                   if($cliente_status != '0'){
                        $icone_inativar = "<i data-toggle=\"tooltip\" data-placement=\"top\" title=\"Inativar Cliente/Fornecedor\" style=\"color: green;\" class=\"fa fa-check\"></i>";
                        $link_inativar = "0";
                    } else {
@@ -126,7 +127,7 @@ if($_GET['acao'] == 2){//INATIVAR CLIENTE
                             Deseja realmente excluir o cliente abaixo?<br>
                             <div class="modal-excluir-cliente"></div>
                             <br><br>
-                            <div align="center" style="color: #fffacd; background: #ff0000;">Atenção: a exclusão não poderá ser desfeita e todos os dados do cliente serão apagados.</div>
+                            <div align="center" style="color: #fffacd; background: #ff0000;">Aten??o: a exclus?o n?o poder? ser desfeita e todos os dados do cliente ser?o apagados.</div>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-effect-ripple btn-primary">Confirmar</button>
@@ -147,10 +148,10 @@ if($_GET['acao'] == 2){//INATIVAR CLIENTE
                             Deseja realmente excluir o cliente abaixo?<br>
 
                             <br><br>
-                            <div align="center" style="color: #fffacd; background: #ff0000;">Atenção: a exclusão não poderá ser desfeita e todos os dados do cliente serão apagados.</div>
+                            <div align="center" style="color: #fffacd; background: #ff0000;">Aten??o: a exclus?o n?o poder? ser desfeita e todos os dados do cliente ser?o apagados.</div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-effect-ripple btn-primary">Salvar Edição</button>
+                            <button type="button" class="btn btn-effect-ripple btn-primary">Salvar Edi??o</button>
                             <button type="button" class="btn btn-effect-ripple btn-danger" data-dismiss="modal">Cancelar</button>
                         </div>
                     </div>
