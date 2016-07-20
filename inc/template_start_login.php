@@ -15,7 +15,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title><?php echo $template['title'] ?></title>
+    <title>Active App</title>
 
     <meta name="description" content="<?php echo $template['description'] ?>">
     <meta name="author" content="<?php echo $template['author'] ?>">

@@ -1,66 +1,79 @@
-<?php
-if($_SERVER['REQUEST_METHOD']=='POST'){
-    // Pasta onde o arquivo vai ser salvo
-    $_UP['pasta'] = '../website/banners/img/';
+<form action="#" method="POST">
+    <input type="hidden" name="tipo_documento" value="1" />
+    <table width="100%">
+        <tr>
+            <td width="150px"><b>Nome Completo: </b></td>
+            <td colspan="3"><input type="text" style="width: 80%" name="razao_social" id="razao_social"/> </td>
+        </tr>
+        <tr>
+            <td width="150px"><b>Data de Nascimento: </b></td>
+            <td colspan="3"><input type="text" style="width: 100px" name="nascimento" id="nascimento"/> </td>
+        </tr>
+        <tr>
+            <td><b>CPF: </b></td>
+            <td colspan="3"> <input type="text" style="width: 150px" name="cnpj" id="cpf"/>
+                <b>RG: </b> <input type="text" style="width: 150px" name="rg" id="rg"/> </td>
+        </tr>
+        <tr>
+            <td><b>Estado: </b></td>
+            <td colspan="3">#select2Uf
+                <B>Cidade: </B>
+                #select2Cidade
+        </tr>
+        <tr>
+            <td><b>EndereÃ§o: </b></td>
+            <td colspan="3"> <input type="text" style="width: 60%" name="endereco" id="endereco"/> <b>NÂº:</b> <input type="text" style="width: 10%" name="numero" id="numero"/></td>
+        </tr>
+        <tr>
+            <td><b>Bairro</b></td>
+            <td colspan="3"><input type="text" style="width: 300px;" name="bairro" id="bairro"/>
+                <b>CEP: </b><input type="text" style="width: 100px;" name="cep" id="cep"/></td>
+            </td>
+        </tr>
+    </table>
+    <br><br>
+    <div class="block-title">
+        <h2>Dados de ConvÃªnio</h2>
+    </div>
+    <table width="100%">
+        <tr>
+            <td width="100px"><b>ConvÃªnio: </b></td>
+            <td colspan="3">
+                #selectConvenio
+            </td>
+        </tr>
+        <tr>
+            <td width="100px"><b>Carteirinha: </b></td>
+            <td colspan="3"><input type="text" style="width: 150px" name="convenio_n" id="convenio_n"/>
+                <b>Validade</b>  <input type="text" style="width: 150px" class="default-date-picker" name="convenio_validade" id="convenio_validade"/>
+            </td>
+        </tr>
 
-    // Tamanho máximo do arquivo (em Bytes)
-    $_UP['tamanho'] = 1024 * 1024 * 2; // 2Mb
-
-    // Array com as extensões permitidas
-    $_UP['extensoes'] = array('jpg', 'png', 'gif','jpeg');
-
-    // Renomeia o arquivo? (Se true, o arquivo será salvo como .jpg e um nome único)
-    $_UP['renomeia'] = false;
-
-    // Array com os tipos de erros de upload do PHP
-    $_UP['erros'][0] = 'Não houve erro';
-    $_UP['erros'][1] = 'O arquivo no upload é maior do que o limite do PHP';
-    $_UP['erros'][2] = 'O arquivo ultrapassa o limite de tamanho especifiado no HTML';
-    $_UP['erros'][3] = 'O upload do arquivo foi feito parcialmente';
-    $_UP['erros'][4] = 'Não foi feito o upload do arquivo';
-
-    // Verifica se houve algum erro com o upload. Se sim, exibe a mensagem do erro
-    if ($_FILES['arquivo']['error'] != 0) {
-        die("Não foi possível fazer o upload, erro:<br />" . $_UP['erros'][$_FILES['arquivo']['error']]);
-        exit; // Para a execução do script
-    }
-
-    // Caso script chegue a esse ponto, não houve erro com o upload e o PHP pode continuar
-
-    // Faz a verificação do tamanho do arquivo
-    else if ($_UP['tamanho'] < $_FILES['arquivo']['size']) {
-        echo "O arquivo enviado é muito grande, envie arquivos de até 2Mb.";
-    }
-
-    // O arquivo passou em todas as verificações, hora de tentar movê-lo para a pasta
-    else {
-    // Primeiro verifica se deve trocar o nome do arquivo
-        if ($_UP['renomeia'] == true) {
-    // Cria um nome baseado no UNIX TIMESTAMP atual e com extensão .jpg
-            $nome_final = time().'.jpg';
-        } else {
-    // Mantém o nome original do arquivo
-            $nome_final = $_FILES['arquivo']['name'];
-        }
-
-    // Depois verifica se é possível mover o arquivo para a pasta escolhida
-        if (move_uploaded_file($_FILES['arquivo']['tmp_name'], $_UP['pasta'] . $_FILES['arquivo']['name'])) {
-    // Upload efetuado com sucesso, exibe uma mensagem e um link para o arquivo
-            echo "Upload efetuado com sucesso!";
-            echo '<br /><a href="' . $_UP['pasta'] . $nome_final . '">Clique aqui para acessar o arquivo</a>';
-        } else {
-    // Não foi possível fazer o upload, provavelmente a pasta está incorreta
-            echo "Não foi possível enviar o arquivo, tente novamente <a href='".$_UP['pasta']."'>aa</a>";
-        }
-
-    }
-}
-?>
-
-<form method="POST" action="teste.php" enctype="multipart/form-data">
-    <label>Arquivo</label>
-    <input type="file" name="arquivo" />
-    <input type="submit" value="Enviar" />
+    </table>
+    <br><br><br>
+    <div class="block-title">
+        <h2>Dados de Contato</h2>
+    </div>
+    <table width="100%">
+        <tr>
+            <td width="100px"><b>Contatos: </b></td>
+            <td colspan="3"><input type="text" style="width: 80%" name="contatos" id="contatos"/> </td>
+        </tr>
+        <tr>
+            <td><b>E-mail </b></td>
+            <td colspan="3"> <input type="text" style="width: 200px" name="e-mail" id="e-mail"/>
+                <b>Telefone:</b> <input type="text" style="width: 200px" name="telefone" id="telefone"/>
+                <b>Celular:</b> <input type="text" style="width: 200px" name="celular" id="celular"/>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4"><b>ObservaÃ§Ãµes:</b></td>
+        </tr>
+        <tr>
+            <td colspan="4"><textarea style="width: 100%" name="observacoes" id="observacoes" class="ckeditor"></textarea> </td>
+        </tr>
+        <tr>
+            <td colspan="4" align="center"><br><br><button type="submit" class="btn btn-effect-ripple btn-primary">Salvar</button></td>
+        </tr>
+    </table>
 </form>
-
-

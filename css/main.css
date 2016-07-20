@@ -64,6 +64,7 @@
 .preloader-spinner {
     width: 40px;
     height: 40px;
+    background: url('../img/load.jpg');
     margin: 0 auto;
     background-color: #cccccc;
     -webkit-animation: rotateplane .8s infinite ease-in-out;
@@ -467,7 +468,7 @@ header.navbar-inverse {
     font-size: 18px;
     display: block;
     color: #ffffff;
-    background-color: #5ccdde;
+    background-color: #892c34;
     -webkit-transition: background .2s ease-out;
     transition: background .2s ease-out;
 }
@@ -1608,22 +1609,24 @@ a[data-toggle="lightbox-image"]:hover img {
 
 /* Navbar */
 .navbar.navbar-default.navbar-glass {
-    background: rgba(255, 255, 255, .9);
+    background: #892c34;
+    opacity: 0.9;
 }
 
 .navbar.navbar-inverse.navbar-glass {
-    background: rgba(92, 205, 222, .9);
+    background: #892c34;
+    opacity: 0.9;
 }
 
 .navbar.navbar-default,
 .navbar.navbar-default.navbar-glass:hover {
     background: #ffffff;
-    border-bottom: 1px solid #dae0e8;
+    border-bottom: 1px solid #892c34;
 }
 
 .navbar.navbar-inverse,
 .navbar.navbar-inverse.navbar-glass:hover {
-    background: #5ccdde;
+    background: #892c34;
 }
 
 .navbar-fixed-top,

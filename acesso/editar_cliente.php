@@ -21,7 +21,7 @@ $dados_cliente = $sql_edicao_cliente_fornecedor->fetch(PDO::FETCH_ASSOC);
             <input type="hidden" name="acao" value="1"/>
             <table width="100%">
                 <tr>
-                    <td width="100px"><b>Razão Social: </b></td>
+                    <td width="100px"><b>RazÃ£o Social: </b></td>
                     <td colspan="3"><input type="text" style="width: 80%" name="razao_social" id="razao_social" value="<?php echo $dados_cliente['razao_social'];?>"/> </td>
                 </tr>
                 <tr>
@@ -33,12 +33,12 @@ $dados_cliente = $sql_edicao_cliente_fornecedor->fetch(PDO::FETCH_ASSOC);
                     <td colspan="3"> <input type="text" style="width: 150px" name="cnpj" id="cnpj" value="<?php echo $dados_cliente['cnpj'];?>"/></td>
                 </tr>
                 <tr>
-                    <td><b>Endereço: </b></td>
-                    <td colspan="3"> <input type="text" style="width: 60%" name="endereco" id="endereco" value="<?php echo $dados_cliente['endereco'];?>"/> <b>Nº:</b> <input type="text" style="width: 10%" name="numero" id="numero" value="<?php echo $dados_cliente['numero'];?>"/></td>
+                    <td><b>EndereÃ§o: </b></td>
+                    <td colspan="3"> <input type="text" style="width: 60%" name="endereco" id="endereco" value="<?php echo $dados_cliente['endereco'];?>"/> <b>NÂº:</b> <input type="text" style="width: 10%" name="numero" id="numero" value="<?php echo $dados_cliente['numero'];?>"/></td>
                 </tr>
                 <tr>
                     <td><b>Estado: </b></td>
-                    <td colspan="3"><select name="uf" id="uf">
+                    <td colspan="3"><select name="uf" id="uf"> 
                             <option value="<?php echo $dados_cliente['uf'];?>"><?php echo $dados_cliente['uf'];?></option>
                             <?php
                             $sql_estados = func_drop_uf('ES');
@@ -86,11 +86,11 @@ $dados_cliente = $sql_edicao_cliente_fornecedor->fetch(PDO::FETCH_ASSOC);
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="4"><b>Observações:</b></td>
+                    <td colspan="4"><b>ObservaÃ§Ãµes:</b></td>
                 </tr>
                 <tr>
                     <td colspan="4"><?php echo $dados_cliente['observacoes'];?><br><Br><br>
-                        <center><input type="submit" class="btn btn-effect-ripple btn-primary" value="Salvar Edição"/> <button type="button" class="btn btn-effect-ripple btn-danger" data-dismiss="modal">Cancelar</button></center></td>
+                        <center><input type="submit" class="btn btn-effect-ripple btn-primary" value="Salvar EdiÃ§Ã£o"/> <button type="button" class="btn btn-effect-ripple btn-danger" data-dismiss="modal">Cancelar</button></center></td>
                 </tr>
             </table>
 

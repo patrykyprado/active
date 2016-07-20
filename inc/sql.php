@@ -13,11 +13,24 @@ function func_config_app()
 {
     global $conn;
     $sql_config = "SELECT * FROM config_app";
-    //PEGA OS DADOS DA APLICAÇÃO
+    //PEGA OS DADOS DA APLICAÃ‡ÃƒO
     $sql_config_app = $conn->prepare($sql_config);
     $sql_config_app->execute();
     return $sql_config_app;
 }
+
+function func_acessar_usuario($usuario, $senha)
+{
+    global $conn;
+    $sql = "SELECT id_usuario 
+    FROM usuarios where usuario = '".$usuario."' and senha='".$senha."'";
+    //PEGA OS DADOS DA APLICAÃ‡ÃƒO
+    $sql_executar = $conn->prepare($sql);
+    $sql_executar->execute();
+    return $sql_executar;
+}
+
+
 function func_pagina($pagina)
 {
     global $conn;
@@ -31,7 +44,7 @@ function func_pagina($pagina)
 function func_usuario($id_usuario){
     global $conn;
     $sql_usuario = "SELECT * FROM usuarios WHERE id_usuario LIKE '$id_usuario'";
-    //PEGA OS DADOS DO USUÁRIO LOGADO
+    //PEGA OS DADOS DO USUÃRIO LOGADO
     $sql_usuario_dados = $conn->prepare($sql_usuario);
     $sql_usuario_dados->execute();
     return $sql_usuario_dados;
@@ -64,16 +77,31 @@ function func_montar_submenu($usuario_id, $usuario_nivel, $tipo, $id_submenu){
 
 function func_drop_uf($uf){
     global $conn;
-    $sql_uf = "SELECT DISTINCT uf FROM cidades WHERE uf NOT LIKE '%$uf%'";
+    $sql_uf = "SELECT DISTINCT uf 
+    FROM cidades 
+    ORDER BY uf";
     //PEGA OS DADOS PARA MONTAR O DROP ESTADOS / UF
     $sql_drop_uf = $conn->prepare($sql_uf);
     $sql_drop_uf->execute();
     return $sql_drop_uf;
 }
 
+function func_drop_convenios(){
+    global $conn;
+    $sql = "SELECT * 
+    FROM convenios 
+    ORDER BY convenio";
+    //PEGA OS DADOS PARA MONTAR O DROP ESTADOS / UF
+    $sql_executar = $conn->prepare($sql);
+    $sql_executar->execute();
+    return $sql_executar;
+}
+
 function func_drop_cidade($uf){
     global $conn;
-    $sql_cidade = "SELECT DISTINCT cidade FROM cidades WHERE uf LIKE '%$uf%'";
+    $sql_cidade = "SELECT DISTINCT cidade 
+    FROM cidades 
+    WHERE uf LIKE '%$uf%'";
     //PEGA OS DADOS PARA MONTAR O DROP CIDADES
     $sql_drop_cidades = $conn->prepare($sql_cidade);
     $sql_drop_cidades->execute();
@@ -82,33 +110,33 @@ function func_drop_cidade($uf){
 
 function func_cad_cliente($dados_cliente){
     global $conn;
-        $sql_cad_cliente = "INSERT INTO cliente_fornecedor (codigo, razao_social, nome_fantasia, cnpj,insc_estadual, insc_municipal,tipo_documento
-        endereco, numero, bairro, cidade, uf, cep, telefone, celular, contatos, emails, site, observacoes, data_cadastro, status_cliente) VALUES
+        $sql_cad_cliente = "INSERT INTO cliente_fornecedor (codigo, razao_social, nome_fantasia, documento,insc_estadual, insc_municipal,tipo_documento,
+        endereco, numero, bairro, cidade, uf, cep, telefone, celular, contatos, emails, site, observacoes, data_cadastro, status_cliente, rg,
+        tipo_convenio, convenio, convenio_validade, nascimento) VALUES
         (NULL, '".$dados_cliente['razao_social']."','".$dados_cliente['nome_fantasia']."', '".$dados_cliente['cnpj']."',
         '".$dados_cliente['insc_estadual']."','".$dados_cliente['insc_municipal']."','".$dados_cliente['tipo_documento']."',
         '".$dados_cliente['endereco']."','".$dados_cliente['numero']."', '".$dados_cliente['bairro']."', '".$dados_cliente['cidade']."',
         '".$dados_cliente['uf']."', '".$dados_cliente['cep']."', '".$dados_cliente['telefone']."', '".$dados_cliente['celular']."',
         '".$dados_cliente['contatos']."', '".$dados_cliente['email']."',
-          '".$dados_cliente['site']."', '".$dados_cliente['observacoes']."', '".$dados_cliente['datahora']."',1);";
+          '".$dados_cliente['site']."', '".$dados_cliente['observacoes']."', '".$dados_cliente['datahora']."', 1, '".$dados_cliente['rg']."', '".$dados_cliente['convenio_id']."',
+        '".$dados_cliente['convenio_n']."', '".$dados_cliente['convenio_validade']."', '".$dados_cliente['nascimento']."');";
         //INSERE OS DADOS DO CLIENTE NO BANCO DE DADOS
         $sql_inserir_cliente = $conn->prepare($sql_cad_cliente);
         $sql_inserir_cliente->execute();
-        $total_inserido = $sql_inserir_cliente->rowCount();
-        if($total_inserido == 0){
-            return 'Não foi possível inserir o cliente!';
-        } else {
-            return 'Cliente cadastrado com sucesso!';
-        }
+
+        return $sql_inserir_cliente;
 
 }
 
 function func_lista_cliente_fornecedor($pagina, $busca){
     global $conn;
     if($busca != null){
-        $sql_busca = " WHERE (nome_fantasia LIKE '%$busca%' OR razao_social LIKE '%$busca%' OR cnpj LIKE '%$busca%' OR codigo LIKE '$busca')";
+        $sql_busca = " WHERE (cf.nome_fantasia LIKE '%$busca%' OR cf.razao_social LIKE '%$busca%' OR cf.documento LIKE '%$busca%' OR cf.codigo LIKE '$busca' OR cf.convenio LIKE '%$busca%')";
     }
     if($pagina == 0){
-        $sql_lista_cliente_fornecedor= "SELECT codigo, razao_social, cnpj, nome_fantasia, tipo_cliente FROM cliente_fornecedor $sql_busca";
+        $sql_lista_cliente_fornecedor= "SELECT cf.*, c.convenio as convenio_nome FROM cliente_fornecedor cf 
+ INNER JOIN convenios c 
+ ON cf.tipo_convenio = c.id $sql_busca";
     }
     //PEGA OS DADOS PARA LISTAR OS CLIENTES ATIVOS
     $sql_listagem_cliente_fornecedor = $conn->prepare($sql_lista_cliente_fornecedor);
@@ -118,7 +146,12 @@ function func_lista_cliente_fornecedor($pagina, $busca){
 
 function func_editar_cliente_fornecedor($id_cliente){
     global $conn;
-    $sql_editar_cliente_fornecedor= "SELECT * FROM cliente_fornecedor WHERE codigo = $id_cliente";
+    $sql_editar_cliente_fornecedor= "SELECT  cf.*, c.convenio as convenio_nome 
+FROM cliente_fornecedor cf 
+ INNER JOIN convenios c 
+ ON cf.tipo_convenio = c.id 
+
+WHERE c.codigo = $id_cliente";
 
     //PEGA OS DADOS EDITAR OS CLIENTE
     $sql_edicao_cliente_fornecedor = $conn->prepare($sql_editar_cliente_fornecedor);
@@ -139,7 +172,7 @@ function func_edicao_cliente($dados_cliente){
     $sql_edicao_cliente->execute();
     $total_alterado = $sql_edicao_cliente->rowCount();
     if($total_alterado == 0){
-        return 'Nenhuma alteração foi realizada!';
+        return 'Nenhuma alteraÃ§Ã£o foi realizada!';
     } else {
         return 'Todos os dados foram atualizados!';
     }
@@ -159,7 +192,7 @@ function func_inativar_cliente($id_cliente,$get_tipo){
         $texto_comp = 'Inativado';
     }
     if($total_alterado == 0){
-        return 'Não foi possível realizar a ação.!';
+        return 'NÃ£o foi possÃ­vel realizar a aÃ§Ã£o.!';
     } else {
         return "$texto_comp com sucesso!";
     }
@@ -168,7 +201,7 @@ function func_inativar_cliente($id_cliente,$get_tipo){
 
 function func_tipos_clientes(){
     global $conn;
-    $sql_tipos_clientes = "SELECT * FROM tipos_documento ORDER BY tipo_documento";
+    $sql_tipos_clientes = "SELECT * FROM tipos_documento ORDER BY div_tab";
 
     //PEGA OS DADOS EDITAR OS CLIENTE
     $sql_montar_tipos = $conn->prepare($sql_tipos_clientes);
@@ -213,7 +246,7 @@ function func_edicao_banner($array_banner){
     $sql_salvar_edicao->execute();
     $total_alterado = $sql_salvar_edicao->rowCount();
     if($total_alterado == 0){
-        return 'Não foi possível realizar a ação.!';
+        return 'NÃ£o foi possÃ­vel realizar a aÃ§Ã£o.!';
     } else {
         return "Banner alterado com sucesso!";
     }
@@ -229,15 +262,56 @@ function func_cad_noticia($dados_noticia){
     $total_inserido = $sql_inserir_noticia->rowCount();
     if($total_inserido == 0){
         return "<script language=\"javascript\">
-        alert('Erro ao inserir notícia');
+        alert('Erro ao inserir notÃ­cia');
         location.href='listar_noticias.php';
     </script>";
     } else {
         return "<script language=\"javascript\">
-        alert('Notícia inserida com sucesso!');
+        alert('NotÃ­cia inserida com sucesso!');
         location.href='cad_noticia.php';
         </script>";
     }
 
+}
+
+function func_inserir_exercicio($dados){
+    global $conn;
+    $sql = "
+    INSERT INTO exercicios 
+    (exercicio, equipamentos, descricao) 
+    VALUES 
+    ('".utf8_decode($dados['exercicio'])."', '".utf8_decode($dados['equipamentos'])."', '".utf8_decode($dados['descricao'])."')";
+    $sql_executar = $conn->prepare($sql);
+    $sql_executar->execute();
+    return $sql_executar;
+}
+
+function func_buscar_exercicios($busca){
+    global $conn;
+    $sql = "
+    SELECT *
+     FROM exercicios 
+      WHERE  1 = 1 
+    ";
+    if(!empty($busca)){
+        $sql .= " AND exercicio LIKE '%".utf8_encode($busca)."%'";
+    }
+    $sql .= "
+    ORDER BY exercicio";
+    $sql_executar = $conn->prepare($sql);
+    $sql_executar->execute();
+    return $sql_executar;
+}
+
+function func_dados_exercicio($id){
+    global $conn;
+    $sql = "
+    SELECT *
+     FROM exercicios 
+      WHERE  id = {$id}
+    ";
+    $sql_executar = $conn->prepare($sql);
+    $sql_executar->execute();
+    return $sql_executar;
 }
 ?>

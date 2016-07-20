@@ -2,7 +2,7 @@
 <div id="sidebar">
 <!-- Sidebar Brand -->
 <div id="sidebar-brand" class="themed-background">
-    <a href="index.html" class="sidebar-title">
+    <a href="index.php" class="sidebar-title">
         <i class="fa fa-cube"></i> <span class="sidebar-nav-mini-hide"><?php echo $template['nome_app'] ;?></span>
     </a>
 </div>
@@ -29,7 +29,7 @@
         }
         if($menu_submenu == 0){
             echo "<li>
-        <a href=\"$menu_link\" class=\"$menu_ativo\"><i class=\"$menu_icone sidebar-nav-icon\"></i><span class=\"sidebar-nav-mini-hide\">$menu_menu</span></a>
+        <a href=\"$menu_link\" class=\"$menu_ativo\"><i class=\"$menu_icone sidebar-nav-icon\"></i><span class=\"sidebar-nav-mini-hide\">".utf8_encode($menu_menu)."</span></a>
     </li>";
         } else {
             echo "<li>
@@ -43,7 +43,7 @@
                 $submenu1_id = $dados_submenu1['id_submenu'];
                 if($submenu1_submenu ==0){
                     echo "<li>
-                        <a href=\"$submenu1_link\">$submenu1_menu</a>
+                        <a href=\"$submenu1_link\">".utf8_encode($submenu1_menu)."</a>
                     </li>";
                 } else {
                     echo "<li>
@@ -54,7 +54,7 @@
                         $submenu2_menu = $dados_submenu2['menu'];
                         $submenu2_link = $dados_submenu2['link'];
                         echo "<li>
-                        <a href=\"$submenu2_link\">$submenu2_menu</a>
+                        <a href=\"$submenu2_link\">".utf8_encode($submenu2_menu)."</a>
                     </li>";
                     }
                     echo "</ul></li>";

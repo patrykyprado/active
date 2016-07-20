@@ -10,30 +10,22 @@ $erro = 0;
 $manutencao = $dados_app['manutencao'];
 if($_SERVER["REQUEST_METHOD"]=="POST"){
 
-    $tb = $conn->prepare("SELECT id_usuario from usuarios where usuario =:usuario and senha=:senha");
-    $tb->bindParam(":usuario", $_POST["login-username"], PDO::PARAM_STR);
-    $tb->bindParam(":senha", $_POST["login-password"], PDO::PARAM_STR);
-    $tb->execute();
-    $l = $tb->fetch(PDO::FETCH_ASSOC);
-    $tb = null;
-    if(!empty($l)){
-
-        $_SESSION["user_id"] = $l["id_usuario"];
-        header("Location: acesso/index.php");
-
-    }else{
+    $sql_acessar = func_acessar_usuario($_POST['login-username'], $_POST['login-password']);
+    if($sql_acessar->rowCount() == 1){
+        $dados_acesso = $sql_acessar->fetch(PDO::FETCH_ASSOC);
+        $_SESSION["user_id"] = $dados_acesso["id_usuario"];
+        echo '<script language="javascript">
+location.href = "acesso/index.php";
+</script>';
+    } else {
         $erro = 1;
     }
-
 }
 ?>
 
     <!-- Login Container -->
     <div id="login-container">
         <!-- Login Header -->
-        <h1 class="h2 text-light text-center push-top-bottom animation-slideDown">
-            <i class="fa fa-cube"></i> <strong><?php echo $dados_app['nome_app']?></strong>
-        </h1>
         <!-- END Login Header -->
 
         <!-- Login Block -->
@@ -50,15 +42,16 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
             <!-- Login Form -->
             <form id="form-login" action="index.php" method="post" class="form-horizontal">
                 <div class="form-group">
+                    <center><img src="img/sistema/logo.jpg"/></center>
                     <?php
                     if($erro == 1){
-                        echo " <div style=\"background-color: #d9534f; color: #f0f0f0\" align=\"center\">Usuário ou senha inválidos!</div>";
+                        echo " <div style=\"background-color: #d9534f; color: #f0f0f0\" align=\"center\">UsuÃ¡rio ou senha invÃ¡lidos!</div>";
                     }
                     ?>
 
                     <div class="col-xs-12">
-                        <div>Usuário:</div>
-                        <input type="text" id="login-username" name="login-username" class="form-control" placeholder="Seu usuário..">
+                        <div>UsuÃ¡rio:</div>
+                        <input type="text" id="login-username" name="login-username" class="form-control" placeholder="Seu usuÃ¡rio..">
                     </div>
                 </div>
                 <div class="form-group">

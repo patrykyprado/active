@@ -47,19 +47,9 @@
     <!-- Right Header Navigation -->
     <ul class="nav navbar-nav-custom pull-right">
         <!-- Search Form -->
-        <li>
-            <form action="page_ready_search_results.php" method="post" class="navbar-form-custom" role="search">
-                <input type="text" id="top-search" name="top-search" class="form-control" placeholder="Pesquisar..">
-            </form>
-        </li>
         <!-- END Search Form -->
 
         <!-- Alternative Sidebar Toggle Button -->
-        <li>
-            <a href="javascript:void(0)" onclick="App.sidebar('toggle-sidebar-alt');this.blur();">
-                <i class="gi gi-settings"></i>
-            </a>
-        </li>
         <!-- END Alternative Sidebar Toggle Button -->
 
         <!-- User Dropdown -->

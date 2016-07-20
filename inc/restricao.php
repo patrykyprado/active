@@ -9,11 +9,11 @@ $sql_config_app = func_config_app();
 $dados_config = $sql_config_app->fetch(PDO::FETCH_ASSOC);
 
 //ENVIA PARA A VARIAVEL TEMPLATE
-$template['header_link'] = $dados_pagina['titulo'];
+$template['header_link'] = utf8_encode($dados_pagina['titulo']);
 $template['permissao_pagina'] = $dados_pagina['permissoes'];
 $template['nome_app'] = $dados_config['nome_app'];
 
-//PEGA OS DADOS DO USUÁRIO LOGADO
+//PEGA OS DADOS DO USUï¿½RIO LOGADO
 $sql_usuario = func_usuario($_SESSION['user_id']);
 $dados_usuario = $sql_usuario->fetch(PDO::FETCH_ASSOC);
 $usuario_nome = $dados_usuario['nome'];
