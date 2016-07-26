@@ -19,7 +19,7 @@ include '../inc/restricao.php'?>
                 <div class="col-sm-6 hidden-xs">
                     <div class="header-section">
                         <ul class="breadcrumb breadcrumb-top">
-                            <?php echo utf8_encode($dados_pagina['caminho']);?>
+                            <?php echo $dados_pagina['caminho'];?>
                         </ul>
                     </div>
                 </div>
@@ -31,20 +31,13 @@ include '../inc/restricao.php'?>
         <div class="block full">
             <!-- Get Started Title -->
             <div class="block-title">
-                <h2>Seja Bem-Vindo <?=utf8_encode($usuario_nome); ?></h2>
+                <h2>Dados do Cliente</h2>
             </div>
             <!-- END Get Started Title -->
 
-            <center>
-                <img src="../img/sistema/logo.jpg" />
-                <br><b>
-                Rua Padre Luiz Parenze, 6<br>
-                Vila Rica<br>
-                Aracruz, ES<br>
-                (27) 3256-3592</b><br>
-                <br><br>
-                Dúvidas, sugestões ou reclamações, favor enviar um e-mail para patryky.oliveira@gmail.com com o assunto 'Active Life'.
-            </center>
+            <!-- Get Started Content -->
+            Start your creative project!
+            <!-- END Get Started Content -->
         </div>
         <!-- END Get Started Block -->
     </div>

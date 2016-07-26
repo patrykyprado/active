@@ -314,4 +314,73 @@ function func_dados_exercicio($id){
     $sql_executar->execute();
     return $sql_executar;
 }
+
+function func_drop_contas($idEmpresa, $idFilial){
+    global $conn;
+    $sql = "
+    SELECT *
+     FROM conta
+      WHERE  1 = 1
+    ";
+    if(!empty($idEmpresa)){
+        $sql .= " AND id_empresa = {$idEmpresa} ";
+    }
+    if(!empty($idFilial)){
+        $sql .= " AND cc2_id = {$idFilial} ";
+    }
+
+    $sql .= "ORDER BY nome_conta ";
+    $sql_executar = $conn->prepare($sql);
+    $sql_executar->execute();
+    return $sql_executar;
+}
+
+function func_drop_cc1($idEmpresa){
+    global $conn;
+    $sql = "
+    SELECT *
+     FROM cc1
+      WHERE  1 = 1
+    ";
+    if(!empty($idEmpresa)){
+        $sql .= " AND id = {$idEmpresa} ";
+    }
+
+    $sql .= "ORDER BY nome ";
+    $sql_executar = $conn->prepare($sql);
+    $sql_executar->execute();
+    return $sql_executar;
+}
+function func_dados_cc1($idEmpresa){
+    global $conn;
+    $sql = "
+    SELECT *
+     FROM cc1
+      WHERE  id_empresa = {$idEmpresa} 
+    ";
+
+    $sql .= "ORDER BY nome ";
+    $sql_executar = $conn->prepare($sql);
+    $sql_executar->execute();
+    return $sql_executar;
+}
+
+function func_drop_cc2($idEmpresa, $idFilial = null){
+    global $conn;
+    $sql = "
+    SELECT *
+     FROM cc2
+      WHERE  1 = 1
+    ";
+    if(!empty($idEmpresa)){
+        $sql .= " AND id_empresa = {$idEmpresa} ";
+    }
+    if(!empty($idFilial)){
+        $sql .= " AND id = {$idFilial} ";
+    }
+    $sql .= "ORDER BY nome_filial ";
+    $sql_executar = $conn->prepare($sql);
+    $sql_executar->execute();
+    return $sql_executar;
+}
 ?>

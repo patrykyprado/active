@@ -54,5 +54,14 @@
 
         <!-- Modernizr (browser feature detection library) -->
         <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+        <script>
+            $( function() {
+                $( ".default-date-picker" ).datepicker();
+            } );
+        </script>
     </head>
     <body>
