@@ -10,12 +10,12 @@
 
 /* Template variables */
 $template = array(
-    'name'              => 'GestorAPP',
+    'name'              => 'ActiveApp',
     'version'           => '1.0',
     'author'            => 'Patryky',
     'robots'            => 'noindex, nofollow',
-    'title'             => 'GestorAPP',
-    'description'       => 'GestorAPP - Gestor PHP desenvolvido por Patryky',
+    'title'             => 'ActiveApp',
+    'description'       => 'ActiveApp - Gestor PHP desenvolvido por Patryky',
     'permissao_pagina' => '',
     'nome_app' => '',
     // true                         enable page preloader

@@ -27,10 +27,23 @@
     <ul class="nav navbar-nav-custom">
         <!-- Main Sidebar Toggle Button -->
         <li>
-            <a href="javascript:void(0)" onclick="App.sidebar('toggle-sidebar');this.blur();">
-                <i class="fa fa-ellipsis-v fa-fw animation-fadeInRight" id="sidebar-toggle-mini"></i>
-                <i class="fa fa-bars fa-fw animation-fadeInRight" id="sidebar-toggle-full"></i>
-            </a>
+            <?php
+            if(!isset($semMenu)){
+                ?>
+                <a href="javascript:void(0)" onclick="App.sidebar('toggle-sidebar');this.blur();">
+                    <i class="fa fa-ellipsis-v fa-fw animation-fadeInRight" id="sidebar-toggle-mini"></i>
+                    <i class="fa fa-bars fa-fw animation-fadeInRight" id="sidebar-toggle-full"></i>
+                </a>
+            <?php
+            } else {
+                ?>
+                <a href="javascript:void(0)">
+                    <?= $template['name']?>
+                </a>
+            <?php
+            }
+            ?>
+
         </li>
         <!-- END Main Sidebar Toggle Button -->
 
@@ -55,7 +68,7 @@
         <!-- User Dropdown -->
         <li class="dropdown">
             <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
-                <img src="<?php echo $usuario_foto;?>" alt="avatar">
+                <?= utf8_encode($usuario_nome);?>
             </a>
             <ul class="dropdown-menu dropdown-menu-right">
                 <li class="dropdown-header">

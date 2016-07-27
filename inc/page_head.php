@@ -70,6 +70,10 @@
         if ($template['cookies'] === 'enable-cookies') {
             $page_classes .= (($page_classes == '') ? '' : ' ') . $template['cookies'];
         }
+
+    if(isset($semMenu)){
+        $page_classes = 'header-fixed-top';
+    }
     ?>
     <div id="page-container"<?php if ($page_classes) { echo ' class="' . $page_classes . '"'; } ?>>
         <?php if ($template['inc_sidebar_alt']) { include '../inc/' . $template['inc_sidebar_alt'] . '.php'; } ?>

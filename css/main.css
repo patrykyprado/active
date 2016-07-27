@@ -1660,7 +1660,7 @@ a:focus,
 a.text-primary,
 a.text-primary:hover,
 a.text-primary:focus {
-    color: #5ccdde;
+    color: darkblue;
 }
 
 .text-danger,

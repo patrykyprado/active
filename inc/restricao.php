@@ -23,5 +23,6 @@ $usuario_nivel_nome = $dados_usuario['nivel_nome'];
 $usuario_empresa = $dados_usuario['empresa'];
 $usuario_filial = $dados_usuario['filial'];
 $usuario_foto = $dados_usuario['foto'];
-$usuario_id = $dados_usuario['id_usuario']
+$usuario_id = $dados_usuario['id_usuario'];
+require_once('../inc/funcoes.php');
 ?>

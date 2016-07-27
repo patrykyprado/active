@@ -6,9 +6,7 @@
  * Time: 09:26
  */
 
-function format_data_us($data){
-    return substr($data,6,4).'-'.substr($data,3,2).'-'.substr($data,0,2);
-}
+
 function func_config_app()
 {
     global $conn;
@@ -52,7 +50,9 @@ function func_usuario($id_usuario){
 
 function func_montar_menu($usuario_id, $usuario_nivel){
     global $conn;
-    $sql_menu = "SELECT * FROM app_menu WHERE $usuario_nivel IN (nivel_permissoes) OR nivel_permissoes = 0 OR $usuario_id IN (permissoes)";
+    $sql_menu = "SELECT * FROM app_menu 
+WHERE nivel_permissoes LIKE '%".$usuario_nivel."%' 
+ORDER BY ordem";
     //PEGA OS DADOS PARA MONTAR O MENU
     $sql_montar_menu = $conn->prepare($sql_menu);
     $sql_montar_menu->execute();
@@ -63,10 +63,10 @@ function func_montar_submenu($usuario_id, $usuario_nivel, $tipo, $id_submenu){
     global $conn;
     switch($tipo){
         case 1:
-            $sql_submenu = "SELECT * FROM app_submenu WHERE ($usuario_nivel IN (nivel_permissoes) OR nivel_permissoes = 0 OR $usuario_id IN (permissoes)) AND id_subraiz = 0 AND id_raiz = $id_submenu";
+            $sql_submenu = "SELECT * FROM app_submenu WHERE (nivel_permissoes LIKE '%".$usuario_nivel."%') AND id_subraiz = 0 AND id_raiz = $id_submenu ORDER BY ordem";
         break;
         case 2:
-            $sql_submenu = "SELECT * FROM app_submenu WHERE ($usuario_nivel IN (nivel_permissoes) OR nivel_permissoes = 0 OR $usuario_id IN (permissoes)) AND id_subraiz = $id_submenu";
+            $sql_submenu = "SELECT * FROM app_submenu WHERE (nivel_permissoes LIKE '%".$usuario_nivel."%' ) AND id_subraiz = $id_submenu ORDER BY ordem";
         break;
     }
     //PEGA OS DADOS PARA MONTAR O SUBMENU
@@ -379,6 +379,108 @@ function func_drop_cc2($idEmpresa, $idFilial = null){
         $sql .= " AND id = {$idFilial} ";
     }
     $sql .= "ORDER BY nome_filial ";
+    $sql_executar = $conn->prepare($sql);
+    $sql_executar->execute();
+    return $sql_executar;
+}
+
+function func_drop_cc3($tipo){
+    global $conn;
+    $sql = "
+    SELECT *
+     FROM cc3
+      WHERE  1 = 1
+    ";
+    if(!empty($tipo)){
+        $sql .= " AND tipo = {$tipo} ";
+    }
+    $sql .= "ORDER BY nome_cc3 ";
+    $sql_executar = $conn->prepare($sql);
+    $sql_executar->execute();
+    return $sql_executar;
+}
+
+function func_drop_cc4($cc3Id){
+    global $conn;
+    $sql = "
+    SELECT *
+     FROM cc4
+      WHERE  1 = 1
+    ";
+    if(!empty($cc3Id)){
+        $sql .= " AND cc3_id = {$cc3Id} ";
+    }
+    $sql .= "ORDER BY nome_cc4 ";
+    $sql_executar = $conn->prepare($sql);
+    $sql_executar->execute();
+    return $sql_executar;
+}
+
+function func_buscar_cliente_fornecedor($busca = null){
+    global $conn;
+    $sql = "
+    SELECT cf.*, c.convenio as convenio_nome
+     FROM cliente_fornecedor cf 
+     INNER JOIN convenios c 
+     ON c.id = cf.tipo_convenio
+      WHERE  1 = 1
+    ";
+    if(!empty($busca)){
+        $sql .= " AND (cf.razao_social LIKE '%".$busca."%' OR 
+         cf.nome_fantasia LIKE '%".$busca."%'  OR 
+         cf.documento LIKE '%".$busca."%'  OR 
+         cf.rg LIKE '%".$busca."%'  OR 
+         cf.convenio LIKE '%".$busca."%' )";
+    }
+    $sql .= "ORDER BY cf.razao_social ";
+    $sql_executar = $conn->prepare($sql);
+    $sql_executar->execute();
+    return $sql_executar;
+}
+
+function func_gerar_titulo($dados){
+    global $conn;
+    $sql = "INSERT INTO titulos 
+(cliente_fornecedor, tipo, emissao, vencimento, valor, desconto_porcentagem, desconto_real, descricao, 
+conta_id, id_empresa, cc2_id, cc3_id, cc4_id, ativo, parcela) 
+VALUES 
+('".$dados['cliente_fornecedor']."','".$dados['tipo']."', '".format_data_us($dados['emissao'])."','".format_data_us($dados['vencimento'])."',
+'".format_valor_db($dados['valor'])."','".format_valor_db($dados['desconto_porcentagem'])."', '".format_valor_db($dados['desconto_real'])."', 
+'".utf8_decode($dados['descricao'])."', '".$dados['conta']."', '".$dados['cc1']."', '".$dados['cc2']."',
+'".$dados['cc3']."', '".$dados['cc4']."', 1,'".$dados['parcela']."')";
+    $sql_executar = $conn->prepare($sql);
+    $sql_executar->execute();
+    return $sql_executar;
+}
+
+function func_dados_cliente($id){
+    global $conn;
+    $sql = "
+    SELECT *
+     FROM cliente_fornecedor
+      WHERE codigo = {$id}
+    ";
+    $sql_executar = $conn->prepare($sql);
+    $sql_executar->execute();
+    return $sql_executar;
+}
+
+function func_buscar_titulos($clienteFornecedor, $tipo, $pago){
+    global $conn;
+    $sql = "
+    SELECT tit.*, c.nome_conta, c.layout
+     FROM titulos tit 
+     INNER JOIN conta c 
+     ON c.id = tit.conta_id
+      WHERE tit.cliente_fornecedor = {$clienteFornecedor} AND tit.tipo = {$tipo} 
+    ";
+    if($pago == 1){
+        $sql .= " AND tit.data_pagto IS NULL ORDER BY tit.vencimento";
+    }
+    if($pago == 2){
+        $sql .= " AND tit.data_pagto IS NOT NULL ORDER BY tit.data_pagto";
+    }
+
     $sql_executar = $conn->prepare($sql);
     $sql_executar->execute();
     return $sql_executar;

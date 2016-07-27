@@ -1,12 +1,11 @@
 <?php
 require_once('../inc/conectar.php');
 require_once('../inc/sql.php');
+$semMenu = 1;
 include '../inc/config.php';
 include '../inc/restricao.php'?>
 <?php include '../inc/template_start.php'; ?>
-<?php include '../inc/page_head.php';
-
-?>
+<?php include '../inc/page_head.php'; ?>
 
     <!-- Page content -->
     <div id="page-content">
@@ -15,7 +14,7 @@ include '../inc/restricao.php'?>
             <div class="row">
                 <div class="col-sm-6">
                     <div class="header-section">
-                        <h1>Cadastro de Notícias</h1>
+                        <h1>Base Interno</h1>
                     </div>
                 </div>
                 <div class="col-sm-6 hidden-xs">
@@ -33,30 +32,13 @@ include '../inc/restricao.php'?>
         <div class="block full">
             <!-- Get Started Title -->
             <div class="block-title">
-                <h2>Dados da Notícia</h2>
+                <h2>Dados do Cliente</h2>
             </div>
             <!-- END Get Started Title -->
-<form method="POST" action="salvar_noticia.php" enctype="multipart/form-data">
-    <table class="table-featured " width="100%">
-        <tr>
-            <td align="center"><b>Título: <input type="text" name="titulo" style="width: 50%;"/> Data: <input style="width: 100px;" type="text" id="data" name="data" value="<?php echo date('d/m/Y');?>" class="input-datepicker" data-date-format="dd/mm/yyyy" placeholder="dd/mm/yyyy"> </b></td>
-        </tr>
-        <tr>
-            <td align="center"><b>Imagem Principal: <input name="userfile" type="file" /></b></td>
-        </tr>
-        <tr>
-            <td align="center"> <br><br><br><div class="block-title">
-                    <h2>Conteúdo da Notícia</h2>
-                </div></td>
-        </tr>
-        <tr>
-            <td><textarea style="width: 100%" name="conteudo" id="conteudo" class="ckeditor"></textarea> </td>
-        </tr>
-        <tr>
-            <td align="center"><br><br><input type="submit" class="btn btn-effect-ripple btn-primary" value="Salvar Notícia"/></td>
-        </tr>
-    </table>
-</form>
+
+            <!-- Get Started Content -->
+            Start your creative project!
+            <!-- END Get Started Content -->
         </div>
         <!-- END Get Started Block -->
     </div>
