@@ -94,7 +94,7 @@ $sql_receitas_efetivados = func_buscar_titulos($dados_cliente['codigo'], 2, 2);
                                 }
                                 ?>
                             </td>
-                            <td align="center">
+                            <td align="center" style="cursor: help" title="<?= utf8_encode($dados_pendente['descricao']);?>">
                                 <?= $dados_pendente['id_titulo'];?>
                             </td>
                             <td align="center">
@@ -152,8 +152,8 @@ $sql_receitas_efetivados = func_buscar_titulos($dados_cliente['codigo'], 2, 2);
                                             <i class="fa fa-edit"></i>
                                         </a>
                                     </td>
-                                    <td align="center">
-                                        <?= $dados_efetivado['id_titulo'];?>
+                                    <td align="center" style="cursor: help" title="<?= utf8_encode($dados_efetivado['descricao']);?>">
+                                    <?= $dados_efetivado['id_titulo'];?>
                                     </td>
                                     <td align="center">
                                         <?= format_data($dados_efetivado['vencimento']);?>

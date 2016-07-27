@@ -504,4 +504,42 @@ function func_dados_boleto($idTitulo, $clienteFornecedor, $parcela){
     $sql_executar->execute();
     return $sql_executar;
 }
+
+function func_dados_boleto_id($idTitulo){
+    global $conn;
+    $sql = "
+    SELECT tit.*, c.*, cf.codigo, cf.razao_social as nome, cf.cidade, cf.uf, cf.cep, cf.endereco, cc1.nome as nome_cc1
+     FROM titulos tit 
+     INNER JOIN cliente_fornecedor cf 
+     ON cf.codigo = tit.cliente_fornecedor 
+     INNER JOIN conta c 
+     ON c.id = tit.conta_id 
+     INNER JOIN cc1 
+     ON cc1.id = c.id_empresa
+      WHERE tit.id_titulo = {$idTitulo} 
+    ";
+    $sql_executar = $conn->prepare($sql);
+    $sql_executar->execute();
+    return $sql_executar;
+}
+
+function func_atualizar_titulo($dados){
+    global $conn;
+    $sql = "
+   UPDATE titulos 
+   SET emissao =  '".format_data_us($dados['emissao'])."',
+   vencimento =  '".format_data_us($dados['vencimento'])."',
+   valor =  '".format_valor_db($dados['valor'])."',
+   desconto_porcentagem =  '".format_valor_db($dados['desconto_porcentagem'])."',
+   desconto_real =  '".format_valor_db($dados['desconto_real'])."',
+   descricao =  '".utf8_decode($dados['descricao'])."',
+   data_pagto =  '".format_data_us($dados['data_pagto'])."',
+   valor_pagto =  '".format_valor_db($dados['valor_pagto'])."',
+   conta_id =  '".format_valor_db($dados['conta'])."'
+   WHERE id_titulo = '".$dados['id_titulo']."'
+    ";
+    $sql_executar = $conn->prepare($sql);
+    $sql_executar->execute();
+    return $sql_executar;
+}
 ?>

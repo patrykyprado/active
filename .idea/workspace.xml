@@ -1,95 +1,641 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd737e4f-c330-415b-b9c5-8679b8003b05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/Boleto CEF - Contra Apresentacao.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/COPYRIGHT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/bradesco-defesa.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/imgbrrazu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/imgbrrlrj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/imgpxlazu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logo_empresa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logobancoob.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logobanespa.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logobanestes.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logobb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logobesc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logobradesco.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logocaixa.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logohsbc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logoitau.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logonossacaixa.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logoreal.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logosantander.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logosicredi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logosudameris.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logounibanco.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/p.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/BUGS.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/COPYING" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/CREDITOS.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/LEIAME.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_bancoob.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_banespa.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_banestes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_bb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_besc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_bradesco.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_cef.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_cef_sigcb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_cef_sinco.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_hsbc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_itau.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_nossacaixa.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_real.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_santander_banespa.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_sicredi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_sofisa.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_sudameris.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_unibanco.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_bancoob.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_banespa.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_banestes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_bb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_besc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_bradesco.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_cef.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_cef_sigcb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_cef_sinco.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_hsbc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_itau.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_nossacaixa.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_real.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_santander_banespa.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_sicredi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_sofisa.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_sudameris.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_unibanco.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_bancoob.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_banespa.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_banestes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_bb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_besc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_bradesco.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_cef.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_cef_sinco.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_hsbc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_itau.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_nossacaixa.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_real.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_santander_banespa.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_sicredi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_sofisa.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_sudameris.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_unibanco.php" />
+    <list default="true" id="fd737e4f-c330-415b-b9c5-8679b8003b05" name="Default" comment="Adicionado DOMPDF e exten">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSans-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSans-BoldOblique.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSans-ExtraLight.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSans-Oblique.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSans.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSansCondensed-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSansCondensed-BoldOblique.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSansCondensed-Oblique.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSansCondensed.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSansMono-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSansMono-BoldOblique.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSansMono-Oblique.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSansMono.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSerif-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSerif-BoldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSerif-Italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSerif.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSerifCondensed-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSerifCondensed-BoldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSerifCondensed-Italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSerifCondensed.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/fonts/File.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/fonts/Norasi-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/fonts/Norasi-BoldOblique.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/fonts/Norasi-Oblique.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/fonts/Norasi.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/fonts/Norasi.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/fonts/ind_bn_1_001.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/fonts/ind_gu_1_001.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/fonts/ind_hi_1_001.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/fonts/ind_kn_1_001.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/fonts/ind_ml_1_001.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/fonts/ind_or_1_001.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/fonts/ind_pa_1_001.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/fonts/ind_ta_1_001.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/fonts/ind_te_1_001.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/blitzer/images/ui-bg_diagonals-thick_75_f3d8d8_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/blitzer/images/ui-bg_dots-small_65_a6a6a6_2x2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/blitzer/images/ui-bg_flat_0_333333_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/blitzer/images/ui-bg_flat_65_ffffff_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/blitzer/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/blitzer/images/ui-bg_glass_55_fbf8ee_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/blitzer/images/ui-bg_highlight-hard_100_eeeeee_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/blitzer/images/ui-bg_highlight-hard_100_f6f6f6_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/blitzer/images/ui-bg_highlight-soft_15_cc0000_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/blitzer/images/ui-icons_004276_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/blitzer/images/ui-icons_cc0000_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/blitzer/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/ui-lightness/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/ui-lightness/images/ui-icons_228ef1_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/ui-lightness/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/res/broken_image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/res/broken_image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/arrow_01.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/arrow_02.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/arrow_03.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/arrow_04.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/arrow_05.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/arrow_06.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/css2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/dompdf_simple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/h_bar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/left_arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/logo.xcf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/php5-power-micro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/small_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/star_01.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/star_02.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/star_03.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/star_04.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/star_05.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/title.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/v_bar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/images/xhtml10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test1.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test16.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test16bf555.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test16bf555.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test16bf565.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test16bf565.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test24.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test32.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test32bf.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test32bf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test32bfv4.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test32bfv4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test32v5.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test32v5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test4.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test4os2v2.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test4os2v2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test8.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test8os2.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/test8os2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/testcompress4.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/testcompress4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/testcompress8.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/testcompress8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/trans.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/bmp/trans.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/cmyk_test2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/dokuwiki-128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/dompdf_simple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/goldengate.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/green.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/grid-36.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/html.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/no_extension" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/pdf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/php.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/gray16a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/gray16a_bk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/gray16b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/gray16b_bk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/gray8a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/gray8a_bk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/gray8b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/gray8b_bk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/pal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/pal_bk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/pal_bk_notrns.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/palb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/result_16ns.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/result_1trns.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/result_bla.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/result_dith.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/result_gra.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/result_mag.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/result_magthr1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/result_no.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/result_nsbug.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/result_ok.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/result_oprbug.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/result_thr1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/result_thr128.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/result_thr255.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/result_whi.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/result_yel.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/result_yelthr1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/resultb_bla.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/resultb_bug.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/resultb_mag.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/resultb_moz2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/resultb_no.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/resultb_ok.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/resultb_whi.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/resultb_yel.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/resultg_bla.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/resultg_dgr.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/resultg_lgr.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/resultg_no.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/resultga.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/resultgb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/resultgb_dgr.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/resultgb_no.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/resultpb_no.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/rgb16_t.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/rgb16_t_bk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/rgb8_t.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/rgb8_t_bk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/rgba16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/rgba16_bk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/rgba8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/rgba8_bk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/png/stripe.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/smiley.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/unknown_extension.foo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/vblank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/images/what_ordered.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/acesso/editar_titulo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/LICENSE.LGPL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/dompdf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/dompdf_config.custom.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/dompdf_config.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/_notes/dwsync.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/absolute_positioner.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/abstract_renderer.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/attribute_translator.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/autoload.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/block_frame_decorator.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/block_frame_reflower.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/block_positioner.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/block_renderer.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/cached_pdf_decorator.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/canvas.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/canvas_factory.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/cellmap.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/cpdf_adapter.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/css_color.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/dompdf.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/dompdf_exception.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/dompdf_image_exception.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/file.skel" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/fixed_positioner.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/font_metrics.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/frame.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/frame_decorator.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/frame_factory.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/frame_reflower.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/frame_tree.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/functions.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/gd_adapter.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/image_cache.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/image_frame_decorator.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/image_frame_reflower.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/image_renderer.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/inline_frame_decorator.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/inline_frame_reflower.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/inline_positioner.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/inline_renderer.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/javascript_embedder.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/line_box.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/list_bullet_frame_decorator.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/list_bullet_frame_reflower.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/list_bullet_image_frame_decorator.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/list_bullet_positioner.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/list_bullet_renderer.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/null_frame_decorator.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/null_frame_reflower.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/null_positioner.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/page_cache.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/page_frame_decorator.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/page_frame_reflower.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/pdflib_adapter.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/php_evaluator.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/positioner.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/renderer.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/style.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/stylesheet.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/table_cell_frame_decorator.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/table_cell_frame_reflower.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/table_cell_positioner.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/table_cell_renderer.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/table_frame_decorator.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/table_frame_reflower.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/table_row_frame_decorator.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/table_row_frame_reflower.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/table_row_group_frame_decorator.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/table_row_group_frame_reflower.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/table_row_group_renderer.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/table_row_positioner.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/tcpdf_adapter.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/text_frame_decorator.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/text_frame_reflower.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/include/text_renderer.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/class.pdf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/Courier-Bold.afm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/Courier-BoldOblique.afm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/Courier-Oblique.afm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/Courier.afm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/Courier.afm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSans-Bold.ufm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSans-Bold.ufm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSans-BoldOblique.ufm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSans-ExtraLight.ufm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSans-Oblique.ufm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSans.ufm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSans.ufm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSansCondensed-Bold.ufm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSansCondensed-BoldOblique.ufm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSansCondensed-Oblique.ufm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSansCondensed.ufm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSansMono-Bold.ufm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSansMono-BoldOblique.ufm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSansMono-Oblique.ufm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSansMono.ufm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSerif-Bold.ufm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSerif-BoldItalic.ufm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSerif-Italic.ufm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSerif.ufm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSerifCondensed-Bold.ufm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSerifCondensed-BoldItalic.ufm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSerifCondensed-Italic.ufm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/DejaVuSerifCondensed.ufm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/Helvetica-Bold.afm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/Helvetica-Bold.afm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/Helvetica-BoldOblique.afm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/Helvetica-Oblique.afm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/Helvetica-Oblique.afm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/Helvetica.afm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/Helvetica.afm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/Symbol.afm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/Times-Bold.afm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/Times-Bold.afm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/Times-BoldItalic.afm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/Times-Italic.afm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/Times-Italic.afm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/Times-Roman.afm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/Times-Roman.afm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/ZapfDingbats.afm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/dompdf_font_family_cache.dist.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/log.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/fonts/mustRead.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/html5lib/Data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/html5lib/InputStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/html5lib/Parser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/html5lib/Tokenizer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/html5lib/TreeBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/html5lib/named-character-references.ser" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Adobe_Font_Metrics.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Encoding_Map.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_Binary_Stream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_EOT.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_EOT_Header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_Glyph_Outline.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_Glyph_Outline_Component.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_Glyph_Outline_Composite.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_Glyph_Outline_Simple.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_Header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_OpenType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_OpenType_Table_Directory_Entry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_Table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_Table_Directory_Entry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_Table_cmap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_Table_glyf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_Table_head.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_Table_hhea.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_Table_hmtx.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_Table_kern.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_Table_loca.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_Table_maxp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_Table_name.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_Table_name_Record.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_Table_os2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_Table_post.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_TrueType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_TrueType_Collection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_TrueType_Header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_TrueType_Table_Directory_Entry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_WOFF.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_WOFF_Header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/Font_WOFF_Table_Directory_Entry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/classes/font.cls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/maps/adobe-standard-encoding.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/maps/cp1250.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/maps/cp1251.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/maps/cp1252.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/maps/cp1253.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/maps/cp1254.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/maps/cp1255.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/maps/cp1257.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/maps/cp1258.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/maps/cp874.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/maps/iso-8859-1.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/maps/iso-8859-11.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/maps/iso-8859-15.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/maps/iso-8859-16.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/maps/iso-8859-2.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/maps/iso-8859-4.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/maps/iso-8859-5.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/maps/iso-8859-7.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/maps/iso-8859-9.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/maps/koi8-r.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/maps/koi8-u.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/blitzer/jquery-ui-1.8.14.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/css/ui-lightness/jquery-ui-1.8.14.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/font_explorer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/font_info.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/font_list.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/js/glyph.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/js/jquery-1.5.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/js/jquery-ui-1.8.14.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/make_subset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/readme.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/php-font-lib/www/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/lib/res/html.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/load_font.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/res/html.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/cssSandpaper/css/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/cssSandpaper/js/EventHelpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/cssSandpaper/js/cssQuery-p.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/cssSandpaper/js/cssSandpaper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/cssSandpaper/js/jcoglan.com/sylvester.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/debugger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/demo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/examples.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/fonts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/foot.inc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/functions.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/head.inc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/jquery-1.4.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/setup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/backgroundcolor_fontdecoration_pageborder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css/importabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css/importall.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css/importdisplay.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css/importprint.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css/importsub.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css/linkall.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css/linkdefault.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css/linkdisplay.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css/linkprint.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css/print_static.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_2d_transforms.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_at_font_face.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_baseline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_border.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_border_radius.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_color_cmyk.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_counter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_float.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_font_selection.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_important_flag.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_letter_spacing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_line_height.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_margin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_media.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_multiple_class.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_nth_child.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_opacity.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_outline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_overflow_hidden.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_position_absolute.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_position_all.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_position_fixed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_selectors.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_table_height.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_table_layout_fixed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_text_align.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_text_decoration.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_vertical_align.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_vertical_align_w3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_whitespace.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_word_wrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/css_z_index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/demo_01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/dom_anchor_link.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/dom_br.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/dom_form_fieldset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/dom_large_table.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/dom_long_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/dom_nbsp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/dom_nested_table.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/dom_ol.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/dom_simple_ul.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/dom_table.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/dom_table_image.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/dom_ul.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/encoding_entities.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/encoding_latin1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/encoding_special.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/encoding_symbols.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/encoding_unicode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/encoding_unicode_wrapping.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/encoding_utf-8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/encoding_utf-8_all.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/encoding_utf-8_w3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/image_background.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/image_basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/image_bmp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/image_datauri.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/image_dimensions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/image_gif.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/image_remote.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/image_transparent_gif.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/image_transparent_png.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/image_variants.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/page_pages.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/print_header_footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/quirks_center_table.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/quirks_font_tag.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/quirks_html_attributes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/script_javascript.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/dompdf/www/test/script_php.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/PagSeguroLibrary.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/PagSeguroLibrary.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/config/PagSeguroConfig.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/config/PagSeguroConfigWrapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroAcceptPaymentMethod.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroAcceptedPaymentMethodName.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroAcceptedPaymentMethods.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroAcceptedPayments.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroAccountCredentials.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroAddress.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroApplicationCredentials.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroAuthorization.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroAuthorizationAccount.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroAuthorizationPermission.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroAuthorizationPermissions.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroAuthorizationRequest.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroAuthorizationSearchResult.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroBilling.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroCredentials.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroCreditCard.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroCreditCardCheckout.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroCreditCardHolder.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroCurrencies.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroDirectPaymentMethods.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroDirectPaymentRequest.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroDocument.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroDocuments.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroError.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroExcludePaymentMethod.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroHttpStatus.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroInstallment.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroInstallments.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroItem.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroMetaData.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroMetaDataItem.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroMetaDataItemKeys.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroNotificationType.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroOnlineDebitCheckout.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroParameter.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroParameterItem.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroPaymentMethod.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroPaymentMethodCode.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroPaymentMethodConfig.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroPaymentMethodConfigItem.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroPaymentMethodConfigKeys.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroPaymentMethodGroups.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroPaymentMethodType.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroPaymentMode.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroPaymentRequest.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroPhone.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroPreApproval.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroPreApprovalCharge.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroPreApprovalRequest.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroPreApprovalSearchResult.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroPreApprovalStatus.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroRequest.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroSearchResult.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroSender.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroSenderDocument.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroSession.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroShipping.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroShippingType.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroTransaction.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroTransactionCancellationSource.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroTransactionCreditorFees.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroTransactionSearchResult.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroTransactionStatus.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroTransactionSummary.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/domain/PagSeguroTransactionType.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/exception/PagSeguroServiceException.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/helper/PagSeguroHelper.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/loader/PagSeguroAutoLoader.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/log/LogPagSeguro.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/parser/PagSeguroAuthorizationParser.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/parser/PagSeguroCancelParser.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/parser/PagSeguroDirectPaymentParser.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/parser/PagSeguroInstallmentParser.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/parser/PagSeguroParserData.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/parser/PagSeguroPaymentParser.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/parser/PagSeguroPreApprovalParser.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/parser/PagSeguroRefundParser.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/parser/PagSeguroServiceParser.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/parser/PagSeguroSessionParser.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/resources/PagSeguroResources.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/resources/PagSeguroResources.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/service/PagSeguroAuthorizationSearchService.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/service/PagSeguroAuthorizationService.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/service/PagSeguroCancelService.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/service/PagSeguroConnectionData.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/service/PagSeguroDirectPaymentService.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/service/PagSeguroInstallmentService.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/service/PagSeguroPaymentService.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/service/PagSeguroPreApprovalSearchService.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/service/PagSeguroPreApprovalService.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/service/PagSeguroRefundService.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/service/PagSeguroSessionService.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/service/PagSeguroTransactionSearchService.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/utils/PagSeguroHttpConnection.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/PagSeguroRetorno.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/authorization/createAuthorization.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/authorization/search/searchAuthorizationByCode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/authorization/search/searchAuthorizationByNotificationCode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/authorization/search/searchAuthorizationByReference.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/authorization/search/searchAuthorizationsByDateInterval.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/checkout/createPaymentRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/checkout/createPaymentRequestLightbox.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/checkout/createPaymentRequestWithPreApproval.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/checkout/search/searchTransactionByCode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/checkout/search/searchTransactionsAbandoned.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/checkout/search/searchTransactionsByDateInterval.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/checkout/search/searchTransactionsByReference.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/createSession.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/direct/createTransactionUsingBoleto.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/direct/createTransactionUsingCreditCard.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/direct/createTransactionUsingInternationalCreditCard.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/direct/createTransactionUsingOnlineDebit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/getInstallments.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/notificationListener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/preapproval/cancelPreApproval.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/preapproval/chargePreApproval.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/preapproval/createPreApproval.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/preapproval/search/searchPreApprovalByCode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/preapproval/search/searchPreApprovalByDate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/preapproval/search/searchPreApprovalByInterval.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/preapproval/search/searchPreApprovalByReference.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/requestTransactionCancellation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/examples/requestTransactionRefund.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/retorno.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/test/BasicTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/pagSeguro/test/PagSeguroTransactionTest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/acesso/detalhes_receita.php" afterPath="$PROJECT_DIR$/acesso/detalhes_receita.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/sql.php" afterPath="$PROJECT_DIR$/inc/sql.php" />
     </list>
     <ignored path="app.iws" />
@@ -122,20 +668,6 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - @activelifestudio.com.br" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="cc1" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -143,24 +675,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="boleto_bradesco.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/externos/boleto/boleto_bradesco.php">
+      <file leaf-file-name="cad_titulo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acesso/cad_titulo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+            <state relative-caret-position="78">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="30" selection-end-column="11" />
               <folding>
-                <marker date="1469618699000" expanded="true" signature="303:367" ph="..." />
+                <element signature="n#style#0;n#select#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <marker date="1469576988000" expanded="true" signature="876:968" ph="..." />
+                <marker date="1469576988000" expanded="true" signature="876:997" ph="..." />
+                <marker date="1469576988000" expanded="true" signature="1997:2032" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql">
+      <file leaf-file-name="editar_titulo.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/acesso/editar_titulo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
-              <folding />
+            <state relative-caret-position="330">
+              <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+              <folding>
+                <marker date="1469634135000" expanded="true" signature="499:598" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,69 +705,75 @@
       <file leaf-file-name="sql.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inc/sql.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="498" column="18" selection-start-line="498" selection-start-column="18" selection-end-line="498" selection-end-column="18" />
+            <state relative-caret-position="474">
+              <caret line="537" column="53" selection-start-line="537" selection-start-column="53" selection-end-line="537" selection-end-column="53" />
               <folding>
-                <marker date="1469618692000" expanded="true" signature="156:180" ph="SELECT * FRO... config_app" />
-                <marker date="1469618692000" expanded="true" signature="410:500" ph="SELECT id_us... usuarios" />
-                <marker date="1469618692000" expanded="true" signature="712:768" ph="SELECT * FRO... mapa_arquivos" />
-                <marker date="1469618692000" expanded="true" signature="988:1046" ph="SELECT * FRO... usuarios" />
-                <marker date="1469618692000" expanded="true" signature="1302:1356" ph="SELECT * FRO... app_menu" />
-                <marker date="1469618692000" expanded="true" signature="1302:1376" ph="SELECT * FRO... app_menu" />
-                <marker date="1469618692000" expanded="true" signature="1302:1386" ph="SELECT * FRO... app_menu" />
-                <marker date="1469618692000" expanded="true" signature="1302:1387" ph="SELECT * FRO... app_menu" />
-                <marker date="1469618692000" expanded="true" signature="1302:1392" ph="SELECT * FRO... app_menu" />
-                <marker date="1469618692000" expanded="true" signature="1709:1821" ph="SELECT * FRO... app_submenu" />
-                <marker date="1469618692000" expanded="true" signature="1709:1847" ph="SELECT * FRO... app_submenu" />
-                <marker date="1469618692000" expanded="true" signature="1909:2006" ph="SELECT * FRO... app_submenu" />
-                <marker date="1469618692000" expanded="true" signature="1909:2032" ph="SELECT * FRO... app_submenu" />
-                <marker date="1469618692000" expanded="true" signature="2286:2339" ph="SELECT DISTI... cidades" />
-                <marker date="1469618692000" expanded="true" signature="2557:2608" ph="SELECT * FRO... convenios" />
-                <marker date="1469618692000" expanded="true" signature="2833:2900" ph="SELECT DISTI... cidades" />
-                <marker date="1469618692000" expanded="true" signature="3159:4386" ph="INSERT INTO cliente_fornecedor... " />
-                <marker date="1469618692000" expanded="true" signature="4951:5073" ph="SELECT cf.*,... cliente_fornecedor" />
-                <marker date="1469618692000" expanded="true" signature="5435:5578" ph="SELECT cf.*,... cliente_fornecedor" />
-                <marker date="1469618692000" expanded="true" signature="5901:6584" ph="UPDATE clien... " />
-                <marker date="1469618692000" expanded="true" signature="7044:7118" ph="UPDATE clien... " />
-                <marker date="1469618692000" expanded="true" signature="7647:7693" ph="SELECT * FRO... tipos_documento" />
-                <marker date="1469618692000" expanded="true" signature="7931:7957" ph="SELECT * FRO... site_banners" />
-                <marker date="1469618692000" expanded="true" signature="8214:8261" ph="SELECT * FRO... site_noticias" />
-                <marker date="1469618692000" expanded="true" signature="8523:8568" ph="SELECT * FRO... site_banners" />
-                <marker date="1469618692000" expanded="true" signature="8843:8981" ph="UPDATE site_... " />
-                <marker date="1469618692000" expanded="true" signature="9415:9638" ph="INSERT INTO site_noticias... " />
-                <marker date="1469618692000" expanded="true" signature="9923:10024" ph="..." />
-                <marker date="1469618692000" expanded="true" signature="10088:10195" ph="..." />
-                <marker date="1469618692000" expanded="true" signature="10285:10490" ph="INSERT INTO exercicios... " />
-                <marker date="1469618692000" expanded="true" signature="10670:10719" ph="SELECT * FRO... exercicios" />
-                <marker date="1469618692000" expanded="true" signature="11036:11085" ph="SELECT * FRO... exercicios" />
-                <marker date="1469618692000" expanded="true" signature="11284:11327" ph="SELECT * FRO... conta" />
-                <marker date="1469618692000" expanded="true" signature="11708:11749" ph="SELECT * FRO... cc1" />
-                <marker date="1469618692000" expanded="true" signature="12037:12086" ph="SELECT * FRO... cc1" />
-                <marker date="1469618692000" expanded="true" signature="12328:12369" ph="SELECT * FRO... cc2" />
-                <marker date="1469618692000" expanded="true" signature="12741:12782" ph="SELECT * FRO... cc2" />
-                <marker date="1469618692000" expanded="true" signature="13061:13102" ph="SELECT * FRO... cc3" />
-                <marker date="1469618692000" expanded="true" signature="13409:13562" ph="SELECT * FRO... cc4" />
-                <marker date="1469618692000" expanded="true" signature="14054:14240" ph="INSERT INTO titulos... " />
-                <marker date="1469618692000" expanded="true" signature="14054:14252" ph="INSERT INTO titulos... " />
-                <marker date="1469618692000" expanded="true" signature="14054:14309" ph="INSERT INTO titulos... " />
-                <marker date="1469618692000" expanded="true" signature="14054:14349" ph="INSERT INTO titulos... " />
-                <marker date="1469618692000" expanded="true" signature="14054:14393" ph="INSERT INTO titulos... " />
-                <marker date="1469618692000" expanded="true" signature="14054:14487" ph="INSERT INTO titulos... " />
-                <marker date="1469618692000" expanded="true" signature="14054:14534" ph="INSERT INTO titulos... " />
-                <marker date="1469618692000" expanded="true" signature="14054:14536" ph="INSERT INTO titulos... " />
-                <marker date="1469618692000" expanded="true" signature="14054:14708" ph="INSERT INTO titulos... " />
-                <marker date="1469618692000" expanded="true" signature="14881:14931" ph="SELECT * FRO... cc4" />
-                <marker date="1469618692000" expanded="true" signature="14881:14940" ph="SELECT * FRO... cliente_fornecedor" />
-                <marker date="1469618692000" expanded="true" signature="14881:14945" ph="SELECT * FRO... cliente_fornecedor" />
-                <marker date="1469618692000" expanded="true" signature="15153:15303" ph="SELECT * FRO... cliente_fornecedor" />
-                <marker date="1469618692000" expanded="true" signature="15153:15339" ph="SELECT tit.*... titulos" />
-                <marker date="1469618692000" expanded="true" signature="15153:15346" ph="SELECT tit.*... titulos" />
-                <marker date="1469618692000" expanded="true" signature="15759:16102" ph="SELECT * FRO... cliente_fornecedor" />
-                <marker date="1469618692000" expanded="true" signature="15759:16118" ph="SELECT tit.*... titulos" />
-                <marker date="1469618692000" expanded="true" signature="15759:16125" ph="SELECT tit.*... titulos" />
-                <marker date="1469618692000" expanded="true" signature="15759:16174" ph="SELECT tit.*... titulos" />
-                <marker date="1469618692000" expanded="true" signature="15759:16189" ph="SELECT tit.*... titulos" />
-                <marker date="1469618692000" expanded="true" signature="15759:16199" ph="SELECT tit.*... titulos" />
+                <marker date="1469634365000" expanded="true" signature="156:180" ph="SELECT * FRO... config_app" />
+                <marker date="1469634365000" expanded="true" signature="410:500" ph="SELECT id_us... usuarios" />
+                <marker date="1469634365000" expanded="true" signature="712:768" ph="SELECT * FRO... mapa_arquivos" />
+                <marker date="1469634365000" expanded="true" signature="988:1046" ph="SELECT * FRO... usuarios" />
+                <marker date="1469634365000" expanded="true" signature="1302:1356" ph="SELECT * FRO... app_menu" />
+                <marker date="1469634365000" expanded="true" signature="1302:1376" ph="SELECT * FRO... app_menu" />
+                <marker date="1469634365000" expanded="true" signature="1302:1386" ph="SELECT * FRO... app_menu" />
+                <marker date="1469634365000" expanded="true" signature="1302:1387" ph="SELECT * FRO... app_menu" />
+                <marker date="1469634365000" expanded="true" signature="1302:1392" ph="SELECT * FRO... app_menu" />
+                <marker date="1469634365000" expanded="true" signature="1709:1821" ph="SELECT * FRO... app_submenu" />
+                <marker date="1469634365000" expanded="true" signature="1709:1847" ph="SELECT * FRO... app_submenu" />
+                <marker date="1469634365000" expanded="true" signature="1909:2006" ph="SELECT * FRO... app_submenu" />
+                <marker date="1469634365000" expanded="true" signature="1909:2032" ph="SELECT * FRO... app_submenu" />
+                <marker date="1469634365000" expanded="true" signature="2286:2339" ph="SELECT DISTI... cidades" />
+                <marker date="1469634365000" expanded="true" signature="2557:2608" ph="SELECT * FRO... convenios" />
+                <marker date="1469634365000" expanded="true" signature="2833:2900" ph="SELECT DISTI... cidades" />
+                <marker date="1469634365000" expanded="true" signature="3159:4386" ph="INSERT INTO cliente_fornecedor... " />
+                <marker date="1469634365000" expanded="true" signature="4951:5073" ph="SELECT cf.*,... cliente_fornecedor" />
+                <marker date="1469634365000" expanded="true" signature="5435:5578" ph="SELECT cf.*,... cliente_fornecedor" />
+                <marker date="1469634365000" expanded="true" signature="5901:6584" ph="UPDATE clien... " />
+                <marker date="1469634365000" expanded="true" signature="7044:7118" ph="UPDATE clien... " />
+                <marker date="1469634365000" expanded="true" signature="7647:7693" ph="SELECT * FRO... tipos_documento" />
+                <marker date="1469634365000" expanded="true" signature="7931:7957" ph="SELECT * FRO... site_banners" />
+                <marker date="1469634365000" expanded="true" signature="8214:8261" ph="SELECT * FRO... site_noticias" />
+                <marker date="1469634365000" expanded="true" signature="8523:8568" ph="SELECT * FRO... site_banners" />
+                <marker date="1469634365000" expanded="true" signature="8843:8981" ph="UPDATE site_... " />
+                <marker date="1469634365000" expanded="true" signature="9415:9638" ph="INSERT INTO site_noticias... " />
+                <marker date="1469634365000" expanded="true" signature="9923:10024" ph="..." />
+                <marker date="1469634365000" expanded="true" signature="10088:10195" ph="..." />
+                <marker date="1469634365000" expanded="true" signature="10285:10490" ph="INSERT INTO exercicios... " />
+                <marker date="1469634365000" expanded="true" signature="10670:10719" ph="SELECT * FRO... exercicios" />
+                <marker date="1469634365000" expanded="true" signature="11036:11085" ph="SELECT * FRO... exercicios" />
+                <marker date="1469634365000" expanded="true" signature="11284:11327" ph="SELECT * FRO... conta" />
+                <marker date="1469634365000" expanded="true" signature="11708:11749" ph="SELECT * FRO... cc1" />
+                <marker date="1469634365000" expanded="true" signature="12037:12086" ph="SELECT * FRO... cc1" />
+                <marker date="1469634365000" expanded="true" signature="12328:12369" ph="SELECT * FRO... cc2" />
+                <marker date="1469634365000" expanded="true" signature="12741:12782" ph="SELECT * FRO... cc2" />
+                <marker date="1469634365000" expanded="true" signature="13061:13102" ph="SELECT * FRO... cc3" />
+                <marker date="1469634365000" expanded="true" signature="13409:13562" ph="SELECT * FRO... cc4" />
+                <marker date="1469634365000" expanded="true" signature="14054:14240" ph="INSERT INTO titulos... " />
+                <marker date="1469634365000" expanded="true" signature="14054:14252" ph="INSERT INTO titulos... " />
+                <marker date="1469634365000" expanded="true" signature="14054:14309" ph="INSERT INTO titulos... " />
+                <marker date="1469634365000" expanded="true" signature="14054:14349" ph="INSERT INTO titulos... " />
+                <marker date="1469634365000" expanded="true" signature="14054:14393" ph="INSERT INTO titulos... " />
+                <marker date="1469634365000" expanded="true" signature="14054:14487" ph="INSERT INTO titulos... " />
+                <marker date="1469634365000" expanded="true" signature="14054:14534" ph="INSERT INTO titulos... " />
+                <marker date="1469634365000" expanded="true" signature="14054:14536" ph="INSERT INTO titulos... " />
+                <marker date="1469634365000" expanded="true" signature="14054:14708" ph="INSERT INTO titulos... " />
+                <marker date="1469634365000" expanded="true" signature="14881:14931" ph="SELECT * FRO... cc4" />
+                <marker date="1469634365000" expanded="true" signature="14881:14940" ph="SELECT * FRO... cliente_fornecedor" />
+                <marker date="1469634365000" expanded="true" signature="14881:14945" ph="SELECT * FRO... cliente_fornecedor" />
+                <marker date="1469634365000" expanded="true" signature="15153:15303" ph="SELECT * FRO... cliente_fornecedor" />
+                <marker date="1469634365000" expanded="true" signature="15153:15339" ph="SELECT tit.*... titulos" />
+                <marker date="1469634365000" expanded="true" signature="15153:15346" ph="SELECT tit.*... titulos" />
+                <marker date="1469634365000" expanded="true" signature="15759:16102" ph="SELECT * FRO... cliente_fornecedor" />
+                <marker date="1469634365000" expanded="true" signature="15759:16118" ph="SELECT tit.*... titulos" />
+                <marker date="1469634365000" expanded="true" signature="15759:16125" ph="SELECT tit.*... titulos" />
+                <marker date="1469634365000" expanded="true" signature="15759:16174" ph="SELECT tit.*... titulos" />
+                <marker date="1469634365000" expanded="true" signature="15759:16189" ph="SELECT tit.*... titulos" />
+                <marker date="1469634365000" expanded="true" signature="15759:16199" ph="SELECT tit.*... titulos" />
+                <marker date="1469634365000" expanded="true" signature="16386:16740" ph="SELECT tit.*... titulos" />
+                <marker date="1469634365000" expanded="true" signature="16386:16752" ph="SELECT tit.*... titulos" />
+                <marker date="1469634365000" expanded="true" signature="16935:16958" ph="UPDATE titul... " />
+                <marker date="1469634365000" expanded="true" signature="16935:16970" ph="UPDATE titul... " />
+                <marker date="1469634365000" expanded="true" signature="16935:17528" ph="UPDATE titul... " />
+                <marker date="1469634365000" expanded="true" signature="16935:17554" ph="UPDATE titul... " />
               </folding>
             </state>
           </provider>
@@ -285,11 +828,12 @@
         <option value="$PROJECT_DIR$/acesso/listar_receitas.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/acesso/pesquisar_clientefornecedor.php" />
-        <option value="$PROJECT_DIR$/acesso/detalhes_receita.php" />
         <option value="$PROJECT_DIR$/externos/boleto/include/layout_bradesco.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql" />
-        <option value="$PROJECT_DIR$/inc/sql.php" />
         <option value="$PROJECT_DIR$/externos/boleto/boleto_bradesco.php" />
+        <option value="$PROJECT_DIR$/acesso/detalhes_receita.php" />
+        <option value="$PROJECT_DIR$/acesso/editar_titulo.php" />
+        <option value="$PROJECT_DIR$/inc/sql.php" />
       </list>
     </option>
   </component>
@@ -348,7 +892,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -377,7 +920,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="inc" />
+              <option name="myItemId" value="externos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pagSeguro" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -392,54 +939,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="externos" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boleto" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="active" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="externos" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boleto" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="active" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="externos" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boleto" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imagens" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -459,6 +958,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -479,21 +979,21 @@
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="SearchEverywhereHistoryKey" value="consol&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;bolet&#9;FILE&#9;file:///Users/Patryky/desenv/active/externos/boleto/boleto_bradesco.php&#10;cons&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;sql&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/sql.php&#10;conso&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;cad&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/cad_cliente.php&#10;listar&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;cad_&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/cad_cliente.php&#10;pesqu&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/pesquisar_clientefornecedor.php&#10;main&#9;FILE&#9;file:///Users/Patryky/desenv/active/css/main.css&#10;side&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_sidebar.php&#10;sq&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;templa&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/template_start.php&#10;page&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_head.php&#10;co&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;confi&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/config.php&#10;start&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/template_start.php&#10;con&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;index&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/index.php&#10;console&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/4aae0dcb-4cc1-4f38-acd0-bf57153935b8/console.sql&#10;l&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;listar_clien&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;index2&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/index2.php&#10;fit&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/fitness.php&#10;load&#9;FILE&#9;file:///Users/Patryky/desenv/active/img/jquery.easytree/loading.gif&#10;res&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/restricao.php&#10;li&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;jquery_masked.js&#9;FILE&#9;file:///Users/Patryky/desenv/active/js/jquery_masked.js&#10;funcoes.&#9;FILE&#9;file:///Users/Patryky/desenv/active/js/funcoes.js&#10;func_cad&#9;null&#9;null&#10;config&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/config.php&#10;c&#9;FILE&#9;file:///Users/Patryky/desenv/active/css/main.css&#10;restri&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/restricao.php&#10;sidebar_alt&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_sidebar_alt.php&#10;page_h&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_header.php&#10;head.&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_head.php&#10;page_sidebar&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_sidebar.php&#10;index.php&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/index.php&#10;index.&#9;FILE&#9;file:///Users/Patryky/desenv/active/index.php" />
+    <property name="SearchEverywhereHistoryKey" value="sql&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/sql.php&#10;cad&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/cad_titulo.php&#10;detalhe&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/detalhes_receita.php&#10;consol&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;bolet&#9;FILE&#9;file:///Users/Patryky/desenv/active/externos/boleto/boleto_bradesco.php&#10;cons&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;conso&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;listar&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;cad_&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/cad_cliente.php&#10;pesqu&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/pesquisar_clientefornecedor.php&#10;main&#9;FILE&#9;file:///Users/Patryky/desenv/active/css/main.css&#10;side&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_sidebar.php&#10;sq&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;templa&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/template_start.php&#10;page&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_head.php&#10;co&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;confi&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/config.php&#10;start&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/template_start.php&#10;con&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;index&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/index.php&#10;console&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/4aae0dcb-4cc1-4f38-acd0-bf57153935b8/console.sql&#10;l&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;listar_clien&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;index2&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/index2.php&#10;fit&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/fitness.php&#10;load&#9;FILE&#9;file:///Users/Patryky/desenv/active/img/jquery.easytree/loading.gif&#10;res&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/restricao.php&#10;li&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;jquery_masked.js&#9;FILE&#9;file:///Users/Patryky/desenv/active/js/jquery_masked.js&#10;funcoes.&#9;FILE&#9;file:///Users/Patryky/desenv/active/js/funcoes.js&#10;func_cad&#9;null&#9;null&#10;config&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/config.php&#10;c&#9;FILE&#9;file:///Users/Patryky/desenv/active/css/main.css&#10;restri&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/restricao.php&#10;sidebar_alt&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_sidebar_alt.php&#10;page_h&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_header.php&#10;head.&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_head.php&#10;page_sidebar&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_sidebar.php&#10;index.php&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/index.php&#10;index.&#9;FILE&#9;file:///Users/Patryky/desenv/active/index.php" />
     <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/externos" />
+      <recent name="$PROJECT_DIR$/acesso" />
+      <recent name="$PROJECT_DIR$/externos/boleto/imagens" />
+      <recent name="$PROJECT_DIR$/externos/boleto/include" />
+      <recent name="$PROJECT_DIR$/ajax" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp\www\app" />
       <recent name="C:\wamp\www\app\acesso" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/externos/boleto/imagens" />
-      <recent name="$PROJECT_DIR$/externos/boleto/include" />
-      <recent name="$PROJECT_DIR$/externos" />
-      <recent name="$PROJECT_DIR$/acesso" />
-      <recent name="$PROJECT_DIR$/ajax" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.php">
@@ -562,7 +1062,8 @@
       <workItem from="1469010108760" duration="5459000" />
       <workItem from="1469025683751" duration="504000" />
       <workItem from="1469541937833" duration="8807000" />
-      <workItem from="1469567763011" duration="13400000" />
+      <workItem from="1469567763011" duration="16183000" />
+      <workItem from="1469633915206" duration="634000" />
     </task>
     <task id="LOCAL-00001" summary="Atualizado">
       <created>1469017803310</created>
@@ -578,37 +1079,44 @@
       <option name="project" value="LOCAL" />
       <updated>1469582629462</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Boleto bradesco adicionado.">
+      <created>1469618908091</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1469618908091</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47346000" />
+    <option name="totallyTimeSpent" value="50763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25036603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14494875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25036603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14494875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39871383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25226587" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39871383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -623,7 +1131,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Atualizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualizado" />
+    <MESSAGE value="Boleto bradesco adicionado." />
+    <option name="LAST_COMMIT_MESSAGE" value="Boleto bradesco adicionado." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -651,21 +1160,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/themes/creme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acesso/cad_cliente2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acesso/cidade.ajax.php" />
     <entry file="file://$PROJECT_DIR$/acesso/editar_cliente.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -709,26 +1203,26 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/b11aacad/efa9de2a-b6e0-4160-8b73-44abbb762276/activ345_sistema.cliente_fornecedor">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/b11aacad/efa9de2a-b6e0-4160-8b73-44abbb762276/activ345_sistema.config_app">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -757,14 +1251,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/b11aacad/efa9de2a-b6e0-4160-8b73-44abbb762276/activ345_sistema.exercicios">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -772,7 +1266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,7 +1273,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -799,14 +1291,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/b11aacad/efa9de2a-b6e0-4160-8b73-44abbb762276/activ345_sistema.conta">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -824,29 +1316,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acesso/teste.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="55" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/funcoes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="821" column="27" selection-start-line="821" selection-start-column="27" selection-end-line="821" selection-end-column="27" />
-          <folding>
-            <marker date="1469568196000" expanded="true" signature="5143:5162" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/acesso/teste.php" />
     <entry file="file://$PROJECT_DIR$/ajax/cc4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,7 +1347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -897,7 +1370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
           <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -905,7 +1377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="44" column="21" selection-start-line="39" selection-start-column="12" selection-end-line="44" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -913,7 +1384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -921,7 +1391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -929,21 +1398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="300" column="22050" selection-start-line="300" selection-start-column="22050" selection-end-line="300" selection-end-column="22050" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acesso/cad_titulo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#1;n#table#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <marker date="1469576988000" expanded="true" signature="876:968" ph="..." />
-            <marker date="1469576988000" expanded="true" signature="876:997" ph="..." />
-            <marker date="1469576988000" expanded="true" signature="1997:2032" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -951,15 +1405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="52" column="161" selection-start-line="52" selection-start-column="161" selection-end-line="52" selection-end-column="161" />
-          <folding>
-            <marker date="1469577153000" expanded="true" signature="1350:1540" ph="..." />
-            <marker date="1469577153000" expanded="true" signature="1606:1828" ph="..." />
-            <marker date="1469577153000" expanded="true" signature="2420:2537" ph="..." />
-            <marker date="1469577153000" expanded="true" signature="2619:2751" ph="..." />
-            <marker date="1469577153000" expanded="true" signature="2619:2752" ph="..." />
-            <marker date="1469577153000" expanded="true" signature="2619:2815" ph="..." />
-            <marker date="1469577153000" expanded="true" signature="3234:3351" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -975,7 +1420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="1407" column="19" selection-start-line="1407" selection-start-column="17" selection-end-line="1407" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -983,9 +1427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="66" column="191" selection-start-line="66" selection-start-column="191" selection-end-line="66" selection-end-column="191" />
-          <folding>
-            <element signature="e#1085#1103#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1009,30 +1450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="52" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acesso/detalhes_receita.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="174" column="29" selection-start-line="174" selection-start-column="29" selection-end-line="174" selection-end-column="29" />
-          <folding>
-            <marker date="1469582391000" expanded="true" signature="685:991" ph="..." />
-            <marker date="1469582391000" expanded="true" signature="752:991" ph="..." />
-            <marker date="1469582391000" expanded="true" signature="782:991" ph="..." />
-            <marker date="1469582391000" expanded="true" signature="821:991" ph="..." />
-            <marker date="1469582391000" expanded="true" signature="870:991" ph="..." />
-            <marker date="1469582391000" expanded="true" signature="1155:1502" ph="..." />
-            <marker date="1469582391000" expanded="true" signature="1204:1479" ph="..." />
-            <marker date="1469582391000" expanded="true" signature="1267:1452" ph="..." />
-            <marker date="1469582391000" expanded="true" signature="1640:9740" ph="..." />
-            <marker date="1469582391000" expanded="true" signature="1717:2007" ph="..." />
-            <marker date="1469582391000" expanded="true" signature="1778:1988" ph="..." />
-            <marker date="1469582391000" expanded="true" signature="2164:9680" ph="..." />
-            <marker date="1469582391000" expanded="true" signature="2233:6024" ph="..." />
-            <marker date="1469582391000" expanded="true" signature="6089:9661" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1040,7 +1457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1056,76 +1472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/sql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="498" column="18" selection-start-line="498" selection-start-column="18" selection-end-line="498" selection-end-column="18" />
-          <folding>
-            <marker date="1469618692000" expanded="true" signature="156:180" ph="SELECT * FRO... config_app" />
-            <marker date="1469618692000" expanded="true" signature="410:500" ph="SELECT id_us... usuarios" />
-            <marker date="1469618692000" expanded="true" signature="712:768" ph="SELECT * FRO... mapa_arquivos" />
-            <marker date="1469618692000" expanded="true" signature="988:1046" ph="SELECT * FRO... usuarios" />
-            <marker date="1469618692000" expanded="true" signature="1302:1356" ph="SELECT * FRO... app_menu" />
-            <marker date="1469618692000" expanded="true" signature="1302:1376" ph="SELECT * FRO... app_menu" />
-            <marker date="1469618692000" expanded="true" signature="1302:1386" ph="SELECT * FRO... app_menu" />
-            <marker date="1469618692000" expanded="true" signature="1302:1387" ph="SELECT * FRO... app_menu" />
-            <marker date="1469618692000" expanded="true" signature="1302:1392" ph="SELECT * FRO... app_menu" />
-            <marker date="1469618692000" expanded="true" signature="1709:1821" ph="SELECT * FRO... app_submenu" />
-            <marker date="1469618692000" expanded="true" signature="1709:1847" ph="SELECT * FRO... app_submenu" />
-            <marker date="1469618692000" expanded="true" signature="1909:2006" ph="SELECT * FRO... app_submenu" />
-            <marker date="1469618692000" expanded="true" signature="1909:2032" ph="SELECT * FRO... app_submenu" />
-            <marker date="1469618692000" expanded="true" signature="2286:2339" ph="SELECT DISTI... cidades" />
-            <marker date="1469618692000" expanded="true" signature="2557:2608" ph="SELECT * FRO... convenios" />
-            <marker date="1469618692000" expanded="true" signature="2833:2900" ph="SELECT DISTI... cidades" />
-            <marker date="1469618692000" expanded="true" signature="3159:4386" ph="INSERT INTO cliente_fornecedor... " />
-            <marker date="1469618692000" expanded="true" signature="4951:5073" ph="SELECT cf.*,... cliente_fornecedor" />
-            <marker date="1469618692000" expanded="true" signature="5435:5578" ph="SELECT cf.*,... cliente_fornecedor" />
-            <marker date="1469618692000" expanded="true" signature="5901:6584" ph="UPDATE clien... " />
-            <marker date="1469618692000" expanded="true" signature="7044:7118" ph="UPDATE clien... " />
-            <marker date="1469618692000" expanded="true" signature="7647:7693" ph="SELECT * FRO... tipos_documento" />
-            <marker date="1469618692000" expanded="true" signature="7931:7957" ph="SELECT * FRO... site_banners" />
-            <marker date="1469618692000" expanded="true" signature="8214:8261" ph="SELECT * FRO... site_noticias" />
-            <marker date="1469618692000" expanded="true" signature="8523:8568" ph="SELECT * FRO... site_banners" />
-            <marker date="1469618692000" expanded="true" signature="8843:8981" ph="UPDATE site_... " />
-            <marker date="1469618692000" expanded="true" signature="9415:9638" ph="INSERT INTO site_noticias... " />
-            <marker date="1469618692000" expanded="true" signature="9923:10024" ph="..." />
-            <marker date="1469618692000" expanded="true" signature="10088:10195" ph="..." />
-            <marker date="1469618692000" expanded="true" signature="10285:10490" ph="INSERT INTO exercicios... " />
-            <marker date="1469618692000" expanded="true" signature="10670:10719" ph="SELECT * FRO... exercicios" />
-            <marker date="1469618692000" expanded="true" signature="11036:11085" ph="SELECT * FRO... exercicios" />
-            <marker date="1469618692000" expanded="true" signature="11284:11327" ph="SELECT * FRO... conta" />
-            <marker date="1469618692000" expanded="true" signature="11708:11749" ph="SELECT * FRO... cc1" />
-            <marker date="1469618692000" expanded="true" signature="12037:12086" ph="SELECT * FRO... cc1" />
-            <marker date="1469618692000" expanded="true" signature="12328:12369" ph="SELECT * FRO... cc2" />
-            <marker date="1469618692000" expanded="true" signature="12741:12782" ph="SELECT * FRO... cc2" />
-            <marker date="1469618692000" expanded="true" signature="13061:13102" ph="SELECT * FRO... cc3" />
-            <marker date="1469618692000" expanded="true" signature="13409:13562" ph="SELECT * FRO... cc4" />
-            <marker date="1469618692000" expanded="true" signature="14054:14240" ph="INSERT INTO titulos... " />
-            <marker date="1469618692000" expanded="true" signature="14054:14252" ph="INSERT INTO titulos... " />
-            <marker date="1469618692000" expanded="true" signature="14054:14309" ph="INSERT INTO titulos... " />
-            <marker date="1469618692000" expanded="true" signature="14054:14349" ph="INSERT INTO titulos... " />
-            <marker date="1469618692000" expanded="true" signature="14054:14393" ph="INSERT INTO titulos... " />
-            <marker date="1469618692000" expanded="true" signature="14054:14487" ph="INSERT INTO titulos... " />
-            <marker date="1469618692000" expanded="true" signature="14054:14534" ph="INSERT INTO titulos... " />
-            <marker date="1469618692000" expanded="true" signature="14054:14536" ph="INSERT INTO titulos... " />
-            <marker date="1469618692000" expanded="true" signature="14054:14708" ph="INSERT INTO titulos... " />
-            <marker date="1469618692000" expanded="true" signature="14881:14931" ph="SELECT * FRO... cc4" />
-            <marker date="1469618692000" expanded="true" signature="14881:14940" ph="SELECT * FRO... cliente_fornecedor" />
-            <marker date="1469618692000" expanded="true" signature="14881:14945" ph="SELECT * FRO... cliente_fornecedor" />
-            <marker date="1469618692000" expanded="true" signature="15153:15303" ph="SELECT * FRO... cliente_fornecedor" />
-            <marker date="1469618692000" expanded="true" signature="15153:15339" ph="SELECT tit.*... titulos" />
-            <marker date="1469618692000" expanded="true" signature="15153:15346" ph="SELECT tit.*... titulos" />
-            <marker date="1469618692000" expanded="true" signature="15759:16102" ph="SELECT * FRO... cliente_fornecedor" />
-            <marker date="1469618692000" expanded="true" signature="15759:16118" ph="SELECT tit.*... titulos" />
-            <marker date="1469618692000" expanded="true" signature="15759:16125" ph="SELECT tit.*... titulos" />
-            <marker date="1469618692000" expanded="true" signature="15759:16174" ph="SELECT tit.*... titulos" />
-            <marker date="1469618692000" expanded="true" signature="15759:16189" ph="SELECT tit.*... titulos" />
-            <marker date="1469618692000" expanded="true" signature="15759:16199" ph="SELECT tit.*... titulos" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1133,16 +1479,146 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="50" column="79" selection-start-line="50" selection-start-column="78" selection-end-line="50" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/externos/boleto/boleto_bradesco.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
+        <state relative-caret-position="462">
           <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
           <folding>
             <marker date="1469618699000" expanded="true" signature="303:367" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acesso/detalhes_receita.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/funcoes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11985">
+          <caret line="799" column="9" selection-start-line="799" selection-start-column="9" selection-end-line="799" selection-end-column="9" />
+          <folding>
+            <marker date="1469568196000" expanded="true" signature="5143:5162" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/externos/dompdf/lib/res/html.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/externos/pagSeguro/test/BasicTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acesso/cad_titulo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="30" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <marker date="1469576988000" expanded="true" signature="876:968" ph="..." />
+            <marker date="1469576988000" expanded="true" signature="876:997" ph="..." />
+            <marker date="1469576988000" expanded="true" signature="1997:2032" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/sql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="537" column="53" selection-start-line="537" selection-start-column="53" selection-end-line="537" selection-end-column="53" />
+          <folding>
+            <marker date="1469634365000" expanded="true" signature="156:180" ph="SELECT * FRO... config_app" />
+            <marker date="1469634365000" expanded="true" signature="410:500" ph="SELECT id_us... usuarios" />
+            <marker date="1469634365000" expanded="true" signature="712:768" ph="SELECT * FRO... mapa_arquivos" />
+            <marker date="1469634365000" expanded="true" signature="988:1046" ph="SELECT * FRO... usuarios" />
+            <marker date="1469634365000" expanded="true" signature="1302:1356" ph="SELECT * FRO... app_menu" />
+            <marker date="1469634365000" expanded="true" signature="1302:1376" ph="SELECT * FRO... app_menu" />
+            <marker date="1469634365000" expanded="true" signature="1302:1386" ph="SELECT * FRO... app_menu" />
+            <marker date="1469634365000" expanded="true" signature="1302:1387" ph="SELECT * FRO... app_menu" />
+            <marker date="1469634365000" expanded="true" signature="1302:1392" ph="SELECT * FRO... app_menu" />
+            <marker date="1469634365000" expanded="true" signature="1709:1821" ph="SELECT * FRO... app_submenu" />
+            <marker date="1469634365000" expanded="true" signature="1709:1847" ph="SELECT * FRO... app_submenu" />
+            <marker date="1469634365000" expanded="true" signature="1909:2006" ph="SELECT * FRO... app_submenu" />
+            <marker date="1469634365000" expanded="true" signature="1909:2032" ph="SELECT * FRO... app_submenu" />
+            <marker date="1469634365000" expanded="true" signature="2286:2339" ph="SELECT DISTI... cidades" />
+            <marker date="1469634365000" expanded="true" signature="2557:2608" ph="SELECT * FRO... convenios" />
+            <marker date="1469634365000" expanded="true" signature="2833:2900" ph="SELECT DISTI... cidades" />
+            <marker date="1469634365000" expanded="true" signature="3159:4386" ph="INSERT INTO cliente_fornecedor... " />
+            <marker date="1469634365000" expanded="true" signature="4951:5073" ph="SELECT cf.*,... cliente_fornecedor" />
+            <marker date="1469634365000" expanded="true" signature="5435:5578" ph="SELECT cf.*,... cliente_fornecedor" />
+            <marker date="1469634365000" expanded="true" signature="5901:6584" ph="UPDATE clien... " />
+            <marker date="1469634365000" expanded="true" signature="7044:7118" ph="UPDATE clien... " />
+            <marker date="1469634365000" expanded="true" signature="7647:7693" ph="SELECT * FRO... tipos_documento" />
+            <marker date="1469634365000" expanded="true" signature="7931:7957" ph="SELECT * FRO... site_banners" />
+            <marker date="1469634365000" expanded="true" signature="8214:8261" ph="SELECT * FRO... site_noticias" />
+            <marker date="1469634365000" expanded="true" signature="8523:8568" ph="SELECT * FRO... site_banners" />
+            <marker date="1469634365000" expanded="true" signature="8843:8981" ph="UPDATE site_... " />
+            <marker date="1469634365000" expanded="true" signature="9415:9638" ph="INSERT INTO site_noticias... " />
+            <marker date="1469634365000" expanded="true" signature="9923:10024" ph="..." />
+            <marker date="1469634365000" expanded="true" signature="10088:10195" ph="..." />
+            <marker date="1469634365000" expanded="true" signature="10285:10490" ph="INSERT INTO exercicios... " />
+            <marker date="1469634365000" expanded="true" signature="10670:10719" ph="SELECT * FRO... exercicios" />
+            <marker date="1469634365000" expanded="true" signature="11036:11085" ph="SELECT * FRO... exercicios" />
+            <marker date="1469634365000" expanded="true" signature="11284:11327" ph="SELECT * FRO... conta" />
+            <marker date="1469634365000" expanded="true" signature="11708:11749" ph="SELECT * FRO... cc1" />
+            <marker date="1469634365000" expanded="true" signature="12037:12086" ph="SELECT * FRO... cc1" />
+            <marker date="1469634365000" expanded="true" signature="12328:12369" ph="SELECT * FRO... cc2" />
+            <marker date="1469634365000" expanded="true" signature="12741:12782" ph="SELECT * FRO... cc2" />
+            <marker date="1469634365000" expanded="true" signature="13061:13102" ph="SELECT * FRO... cc3" />
+            <marker date="1469634365000" expanded="true" signature="13409:13562" ph="SELECT * FRO... cc4" />
+            <marker date="1469634365000" expanded="true" signature="14054:14240" ph="INSERT INTO titulos... " />
+            <marker date="1469634365000" expanded="true" signature="14054:14252" ph="INSERT INTO titulos... " />
+            <marker date="1469634365000" expanded="true" signature="14054:14309" ph="INSERT INTO titulos... " />
+            <marker date="1469634365000" expanded="true" signature="14054:14349" ph="INSERT INTO titulos... " />
+            <marker date="1469634365000" expanded="true" signature="14054:14393" ph="INSERT INTO titulos... " />
+            <marker date="1469634365000" expanded="true" signature="14054:14487" ph="INSERT INTO titulos... " />
+            <marker date="1469634365000" expanded="true" signature="14054:14534" ph="INSERT INTO titulos... " />
+            <marker date="1469634365000" expanded="true" signature="14054:14536" ph="INSERT INTO titulos... " />
+            <marker date="1469634365000" expanded="true" signature="14054:14708" ph="INSERT INTO titulos... " />
+            <marker date="1469634365000" expanded="true" signature="14881:14931" ph="SELECT * FRO... cc4" />
+            <marker date="1469634365000" expanded="true" signature="14881:14940" ph="SELECT * FRO... cliente_fornecedor" />
+            <marker date="1469634365000" expanded="true" signature="14881:14945" ph="SELECT * FRO... cliente_fornecedor" />
+            <marker date="1469634365000" expanded="true" signature="15153:15303" ph="SELECT * FRO... cliente_fornecedor" />
+            <marker date="1469634365000" expanded="true" signature="15153:15339" ph="SELECT tit.*... titulos" />
+            <marker date="1469634365000" expanded="true" signature="15153:15346" ph="SELECT tit.*... titulos" />
+            <marker date="1469634365000" expanded="true" signature="15759:16102" ph="SELECT * FRO... cliente_fornecedor" />
+            <marker date="1469634365000" expanded="true" signature="15759:16118" ph="SELECT tit.*... titulos" />
+            <marker date="1469634365000" expanded="true" signature="15759:16125" ph="SELECT tit.*... titulos" />
+            <marker date="1469634365000" expanded="true" signature="15759:16174" ph="SELECT tit.*... titulos" />
+            <marker date="1469634365000" expanded="true" signature="15759:16189" ph="SELECT tit.*... titulos" />
+            <marker date="1469634365000" expanded="true" signature="15759:16199" ph="SELECT tit.*... titulos" />
+            <marker date="1469634365000" expanded="true" signature="16386:16740" ph="SELECT tit.*... titulos" />
+            <marker date="1469634365000" expanded="true" signature="16386:16752" ph="SELECT tit.*... titulos" />
+            <marker date="1469634365000" expanded="true" signature="16935:16958" ph="UPDATE titul... " />
+            <marker date="1469634365000" expanded="true" signature="16935:16970" ph="UPDATE titul... " />
+            <marker date="1469634365000" expanded="true" signature="16935:17528" ph="UPDATE titul... " />
+            <marker date="1469634365000" expanded="true" signature="16935:17554" ph="UPDATE titul... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acesso/editar_titulo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+          <folding>
+            <marker date="1469634135000" expanded="true" signature="499:598" ph="..." />
           </folding>
         </state>
       </provider>
