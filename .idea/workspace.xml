@@ -2,29 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd737e4f-c330-415b-b9c5-8679b8003b05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/acesso/base_interno.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/acesso/detalhes_receita.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/acesso/pesquisar_clientefornecedor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/cc4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/funcoes.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acesso/cad_noticia.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acesso/editar_banner.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acesso/teste.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/Boleto CEF - Contra Apresentacao.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/COPYRIGHT" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/bradesco-defesa.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/imgbrrazu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/imgbrrlrj.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/imgpxlazu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logo_empresa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logobancoob.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logobanespa.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logobanestes.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logobb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logobesc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logobradesco.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logocaixa.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logohsbc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logoitau.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logonossacaixa.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logoreal.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logosantander.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logosicredi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logosudameris.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/logounibanco.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/imagens/p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/BUGS.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/COPYING" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/CREDITOS.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/LEIAME.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_bancoob.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_banespa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_banestes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_bb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_besc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_bradesco.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_cef.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_cef_sigcb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_cef_sinco.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_hsbc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_itau.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_nossacaixa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_real.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_santander_banespa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_sicredi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_sofisa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_sudameris.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/boleto_unibanco.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_bancoob.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_banespa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_banestes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_bb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_besc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_bradesco.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_cef.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_cef_sigcb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_cef_sinco.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_hsbc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_itau.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_nossacaixa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_real.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_santander_banespa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_sicredi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_sofisa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_sudameris.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/funcoes_unibanco.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_bancoob.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_banespa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_banestes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_bb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_besc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_bradesco.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_cef.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_cef_sinco.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_hsbc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_itau.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_nossacaixa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_real.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_santander_banespa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_sicredi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_sofisa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_sudameris.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/externos/boleto/include/layout_unibanco.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/acesso/cad_titulo.php" afterPath="$PROJECT_DIR$/acesso/cad_titulo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/acesso/listar_receitas.php" afterPath="$PROJECT_DIR$/acesso/listar_receitas.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/config.php" afterPath="$PROJECT_DIR$/inc/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/page_head.php" afterPath="$PROJECT_DIR$/inc/page_head.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/page_header.php" afterPath="$PROJECT_DIR$/inc/page_header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/page_sidebar.php" afterPath="$PROJECT_DIR$/inc/page_sidebar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/page_sidebar_alt.php" afterPath="$PROJECT_DIR$/inc/page_sidebar_alt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/restricao.php" afterPath="$PROJECT_DIR$/inc/restricao.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/sql.php" afterPath="$PROJECT_DIR$/inc/sql.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/template_start.php" afterPath="$PROJECT_DIR$/inc/template_start.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/plugins.js" afterPath="$PROJECT_DIR$/js/plugins.js" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,6 +122,20 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - @activelifestudio.com.br" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="cc1" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -63,101 +143,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="detalhes_receita.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/acesso/detalhes_receita.php">
+      <file leaf-file-name="boleto_bradesco.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/externos/boleto/boleto_bradesco.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="174" column="29" selection-start-line="174" selection-start-column="29" selection-end-line="174" selection-end-column="29" />
+            <state relative-caret-position="312">
+              <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
               <folding>
-                <marker date="1469582391000" expanded="true" signature="685:991" ph="..." />
-                <marker date="1469582391000" expanded="true" signature="752:991" ph="..." />
-                <marker date="1469582391000" expanded="true" signature="782:991" ph="..." />
-                <marker date="1469582391000" expanded="true" signature="821:991" ph="..." />
-                <marker date="1469582391000" expanded="true" signature="870:991" ph="..." />
-                <marker date="1469582391000" expanded="true" signature="1155:1502" ph="..." />
-                <marker date="1469582391000" expanded="true" signature="1204:1479" ph="..." />
-                <marker date="1469582391000" expanded="true" signature="1267:1452" ph="..." />
-                <marker date="1469582391000" expanded="true" signature="1640:9740" ph="..." />
-                <marker date="1469582391000" expanded="true" signature="1717:2007" ph="..." />
-                <marker date="1469582391000" expanded="true" signature="1778:1988" ph="..." />
-                <marker date="1469582391000" expanded="true" signature="2164:9680" ph="..." />
-                <marker date="1469582391000" expanded="true" signature="2233:6024" ph="..." />
-                <marker date="1469582391000" expanded="true" signature="6089:9661" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pesquisar_clientefornecedor.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acesso/pesquisar_clientefornecedor.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="52" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sql.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/sql.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="480" column="72" selection-start-line="480" selection-start-column="72" selection-end-line="480" selection-end-column="72" />
-              <folding>
-                <marker date="1469581057000" expanded="true" signature="156:180" ph="SELECT * FRO... config_app" />
-                <marker date="1469581057000" expanded="true" signature="410:500" ph="SELECT id_us... usuarios" />
-                <marker date="1469581057000" expanded="true" signature="712:768" ph="SELECT * FRO... mapa_arquivos" />
-                <marker date="1469581057000" expanded="true" signature="988:1046" ph="SELECT * FRO... usuarios" />
-                <marker date="1469581057000" expanded="true" signature="1302:1356" ph="SELECT * FRO... app_menu" />
-                <marker date="1469581057000" expanded="true" signature="1302:1376" ph="SELECT * FRO... app_menu" />
-                <marker date="1469581057000" expanded="true" signature="1302:1386" ph="SELECT * FRO... app_menu" />
-                <marker date="1469581057000" expanded="true" signature="1302:1387" ph="SELECT * FRO... app_menu" />
-                <marker date="1469581057000" expanded="true" signature="1302:1392" ph="SELECT * FRO... app_menu" />
-                <marker date="1469581057000" expanded="true" signature="1709:1821" ph="SELECT * FRO... app_submenu" />
-                <marker date="1469581057000" expanded="true" signature="1709:1847" ph="SELECT * FRO... app_submenu" />
-                <marker date="1469581057000" expanded="true" signature="1909:2006" ph="SELECT * FRO... app_submenu" />
-                <marker date="1469581057000" expanded="true" signature="1909:2032" ph="SELECT * FRO... app_submenu" />
-                <marker date="1469581057000" expanded="true" signature="2286:2339" ph="SELECT DISTI... cidades" />
-                <marker date="1469581057000" expanded="true" signature="2557:2608" ph="SELECT * FRO... convenios" />
-                <marker date="1469581057000" expanded="true" signature="2833:2900" ph="SELECT DISTI... cidades" />
-                <marker date="1469581057000" expanded="true" signature="3159:4386" ph="INSERT INTO cliente_fornecedor... " />
-                <marker date="1469581057000" expanded="true" signature="4951:5073" ph="SELECT cf.*,... cliente_fornecedor" />
-                <marker date="1469581057000" expanded="true" signature="5435:5578" ph="SELECT cf.*,... cliente_fornecedor" />
-                <marker date="1469581057000" expanded="true" signature="5901:6584" ph="UPDATE clien... " />
-                <marker date="1469581057000" expanded="true" signature="7044:7118" ph="UPDATE clien... " />
-                <marker date="1469581057000" expanded="true" signature="7647:7693" ph="SELECT * FRO... tipos_documento" />
-                <marker date="1469581057000" expanded="true" signature="7931:7957" ph="SELECT * FRO... site_banners" />
-                <marker date="1469581057000" expanded="true" signature="8214:8261" ph="SELECT * FRO... site_noticias" />
-                <marker date="1469581057000" expanded="true" signature="8523:8568" ph="SELECT * FRO... site_banners" />
-                <marker date="1469581057000" expanded="true" signature="8843:8981" ph="UPDATE site_... " />
-                <marker date="1469581057000" expanded="true" signature="9415:9638" ph="INSERT INTO site_noticias... " />
-                <marker date="1469581057000" expanded="true" signature="9923:10024" ph="..." />
-                <marker date="1469581057000" expanded="true" signature="10088:10195" ph="..." />
-                <marker date="1469581057000" expanded="true" signature="10285:10490" ph="INSERT INTO exercicios... " />
-                <marker date="1469581057000" expanded="true" signature="10670:10719" ph="SELECT * FRO... exercicios" />
-                <marker date="1469581057000" expanded="true" signature="11036:11085" ph="SELECT * FRO... exercicios" />
-                <marker date="1469581057000" expanded="true" signature="11284:11327" ph="SELECT * FRO... conta" />
-                <marker date="1469581057000" expanded="true" signature="11708:11749" ph="SELECT * FRO... cc1" />
-                <marker date="1469581057000" expanded="true" signature="12037:12086" ph="SELECT * FRO... cc1" />
-                <marker date="1469581057000" expanded="true" signature="12328:12369" ph="SELECT * FRO... cc2" />
-                <marker date="1469581057000" expanded="true" signature="12741:12782" ph="SELECT * FRO... cc2" />
-                <marker date="1469581057000" expanded="true" signature="13061:13102" ph="SELECT * FRO... cc3" />
-                <marker date="1469581057000" expanded="true" signature="13409:13562" ph="SELECT * FRO... cc4" />
-                <marker date="1469581057000" expanded="true" signature="14054:14240" ph="INSERT INTO titulos... " />
-                <marker date="1469581057000" expanded="true" signature="14054:14252" ph="INSERT INTO titulos... " />
-                <marker date="1469581057000" expanded="true" signature="14054:14309" ph="INSERT INTO titulos... " />
-                <marker date="1469581057000" expanded="true" signature="14054:14349" ph="INSERT INTO titulos... " />
-                <marker date="1469581057000" expanded="true" signature="14054:14393" ph="INSERT INTO titulos... " />
-                <marker date="1469581057000" expanded="true" signature="14054:14487" ph="INSERT INTO titulos... " />
-                <marker date="1469581057000" expanded="true" signature="14054:14534" ph="INSERT INTO titulos... " />
-                <marker date="1469581057000" expanded="true" signature="14054:14536" ph="INSERT INTO titulos... " />
-                <marker date="1469581057000" expanded="true" signature="14054:14708" ph="INSERT INTO titulos... " />
-                <marker date="1469581057000" expanded="true" signature="14881:14931" ph="SELECT * FRO... cc4" />
-                <marker date="1469581057000" expanded="true" signature="14881:14940" ph="SELECT * FRO... cliente_fornecedor" />
-                <marker date="1469581057000" expanded="true" signature="14881:14945" ph="SELECT * FRO... cliente_fornecedor" />
-                <marker date="1469581057000" expanded="true" signature="15153:15303" ph="SELECT * FRO... cliente_fornecedor" />
-                <marker date="1469581057000" expanded="true" signature="15153:15339" ph="SELECT tit.*... titulos" />
-                <marker date="1469581057000" expanded="true" signature="15153:15346" ph="SELECT tit.*... titulos" />
+                <marker date="1469618699000" expanded="true" signature="303:367" ph="..." />
               </folding>
             </state>
           </provider>
@@ -166,9 +158,80 @@
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sql.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/sql.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="498" column="18" selection-start-line="498" selection-start-column="18" selection-end-line="498" selection-end-column="18" />
+              <folding>
+                <marker date="1469618692000" expanded="true" signature="156:180" ph="SELECT * FRO... config_app" />
+                <marker date="1469618692000" expanded="true" signature="410:500" ph="SELECT id_us... usuarios" />
+                <marker date="1469618692000" expanded="true" signature="712:768" ph="SELECT * FRO... mapa_arquivos" />
+                <marker date="1469618692000" expanded="true" signature="988:1046" ph="SELECT * FRO... usuarios" />
+                <marker date="1469618692000" expanded="true" signature="1302:1356" ph="SELECT * FRO... app_menu" />
+                <marker date="1469618692000" expanded="true" signature="1302:1376" ph="SELECT * FRO... app_menu" />
+                <marker date="1469618692000" expanded="true" signature="1302:1386" ph="SELECT * FRO... app_menu" />
+                <marker date="1469618692000" expanded="true" signature="1302:1387" ph="SELECT * FRO... app_menu" />
+                <marker date="1469618692000" expanded="true" signature="1302:1392" ph="SELECT * FRO... app_menu" />
+                <marker date="1469618692000" expanded="true" signature="1709:1821" ph="SELECT * FRO... app_submenu" />
+                <marker date="1469618692000" expanded="true" signature="1709:1847" ph="SELECT * FRO... app_submenu" />
+                <marker date="1469618692000" expanded="true" signature="1909:2006" ph="SELECT * FRO... app_submenu" />
+                <marker date="1469618692000" expanded="true" signature="1909:2032" ph="SELECT * FRO... app_submenu" />
+                <marker date="1469618692000" expanded="true" signature="2286:2339" ph="SELECT DISTI... cidades" />
+                <marker date="1469618692000" expanded="true" signature="2557:2608" ph="SELECT * FRO... convenios" />
+                <marker date="1469618692000" expanded="true" signature="2833:2900" ph="SELECT DISTI... cidades" />
+                <marker date="1469618692000" expanded="true" signature="3159:4386" ph="INSERT INTO cliente_fornecedor... " />
+                <marker date="1469618692000" expanded="true" signature="4951:5073" ph="SELECT cf.*,... cliente_fornecedor" />
+                <marker date="1469618692000" expanded="true" signature="5435:5578" ph="SELECT cf.*,... cliente_fornecedor" />
+                <marker date="1469618692000" expanded="true" signature="5901:6584" ph="UPDATE clien... " />
+                <marker date="1469618692000" expanded="true" signature="7044:7118" ph="UPDATE clien... " />
+                <marker date="1469618692000" expanded="true" signature="7647:7693" ph="SELECT * FRO... tipos_documento" />
+                <marker date="1469618692000" expanded="true" signature="7931:7957" ph="SELECT * FRO... site_banners" />
+                <marker date="1469618692000" expanded="true" signature="8214:8261" ph="SELECT * FRO... site_noticias" />
+                <marker date="1469618692000" expanded="true" signature="8523:8568" ph="SELECT * FRO... site_banners" />
+                <marker date="1469618692000" expanded="true" signature="8843:8981" ph="UPDATE site_... " />
+                <marker date="1469618692000" expanded="true" signature="9415:9638" ph="INSERT INTO site_noticias... " />
+                <marker date="1469618692000" expanded="true" signature="9923:10024" ph="..." />
+                <marker date="1469618692000" expanded="true" signature="10088:10195" ph="..." />
+                <marker date="1469618692000" expanded="true" signature="10285:10490" ph="INSERT INTO exercicios... " />
+                <marker date="1469618692000" expanded="true" signature="10670:10719" ph="SELECT * FRO... exercicios" />
+                <marker date="1469618692000" expanded="true" signature="11036:11085" ph="SELECT * FRO... exercicios" />
+                <marker date="1469618692000" expanded="true" signature="11284:11327" ph="SELECT * FRO... conta" />
+                <marker date="1469618692000" expanded="true" signature="11708:11749" ph="SELECT * FRO... cc1" />
+                <marker date="1469618692000" expanded="true" signature="12037:12086" ph="SELECT * FRO... cc1" />
+                <marker date="1469618692000" expanded="true" signature="12328:12369" ph="SELECT * FRO... cc2" />
+                <marker date="1469618692000" expanded="true" signature="12741:12782" ph="SELECT * FRO... cc2" />
+                <marker date="1469618692000" expanded="true" signature="13061:13102" ph="SELECT * FRO... cc3" />
+                <marker date="1469618692000" expanded="true" signature="13409:13562" ph="SELECT * FRO... cc4" />
+                <marker date="1469618692000" expanded="true" signature="14054:14240" ph="INSERT INTO titulos... " />
+                <marker date="1469618692000" expanded="true" signature="14054:14252" ph="INSERT INTO titulos... " />
+                <marker date="1469618692000" expanded="true" signature="14054:14309" ph="INSERT INTO titulos... " />
+                <marker date="1469618692000" expanded="true" signature="14054:14349" ph="INSERT INTO titulos... " />
+                <marker date="1469618692000" expanded="true" signature="14054:14393" ph="INSERT INTO titulos... " />
+                <marker date="1469618692000" expanded="true" signature="14054:14487" ph="INSERT INTO titulos... " />
+                <marker date="1469618692000" expanded="true" signature="14054:14534" ph="INSERT INTO titulos... " />
+                <marker date="1469618692000" expanded="true" signature="14054:14536" ph="INSERT INTO titulos... " />
+                <marker date="1469618692000" expanded="true" signature="14054:14708" ph="INSERT INTO titulos... " />
+                <marker date="1469618692000" expanded="true" signature="14881:14931" ph="SELECT * FRO... cc4" />
+                <marker date="1469618692000" expanded="true" signature="14881:14940" ph="SELECT * FRO... cliente_fornecedor" />
+                <marker date="1469618692000" expanded="true" signature="14881:14945" ph="SELECT * FRO... cliente_fornecedor" />
+                <marker date="1469618692000" expanded="true" signature="15153:15303" ph="SELECT * FRO... cliente_fornecedor" />
+                <marker date="1469618692000" expanded="true" signature="15153:15339" ph="SELECT tit.*... titulos" />
+                <marker date="1469618692000" expanded="true" signature="15153:15346" ph="SELECT tit.*... titulos" />
+                <marker date="1469618692000" expanded="true" signature="15759:16102" ph="SELECT * FRO... cliente_fornecedor" />
+                <marker date="1469618692000" expanded="true" signature="15759:16118" ph="SELECT tit.*... titulos" />
+                <marker date="1469618692000" expanded="true" signature="15759:16125" ph="SELECT tit.*... titulos" />
+                <marker date="1469618692000" expanded="true" signature="15759:16174" ph="SELECT tit.*... titulos" />
+                <marker date="1469618692000" expanded="true" signature="15759:16189" ph="SELECT tit.*... titulos" />
+                <marker date="1469618692000" expanded="true" signature="15759:16199" ph="SELECT tit.*... titulos" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -222,9 +285,11 @@
         <option value="$PROJECT_DIR$/acesso/listar_receitas.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/acesso/pesquisar_clientefornecedor.php" />
-        <option value="$PROJECT_DIR$/inc/sql.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql" />
         <option value="$PROJECT_DIR$/acesso/detalhes_receita.php" />
+        <option value="$PROJECT_DIR$/externos/boleto/include/layout_bradesco.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql" />
+        <option value="$PROJECT_DIR$/inc/sql.php" />
+        <option value="$PROJECT_DIR$/externos/boleto/boleto_bradesco.php" />
       </list>
     </option>
   </component>
@@ -326,7 +391,55 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
+              <option name="myItemId" value="externos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boleto" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="active" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="externos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boleto" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="active" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="externos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boleto" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imagens" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -366,7 +479,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="SearchEverywhereHistoryKey" value="conso&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;sql&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/sql.php&#10;cad&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/cad_cliente.php&#10;listar&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;cad_&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/cad_cliente.php&#10;pesqu&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/pesquisar_clientefornecedor.php&#10;main&#9;FILE&#9;file:///Users/Patryky/desenv/active/css/main.css&#10;side&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_sidebar.php&#10;sq&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;templa&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/template_start.php&#10;page&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_head.php&#10;co&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;cons&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;confi&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/config.php&#10;start&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/template_start.php&#10;con&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;index&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/index.php&#10;console&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/4aae0dcb-4cc1-4f38-acd0-bf57153935b8/console.sql&#10;l&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;listar_clien&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;index2&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/index2.php&#10;fit&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/fitness.php&#10;load&#9;FILE&#9;file:///Users/Patryky/desenv/active/img/jquery.easytree/loading.gif&#10;res&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/restricao.php&#10;li&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;jquery_masked.js&#9;FILE&#9;file:///Users/Patryky/desenv/active/js/jquery_masked.js&#10;funcoes.&#9;FILE&#9;file:///Users/Patryky/desenv/active/js/funcoes.js&#10;func_cad&#9;null&#9;null&#10;config&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/config.php&#10;consol&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;c&#9;FILE&#9;file:///Users/Patryky/desenv/active/css/main.css&#10;restri&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/restricao.php&#10;sidebar_alt&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_sidebar_alt.php&#10;page_h&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_header.php&#10;head.&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_head.php&#10;page_sidebar&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_sidebar.php&#10;index.php&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/index.php&#10;index.&#9;FILE&#9;file:///Users/Patryky/desenv/active/index.php" />
+    <property name="SearchEverywhereHistoryKey" value="consol&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;bolet&#9;FILE&#9;file:///Users/Patryky/desenv/active/externos/boleto/boleto_bradesco.php&#10;cons&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;sql&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/sql.php&#10;conso&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;cad&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/cad_cliente.php&#10;listar&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;cad_&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/cad_cliente.php&#10;pesqu&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/pesquisar_clientefornecedor.php&#10;main&#9;FILE&#9;file:///Users/Patryky/desenv/active/css/main.css&#10;side&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_sidebar.php&#10;sq&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;templa&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/template_start.php&#10;page&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_head.php&#10;co&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;confi&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/config.php&#10;start&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/template_start.php&#10;con&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;index&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/index.php&#10;console&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/4aae0dcb-4cc1-4f38-acd0-bf57153935b8/console.sql&#10;l&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;listar_clien&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;index2&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/index2.php&#10;fit&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/fitness.php&#10;load&#9;FILE&#9;file:///Users/Patryky/desenv/active/img/jquery.easytree/loading.gif&#10;res&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/restricao.php&#10;li&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;jquery_masked.js&#9;FILE&#9;file:///Users/Patryky/desenv/active/js/jquery_masked.js&#10;funcoes.&#9;FILE&#9;file:///Users/Patryky/desenv/active/js/funcoes.js&#10;func_cad&#9;null&#9;null&#10;config&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/config.php&#10;c&#9;FILE&#9;file:///Users/Patryky/desenv/active/css/main.css&#10;restri&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/restricao.php&#10;sidebar_alt&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_sidebar_alt.php&#10;page_h&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_header.php&#10;head.&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_head.php&#10;page_sidebar&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_sidebar.php&#10;index.php&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/index.php&#10;index.&#9;FILE&#9;file:///Users/Patryky/desenv/active/index.php" />
     <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -376,9 +489,11 @@
       <recent name="C:\wamp\www\app\acesso" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/externos/boleto/imagens" />
+      <recent name="$PROJECT_DIR$/externos/boleto/include" />
+      <recent name="$PROJECT_DIR$/externos" />
       <recent name="$PROJECT_DIR$/acesso" />
       <recent name="$PROJECT_DIR$/ajax" />
-      <recent name="$PROJECT_DIR$/img/sistema" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.php">
@@ -447,7 +562,7 @@
       <workItem from="1469010108760" duration="5459000" />
       <workItem from="1469025683751" duration="504000" />
       <workItem from="1469541937833" duration="8807000" />
-      <workItem from="1469567763011" duration="11461000" />
+      <workItem from="1469567763011" duration="13400000" />
     </task>
     <task id="LOCAL-00001" summary="Atualizado">
       <created>1469017803310</created>
@@ -456,11 +571,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469017803310</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Atualizado">
+      <created>1469582629462</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1469582629462</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45407000" />
+    <option name="totallyTimeSpent" value="47346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -529,27 +651,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/plugins.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1595" column="0" selection-start-line="1595" selection-start-column="0" selection-end-line="1595" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/themes/social.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/themes/flat.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/themes/creme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -628,13 +729,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acesso/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="35" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -890,7 +984,7 @@
         <state relative-caret-position="165">
           <caret line="66" column="191" selection-start-line="66" selection-start-column="191" selection-end-line="66" selection-end-column="191" />
           <folding>
-            <element signature="e#1085#1103#0#HTML" expanded="true" />
+            <element signature="e#1085#1103#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -907,77 +1001,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="165" column="74" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/sql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="480" column="72" selection-start-line="480" selection-start-column="72" selection-end-line="480" selection-end-column="72" />
-          <folding>
-            <marker date="1469581057000" expanded="true" signature="156:180" ph="SELECT * FRO... config_app" />
-            <marker date="1469581057000" expanded="true" signature="410:500" ph="SELECT id_us... usuarios" />
-            <marker date="1469581057000" expanded="true" signature="712:768" ph="SELECT * FRO... mapa_arquivos" />
-            <marker date="1469581057000" expanded="true" signature="988:1046" ph="SELECT * FRO... usuarios" />
-            <marker date="1469581057000" expanded="true" signature="1302:1356" ph="SELECT * FRO... app_menu" />
-            <marker date="1469581057000" expanded="true" signature="1302:1376" ph="SELECT * FRO... app_menu" />
-            <marker date="1469581057000" expanded="true" signature="1302:1386" ph="SELECT * FRO... app_menu" />
-            <marker date="1469581057000" expanded="true" signature="1302:1387" ph="SELECT * FRO... app_menu" />
-            <marker date="1469581057000" expanded="true" signature="1302:1392" ph="SELECT * FRO... app_menu" />
-            <marker date="1469581057000" expanded="true" signature="1709:1821" ph="SELECT * FRO... app_submenu" />
-            <marker date="1469581057000" expanded="true" signature="1709:1847" ph="SELECT * FRO... app_submenu" />
-            <marker date="1469581057000" expanded="true" signature="1909:2006" ph="SELECT * FRO... app_submenu" />
-            <marker date="1469581057000" expanded="true" signature="1909:2032" ph="SELECT * FRO... app_submenu" />
-            <marker date="1469581057000" expanded="true" signature="2286:2339" ph="SELECT DISTI... cidades" />
-            <marker date="1469581057000" expanded="true" signature="2557:2608" ph="SELECT * FRO... convenios" />
-            <marker date="1469581057000" expanded="true" signature="2833:2900" ph="SELECT DISTI... cidades" />
-            <marker date="1469581057000" expanded="true" signature="3159:4386" ph="INSERT INTO cliente_fornecedor... " />
-            <marker date="1469581057000" expanded="true" signature="4951:5073" ph="SELECT cf.*,... cliente_fornecedor" />
-            <marker date="1469581057000" expanded="true" signature="5435:5578" ph="SELECT cf.*,... cliente_fornecedor" />
-            <marker date="1469581057000" expanded="true" signature="5901:6584" ph="UPDATE clien... " />
-            <marker date="1469581057000" expanded="true" signature="7044:7118" ph="UPDATE clien... " />
-            <marker date="1469581057000" expanded="true" signature="7647:7693" ph="SELECT * FRO... tipos_documento" />
-            <marker date="1469581057000" expanded="true" signature="7931:7957" ph="SELECT * FRO... site_banners" />
-            <marker date="1469581057000" expanded="true" signature="8214:8261" ph="SELECT * FRO... site_noticias" />
-            <marker date="1469581057000" expanded="true" signature="8523:8568" ph="SELECT * FRO... site_banners" />
-            <marker date="1469581057000" expanded="true" signature="8843:8981" ph="UPDATE site_... " />
-            <marker date="1469581057000" expanded="true" signature="9415:9638" ph="INSERT INTO site_noticias... " />
-            <marker date="1469581057000" expanded="true" signature="9923:10024" ph="..." />
-            <marker date="1469581057000" expanded="true" signature="10088:10195" ph="..." />
-            <marker date="1469581057000" expanded="true" signature="10285:10490" ph="INSERT INTO exercicios... " />
-            <marker date="1469581057000" expanded="true" signature="10670:10719" ph="SELECT * FRO... exercicios" />
-            <marker date="1469581057000" expanded="true" signature="11036:11085" ph="SELECT * FRO... exercicios" />
-            <marker date="1469581057000" expanded="true" signature="11284:11327" ph="SELECT * FRO... conta" />
-            <marker date="1469581057000" expanded="true" signature="11708:11749" ph="SELECT * FRO... cc1" />
-            <marker date="1469581057000" expanded="true" signature="12037:12086" ph="SELECT * FRO... cc1" />
-            <marker date="1469581057000" expanded="true" signature="12328:12369" ph="SELECT * FRO... cc2" />
-            <marker date="1469581057000" expanded="true" signature="12741:12782" ph="SELECT * FRO... cc2" />
-            <marker date="1469581057000" expanded="true" signature="13061:13102" ph="SELECT * FRO... cc3" />
-            <marker date="1469581057000" expanded="true" signature="13409:13562" ph="SELECT * FRO... cc4" />
-            <marker date="1469581057000" expanded="true" signature="14054:14240" ph="INSERT INTO titulos... " />
-            <marker date="1469581057000" expanded="true" signature="14054:14252" ph="INSERT INTO titulos... " />
-            <marker date="1469581057000" expanded="true" signature="14054:14309" ph="INSERT INTO titulos... " />
-            <marker date="1469581057000" expanded="true" signature="14054:14349" ph="INSERT INTO titulos... " />
-            <marker date="1469581057000" expanded="true" signature="14054:14393" ph="INSERT INTO titulos... " />
-            <marker date="1469581057000" expanded="true" signature="14054:14487" ph="INSERT INTO titulos... " />
-            <marker date="1469581057000" expanded="true" signature="14054:14534" ph="INSERT INTO titulos... " />
-            <marker date="1469581057000" expanded="true" signature="14054:14536" ph="INSERT INTO titulos... " />
-            <marker date="1469581057000" expanded="true" signature="14054:14708" ph="INSERT INTO titulos... " />
-            <marker date="1469581057000" expanded="true" signature="14881:14931" ph="SELECT * FRO... cc4" />
-            <marker date="1469581057000" expanded="true" signature="14881:14940" ph="SELECT * FRO... cliente_fornecedor" />
-            <marker date="1469581057000" expanded="true" signature="14881:14945" ph="SELECT * FRO... cliente_fornecedor" />
-            <marker date="1469581057000" expanded="true" signature="15153:15303" ph="SELECT * FRO... cliente_fornecedor" />
-            <marker date="1469581057000" expanded="true" signature="15153:15339" ph="SELECT tit.*... titulos" />
-            <marker date="1469581057000" expanded="true" signature="15153:15346" ph="SELECT tit.*... titulos" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1009,6 +1032,117 @@
             <marker date="1469582391000" expanded="true" signature="2164:9680" ph="..." />
             <marker date="1469582391000" expanded="true" signature="2233:6024" ph="..." />
             <marker date="1469582391000" expanded="true" signature="6089:9661" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/externos/boleto/COPYING">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acesso/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/sql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="498" column="18" selection-start-line="498" selection-start-column="18" selection-end-line="498" selection-end-column="18" />
+          <folding>
+            <marker date="1469618692000" expanded="true" signature="156:180" ph="SELECT * FRO... config_app" />
+            <marker date="1469618692000" expanded="true" signature="410:500" ph="SELECT id_us... usuarios" />
+            <marker date="1469618692000" expanded="true" signature="712:768" ph="SELECT * FRO... mapa_arquivos" />
+            <marker date="1469618692000" expanded="true" signature="988:1046" ph="SELECT * FRO... usuarios" />
+            <marker date="1469618692000" expanded="true" signature="1302:1356" ph="SELECT * FRO... app_menu" />
+            <marker date="1469618692000" expanded="true" signature="1302:1376" ph="SELECT * FRO... app_menu" />
+            <marker date="1469618692000" expanded="true" signature="1302:1386" ph="SELECT * FRO... app_menu" />
+            <marker date="1469618692000" expanded="true" signature="1302:1387" ph="SELECT * FRO... app_menu" />
+            <marker date="1469618692000" expanded="true" signature="1302:1392" ph="SELECT * FRO... app_menu" />
+            <marker date="1469618692000" expanded="true" signature="1709:1821" ph="SELECT * FRO... app_submenu" />
+            <marker date="1469618692000" expanded="true" signature="1709:1847" ph="SELECT * FRO... app_submenu" />
+            <marker date="1469618692000" expanded="true" signature="1909:2006" ph="SELECT * FRO... app_submenu" />
+            <marker date="1469618692000" expanded="true" signature="1909:2032" ph="SELECT * FRO... app_submenu" />
+            <marker date="1469618692000" expanded="true" signature="2286:2339" ph="SELECT DISTI... cidades" />
+            <marker date="1469618692000" expanded="true" signature="2557:2608" ph="SELECT * FRO... convenios" />
+            <marker date="1469618692000" expanded="true" signature="2833:2900" ph="SELECT DISTI... cidades" />
+            <marker date="1469618692000" expanded="true" signature="3159:4386" ph="INSERT INTO cliente_fornecedor... " />
+            <marker date="1469618692000" expanded="true" signature="4951:5073" ph="SELECT cf.*,... cliente_fornecedor" />
+            <marker date="1469618692000" expanded="true" signature="5435:5578" ph="SELECT cf.*,... cliente_fornecedor" />
+            <marker date="1469618692000" expanded="true" signature="5901:6584" ph="UPDATE clien... " />
+            <marker date="1469618692000" expanded="true" signature="7044:7118" ph="UPDATE clien... " />
+            <marker date="1469618692000" expanded="true" signature="7647:7693" ph="SELECT * FRO... tipos_documento" />
+            <marker date="1469618692000" expanded="true" signature="7931:7957" ph="SELECT * FRO... site_banners" />
+            <marker date="1469618692000" expanded="true" signature="8214:8261" ph="SELECT * FRO... site_noticias" />
+            <marker date="1469618692000" expanded="true" signature="8523:8568" ph="SELECT * FRO... site_banners" />
+            <marker date="1469618692000" expanded="true" signature="8843:8981" ph="UPDATE site_... " />
+            <marker date="1469618692000" expanded="true" signature="9415:9638" ph="INSERT INTO site_noticias... " />
+            <marker date="1469618692000" expanded="true" signature="9923:10024" ph="..." />
+            <marker date="1469618692000" expanded="true" signature="10088:10195" ph="..." />
+            <marker date="1469618692000" expanded="true" signature="10285:10490" ph="INSERT INTO exercicios... " />
+            <marker date="1469618692000" expanded="true" signature="10670:10719" ph="SELECT * FRO... exercicios" />
+            <marker date="1469618692000" expanded="true" signature="11036:11085" ph="SELECT * FRO... exercicios" />
+            <marker date="1469618692000" expanded="true" signature="11284:11327" ph="SELECT * FRO... conta" />
+            <marker date="1469618692000" expanded="true" signature="11708:11749" ph="SELECT * FRO... cc1" />
+            <marker date="1469618692000" expanded="true" signature="12037:12086" ph="SELECT * FRO... cc1" />
+            <marker date="1469618692000" expanded="true" signature="12328:12369" ph="SELECT * FRO... cc2" />
+            <marker date="1469618692000" expanded="true" signature="12741:12782" ph="SELECT * FRO... cc2" />
+            <marker date="1469618692000" expanded="true" signature="13061:13102" ph="SELECT * FRO... cc3" />
+            <marker date="1469618692000" expanded="true" signature="13409:13562" ph="SELECT * FRO... cc4" />
+            <marker date="1469618692000" expanded="true" signature="14054:14240" ph="INSERT INTO titulos... " />
+            <marker date="1469618692000" expanded="true" signature="14054:14252" ph="INSERT INTO titulos... " />
+            <marker date="1469618692000" expanded="true" signature="14054:14309" ph="INSERT INTO titulos... " />
+            <marker date="1469618692000" expanded="true" signature="14054:14349" ph="INSERT INTO titulos... " />
+            <marker date="1469618692000" expanded="true" signature="14054:14393" ph="INSERT INTO titulos... " />
+            <marker date="1469618692000" expanded="true" signature="14054:14487" ph="INSERT INTO titulos... " />
+            <marker date="1469618692000" expanded="true" signature="14054:14534" ph="INSERT INTO titulos... " />
+            <marker date="1469618692000" expanded="true" signature="14054:14536" ph="INSERT INTO titulos... " />
+            <marker date="1469618692000" expanded="true" signature="14054:14708" ph="INSERT INTO titulos... " />
+            <marker date="1469618692000" expanded="true" signature="14881:14931" ph="SELECT * FRO... cc4" />
+            <marker date="1469618692000" expanded="true" signature="14881:14940" ph="SELECT * FRO... cliente_fornecedor" />
+            <marker date="1469618692000" expanded="true" signature="14881:14945" ph="SELECT * FRO... cliente_fornecedor" />
+            <marker date="1469618692000" expanded="true" signature="15153:15303" ph="SELECT * FRO... cliente_fornecedor" />
+            <marker date="1469618692000" expanded="true" signature="15153:15339" ph="SELECT tit.*... titulos" />
+            <marker date="1469618692000" expanded="true" signature="15153:15346" ph="SELECT tit.*... titulos" />
+            <marker date="1469618692000" expanded="true" signature="15759:16102" ph="SELECT * FRO... cliente_fornecedor" />
+            <marker date="1469618692000" expanded="true" signature="15759:16118" ph="SELECT tit.*... titulos" />
+            <marker date="1469618692000" expanded="true" signature="15759:16125" ph="SELECT tit.*... titulos" />
+            <marker date="1469618692000" expanded="true" signature="15759:16174" ph="SELECT tit.*... titulos" />
+            <marker date="1469618692000" expanded="true" signature="15759:16189" ph="SELECT tit.*... titulos" />
+            <marker date="1469618692000" expanded="true" signature="15759:16199" ph="SELECT tit.*... titulos" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/externos/boleto/include/layout_bradesco.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="50" column="79" selection-start-line="50" selection-start-column="78" selection-end-line="50" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/externos/boleto/boleto_bradesco.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+          <folding>
+            <marker date="1469618699000" expanded="true" signature="303:367" ph="..." />
           </folding>
         </state>
       </provider>

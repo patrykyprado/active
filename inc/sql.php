@@ -485,4 +485,23 @@ function func_buscar_titulos($clienteFornecedor, $tipo, $pago){
     $sql_executar->execute();
     return $sql_executar;
 }
+
+function func_dados_boleto($idTitulo, $clienteFornecedor, $parcela){
+    global $conn;
+    $sql = "
+    SELECT tit.*, c.*, cf.razao_social as nome, cf.cidade, cf.uf, cf.cep, cf.endereco, cc1.nome as nome_cc1
+     FROM titulos tit 
+     INNER JOIN cliente_fornecedor cf 
+     ON cf.codigo = tit.cliente_fornecedor 
+     INNER JOIN conta c 
+     ON c.id = tit.conta_id 
+     INNER JOIN cc1 
+     ON cc1.id = c.id_empresa
+      WHERE tit.id_titulo = {$idTitulo} AND tit.cliente_fornecedor = {$clienteFornecedor} 
+      AND tit.parcela = {$parcela} 
+    ";
+    $sql_executar = $conn->prepare($sql);
+    $sql_executar->execute();
+    return $sql_executar;
+}
 ?>
