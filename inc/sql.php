@@ -356,10 +356,24 @@ function func_dados_cc1($idEmpresa){
     $sql = "
     SELECT *
      FROM cc1
-      WHERE  id_empresa = {$idEmpresa} 
+      WHERE  id = {$idEmpresa} 
     ";
 
     $sql .= "ORDER BY nome ";
+    $sql_executar = $conn->prepare($sql);
+    $sql_executar->execute();
+    return $sql_executar;
+}
+
+function func_dados_cc2($idFilial){
+    global $conn;
+    $sql = "
+    SELECT *
+     FROM cc2
+      WHERE  id = {$idFilial} 
+    ";
+
+    $sql .= "ORDER BY nome_filial ";
     $sql_executar = $conn->prepare($sql);
     $sql_executar->execute();
     return $sql_executar;
@@ -538,6 +552,41 @@ function func_atualizar_titulo($dados){
    conta_id =  '".format_valor_db($dados['conta'])."'
    WHERE id_titulo = '".$dados['id_titulo']."'
     ";
+    $sql_executar = $conn->prepare($sql);
+    $sql_executar->execute();
+    return $sql_executar;
+}
+
+
+function func_buscar_titulos_periodo($idEmpresa, $idFilial, $dataInicio, $dataFim, $tipo, $pago){
+    global $conn;
+    $sql = "
+    SELECT tit.*, c.*, cf.codigo, cf.razao_social as nome, cf.cidade, cf.uf, cf.cep, cf.endereco, cc1.nome as nome_cc1
+     FROM titulos tit 
+     INNER JOIN cliente_fornecedor cf 
+     ON cf.codigo = tit.cliente_fornecedor 
+     INNER JOIN conta c 
+     ON c.id = tit.conta_id 
+     INNER JOIN cc1 
+     ON cc1.id = c.id_empresa
+      WHERE tit.tipo = {$tipo} AND tit.ativo = 1 
+    ";
+    if(!empty($idEmpresa)){
+        $sql .= " AND cc1.id = {$idEmpresa} ";
+    }
+    if(!empty($idFilial)){
+        $sql .= " AND tit.cc2_id = {$idFilial} ";
+    }
+    if($pago == 2){
+        $sql .= " AND tit.vencimento BETWEEN '".format_data_us($dataInicio)."' AND '".format_data_us($dataFim)."' 
+        AND (tit.data_pagto IS NULL OR tit.data_pagto = '') AND tit.valor_pagto = 0 ";
+        $orderBy = 'tit.vencimento';
+    }
+    if($pago == 1){
+        $sql .= " AND tit.data_pagto BETWEEN '".format_data_us($dataInicio)."' AND '".format_data_us($dataFim)."' ";
+        $orderBy = 'tit.data_pagto';
+    }
+    $sql .= " ORDER BY {$orderBy}";
     $sql_executar = $conn->prepare($sql);
     $sql_executar->execute();
     return $sql_executar;

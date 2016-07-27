@@ -821,6 +821,9 @@ function download( $path, $fileName = '' ){
 function requerido(){
     return '<b><font color="red">*</font></b>';
 }
+
+function requestCompleto(){
+    $expRequest = explode('?',$_SERVER['REQUEST_URI']);
+    return $expRequest[1];
+}
 ?>
-
-

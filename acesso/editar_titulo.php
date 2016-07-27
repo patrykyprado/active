@@ -69,18 +69,18 @@ window.close();
                     </tr>
                     <tr>
                         <td><b>Valor: </b></td>
-                        <td width="55%"><input name="valor" required="required" value="<?= format_valor($dados_titulo['valor']);?>" type="text" />
+                        <td width="55%"><input name="valor" required="required" value="<?= ($dados_titulo['valor']);?>" type="text" />
                             <?= requerido()?>
                         </td>
                     </tr>
                     <tr>
                         <td><b>Desconto (%): </b></td>
-                        <td width="55%"><input name="desconto_porcentagem" value="<?= format_valor($dados_titulo['desconto_porcentagem']);?>" type="text" />
+                        <td width="55%"><input name="desconto_porcentagem" value="<?= ($dados_titulo['desconto_porcentagem']);?>" type="text" />
                         </td>
                     </tr>
                     <tr>
                         <td><b>Desconto (R$): </b></td>
-                        <td width="55%"><input name="desconto_real" value="<?= format_valor($dados_titulo['desconto_real']);?>"  type="text" />
+                        <td width="55%"><input name="desconto_real" value="<?= ($dados_titulo['desconto_real']);?>"  type="text" />
                         </td>
                     </tr>
                 </table>
@@ -116,7 +116,7 @@ window.close();
                     </tr>
                     <tr>
                         <td><b>Valor Efetivado: </b></td>
-                        <td width="55%"><input name="valor_pagto" style="background-color: darkseagreen;" value="<?= format_valor($dados_titulo['valor_pagto']);?>" type="text" />
+                        <td width="55%"><input name="valor_pagto" style="background-color: darkseagreen;" value="<?= ($dados_titulo['valor_pagto']);?>" type="text" />
                         </td>
                     </tr>
                 </table>
