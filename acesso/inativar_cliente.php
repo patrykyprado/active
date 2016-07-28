@@ -1,50 +1,60 @@
 <?php
 require_once('../inc/conectar.php');
 require_once('../inc/sql.php');
-$get_codigo = $_GET['codigo'];
-$get_tipo = $_GET['tipo'];
-if($get_tipo == "1"){
-    $get_texto = "<b style='color: green'>ATIVAR</b>";
-} else {
-    $get_texto = "<b style='color: #ff0000'>INATIVAR</b>";
+$semMenu = 1;
+include '../inc/config.php';
+include '../inc/restricao.php';
+$sql_cliente = func_dados_cliente($_GET['codigo']);
+$dados_cliente = $sql_cliente->fetch(PDO::FETCH_ASSOC);
+if (!empty($dados_cliente['nome_fantasia'])) {
+    $nomeFantasia = ' (' . utf8_encode($dados_cliente['nome_fantasia']) . ')';
+}
+$tipoExib = '<font color="red"><b>INATIVAR</b></font>';
+if($_GET['tipo'] == 1){
+    $tipoExib = '<font color="green"><b>ATIVAR</b></font>';
 }
 
-$sql_edicao_cliente_fornecedor = func_editar_cliente_fornecedor($get_codigo);
-$dados_cliente = $sql_edicao_cliente_fornecedor->fetch(PDO::FETCH_ASSOC);
-
+if($_SERVER['REQUEST_METHOD'] == 'POST'){//INATIVAR CLIENTE
+    $get_codigo = $_POST['codigo'];
+    $get_tipo = $_POST['tipo'];
+    $inativar_cliente = func_inativar_cliente($get_codigo,$get_tipo);
+    echo "<script language=\"javascript\">
+    alert('".$inativar_cliente."');
+    window.opener.location.reload();
+    window.close()
+    </script>";
+}
 ?>
+<?php include '../inc/template_start.php'; ?>
+<?php include '../inc/page_head.php'; ?>
 
-<div class="modal-dialog">
-    <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h3 class="modal-title"><strong>Inativar Cliente / Fornecedor</strong></h3>
+    <!-- Page content -->
+    <div id="page-content">
+        <!-- Blank Header -->
+        <!-- END Blank Header -->
+
+        <!-- Get Started Block -->
+        <div class="block full">
+            <center>Deseja realmente <?= $tipoExib;?> o <b>Cliente / Fornecedor: </b><?= $dados_cliente['codigo'].' - '.utf8_encode($dados_cliente['razao_social']).$nomeFantasia;?>?
+            <form action method="post">
+                <br>
+                <input type="hidden" name="codigo" value="<?= $dados_cliente['codigo'];?>" />
+                <input type="hidden" name="tipo" value="<?= $_GET['tipo'];?>" />
+                <button class="btn btn-success">
+                    <i class="fa fa-check"></i> Confirmar
+                </button>
+                <button onclick="window.close();" class="btn btn-danger">
+                    <i class="fa fa-times-circle"></i> Cancelar
+                </button>
+            </form>
+            </center>
+
         </div>
-        <div class="modal-body">
-            <form action="listar_clientes.php" method="GET">
-                <input type="hidden" name="acao" value="2"/>
-                <input type="hidden" name="codigo" value="<?php echo $get_codigo;?>"/>
-                <input type="hidden" name="tipo" value="<?php echo $get_tipo;?>"/>
-                Deseja realmente <?php echo $get_texto;?> o cliente abaixo?<br><br>
-                <div style="background-color: #0088a1; color: #fffacd" align="center">
-                    Razão Social: <?php echo $dados_cliente['razao_social'];?><br>
-                    Nome Fantasia: <?php echo $dados_cliente['nome_fantasia'];?></div>
-                <table width="100%">
-                    <tr>
-                        <td colspan="4"><br><br>
-                            <center><input type="submit" class="btn btn-effect-ripple btn-primary" value="Confirmar"/> <button type="button" class="btn btn-effect-ripple btn-danger" data-dismiss="modal">Cancelar</button></center></td>
-                    </tr>
-                </table> 
-
-        </div>
-
-        </form>
+        <!-- END Get Started Block -->
     </div>
-</div>
+    <!-- END Page Content -->
 
-<script type="text/javascript" src="../ckeditor/ckeditor.js"></script>
-<script type="text/javascript">
-    $(document).ready(function(){
-        $("#cnpj").mask("99.999.999/9999-99");});
-</script>
+<?php include '../inc/page_footer.php'; ?>
+<?php include '../inc/template_scripts.php'; ?>
 
+<?php include '../inc/template_end.php'; ?>

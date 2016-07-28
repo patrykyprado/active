@@ -36,7 +36,7 @@
     </li>";
                     } else {
                         echo "<li>
-                <a href=\"$menu_link\" class=\"$menu_ativo sidebar-nav-submenu\"><i class=\"$menu_icone sidebar-nav-icon\"></i> <i class=\"fa fa-chevron-left sidebar-nav-indicator\"></i>$menu_menu</a>
+                <a href=\"$menu_link\" class=\"$menu_ativo sidebar-nav-submenu\"><i class=\"$menu_icone sidebar-nav-icon\"></i> <span class=\"sidebar-nav-mini-hide\">".utf8_encode($menu_menu)." </span> <i class=\"fa fa-chevron-left sidebar-nav-indicator sidebar-nav-mini-hide\"></i></a>
                 <ul>";
                         $sql_submenu1 = func_montar_submenu($usuario_id, $usuario_nivel, 1, $menu_id_menu);
                         while ($dados_submenu1 = $sql_submenu1->fetch(PDO::FETCH_ASSOC)) {

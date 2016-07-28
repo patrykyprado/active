@@ -317,389 +317,380 @@
         <mandatory>1</mandatory>
         <data-type>tinyint(4)</data-type>
       </column>
-      <index id="95" parent="9" name="cnpj">
-        <columns>documento</columns>
-        <desc-columns></desc-columns>
-        <unique>1</unique>
-      </index>
-      <key id="96" parent="9" name="cnpj">
-        <columns>documento</columns>
-        <underlying-index>cnpj</underlying-index>
-      </key>
-      <key id="97" parent="9" name="PRIMARY">
+      <key id="95" parent="9" name="PRIMARY">
         <columns>codigo</columns>
         <primary>1</primary>
       </key>
-      <trigger id="98" parent="9" name="ai_cliente_fornecedor">
+      <trigger id="96" parent="9" name="ai_cliente_fornecedor">
         <trig-events>I</trig-events>
         <trig-turn>AFTER_ROW</trig-turn>
       </trigger>
-      <column id="99" parent="10" name="id_config">
+      <column id="97" parent="10" name="id_config">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="100" parent="10" name="nome_app">
+      <column id="98" parent="10" name="nome_app">
         <mandatory>1</mandatory>
         <data-type>varchar(40)</data-type>
       </column>
-      <column id="101" parent="10" name="pasta_root">
+      <column id="99" parent="10" name="pasta_root">
         <mandatory>1</mandatory>
         <data-type>varchar(30)</data-type>
       </column>
-      <column id="102" parent="10" name="manutencao">
+      <column id="100" parent="10" name="manutencao">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="103" parent="10" name="site">
+      <column id="101" parent="10" name="site">
         <mandatory>1</mandatory>
         <data-type>varchar(100)</data-type>
       </column>
-      <column id="104" parent="10" name="footer">
+      <column id="102" parent="10" name="footer">
         <mandatory>1</mandatory>
         <data-type>varchar(100)</data-type>
       </column>
-      <key id="105" parent="10" name="PRIMARY">
+      <key id="103" parent="10" name="PRIMARY">
         <columns>id_config</columns>
         <primary>1</primary>
       </key>
-      <column id="106" parent="11" name="id">
+      <column id="104" parent="11" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="107" parent="11" name="cartao_conta_id">
+      <column id="105" parent="11" name="cartao_conta_id">
         <data-type>int(11)</data-type>
       </column>
-      <column id="108" parent="11" name="id_empresa">
+      <column id="106" parent="11" name="id_empresa">
         <data-type>int(11)</data-type>
       </column>
-      <column id="109" parent="11" name="cc2_id">
+      <column id="107" parent="11" name="cc2_id">
         <data-type>int(11)</data-type>
       </column>
-      <column id="110" parent="11" name="razao_social">
+      <column id="108" parent="11" name="razao_social">
         <data-type>varchar(120)</data-type>
       </column>
-      <column id="111" parent="11" name="cnpj">
+      <column id="109" parent="11" name="cnpj">
         <data-type>varchar(30)</data-type>
       </column>
-      <column id="112" parent="11" name="codigo_banco">
+      <column id="110" parent="11" name="codigo_banco">
         <data-type>varchar(6)</data-type>
       </column>
-      <column id="113" parent="11" name="banco">
+      <column id="111" parent="11" name="banco">
         <data-type>varchar(64)</data-type>
       </column>
-      <column id="114" parent="11" name="nome_conta">
+      <column id="112" parent="11" name="nome_conta">
         <data-type>varchar(64)</data-type>
       </column>
-      <column id="115" parent="11" name="agencia">
+      <column id="113" parent="11" name="agencia">
         <data-type>varchar(10)</data-type>
       </column>
-      <column id="116" parent="11" name="agencia_dv">
+      <column id="114" parent="11" name="agencia_dv">
         <data-type>varchar(10)</data-type>
       </column>
-      <column id="117" parent="11" name="conta">
+      <column id="115" parent="11" name="conta">
         <data-type>varchar(10)</data-type>
       </column>
-      <column id="118" parent="11" name="conta_dv">
+      <column id="116" parent="11" name="conta_dv">
         <data-type>varchar(10)</data-type>
       </column>
-      <column id="119" parent="11" name="pagseguro_email">
+      <column id="117" parent="11" name="pagseguro_email">
         <data-type>varchar(100)</data-type>
       </column>
-      <column id="120" parent="11" name="pagseguro_tokem">
+      <column id="118" parent="11" name="pagseguro_tokem">
         <data-type>varchar(100)</data-type>
       </column>
-      <column id="121" parent="11" name="layout">
+      <column id="119" parent="11" name="layout">
         <data-type>varchar(64)</data-type>
       </column>
-      <key id="122" parent="11" name="PRIMARY">
+      <key id="120" parent="11" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <column id="123" parent="12" name="id">
+      <column id="121" parent="12" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="124" parent="12" name="convenio">
+      <column id="122" parent="12" name="convenio">
         <data-type>varchar(65)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <key id="125" parent="12" name="PRIMARY">
+      <key id="123" parent="12" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <column id="126" parent="13" name="id">
+      <column id="124" parent="13" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="127" parent="13" name="grupo_muscular_id">
+      <column id="125" parent="13" name="grupo_muscular_id">
         <data-type>int(11)</data-type>
       </column>
-      <column id="128" parent="13" name="exercicio">
+      <column id="126" parent="13" name="exercicio">
         <data-type>varchar(100)</data-type>
       </column>
-      <column id="129" parent="13" name="equipamentos">
+      <column id="127" parent="13" name="equipamentos">
         <data-type>text</data-type>
       </column>
-      <column id="130" parent="13" name="descricao">
+      <column id="128" parent="13" name="descricao">
         <data-type>text</data-type>
       </column>
-      <key id="131" parent="13" name="PRIMARY">
+      <key id="129" parent="13" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <column id="132" parent="14" name="id">
+      <column id="130" parent="14" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="133" parent="14" name="grupo">
+      <column id="131" parent="14" name="grupo">
         <data-type>varchar(100)</data-type>
       </column>
-      <key id="134" parent="14" name="PRIMARY">
+      <key id="132" parent="14" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <column id="135" parent="15" name="id_arquivo">
+      <column id="133" parent="15" name="id_arquivo">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="136" parent="15" name="arquivo">
+      <column id="134" parent="15" name="arquivo">
         <mandatory>1</mandatory>
         <data-type>varchar(150)</data-type>
       </column>
-      <column id="137" parent="15" name="titulo">
+      <column id="135" parent="15" name="titulo">
         <mandatory>1</mandatory>
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="138" parent="15" name="caminho">
+      <column id="136" parent="15" name="caminho">
         <mandatory>1</mandatory>
         <data-type>longtext</data-type>
       </column>
-      <column id="139" parent="15" name="permissoes">
+      <column id="137" parent="15" name="permissoes">
         <mandatory>1</mandatory>
         <data-type>varchar(100)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <key id="140" parent="15" name="PRIMARY">
+      <key id="138" parent="15" name="PRIMARY">
         <columns>id_arquivo</columns>
         <primary>1</primary>
       </key>
-      <column id="141" parent="16" name="id">
+      <column id="139" parent="16" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="142" parent="16" name="nome">
+      <column id="140" parent="16" name="nome">
         <data-type>varchar(100)</data-type>
       </column>
-      <column id="143" parent="16" name="id_empresa">
+      <column id="141" parent="16" name="id_empresa">
         <data-type>int(11)</data-type>
       </column>
-      <column id="144" parent="16" name="cc2_id">
+      <column id="142" parent="16" name="cc2_id">
         <data-type>int(11)</data-type>
       </column>
-      <column id="145" parent="16" name="cc3_id">
+      <column id="143" parent="16" name="cc3_id">
         <data-type>int(11)</data-type>
       </column>
-      <column id="146" parent="16" name="cc4_id">
+      <column id="144" parent="16" name="cc4_id">
         <data-type>int(11)</data-type>
       </column>
-      <column id="147" parent="16" name="min_parcela">
+      <column id="145" parent="16" name="min_parcela">
         <data-type>int(11)</data-type>
       </column>
-      <column id="148" parent="16" name="max_parcela">
+      <column id="146" parent="16" name="max_parcela">
         <data-type>int(11)</data-type>
       </column>
-      <column id="149" parent="16" name="valor">
+      <column id="147" parent="16" name="valor">
         <data-type>double</data-type>
       </column>
-      <key id="150" parent="16" name="PRIMARY">
+      <key id="148" parent="16" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <column id="151" parent="17" name="id_status">
+      <column id="149" parent="17" name="id_status">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="152" parent="17" name="status_cliente">
+      <column id="150" parent="17" name="status_cliente">
         <mandatory>1</mandatory>
         <data-type>varchar(50)</data-type>
       </column>
-      <key id="153" parent="17" name="PRIMARY">
+      <key id="151" parent="17" name="PRIMARY">
         <columns>id_status</columns>
         <primary>1</primary>
       </key>
-      <column id="154" parent="18" name="id_tipo_documento">
+      <column id="152" parent="18" name="id_tipo_documento">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="155" parent="18" name="div_tab">
+      <column id="153" parent="18" name="div_tab">
         <mandatory>1</mandatory>
         <data-type>varchar(100)</data-type>
       </column>
-      <column id="156" parent="18" name="tipo_cliente">
+      <column id="154" parent="18" name="tipo_cliente">
         <mandatory>1</mandatory>
         <data-type>varchar(100)</data-type>
       </column>
-      <column id="157" parent="18" name="tipo_documento">
+      <column id="155" parent="18" name="tipo_documento">
         <mandatory>1</mandatory>
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="158" parent="18" name="formulario">
+      <column id="156" parent="18" name="formulario">
         <mandatory>1</mandatory>
         <data-type>longtext</data-type>
       </column>
-      <key id="159" parent="18" name="PRIMARY">
+      <key id="157" parent="18" name="PRIMARY">
         <columns>id_tipo_documento</columns>
         <primary>1</primary>
       </key>
-      <column id="160" parent="19" name="id_titulo">
+      <column id="158" parent="19" name="id_titulo">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="161" parent="19" name="cliente_fornecedor">
+      <column id="159" parent="19" name="cliente_fornecedor">
         <data-type>int(11)</data-type>
       </column>
-      <column id="162" parent="19" name="tipo">
+      <column id="160" parent="19" name="tipo">
         <data-type>tinyint(1)</data-type>
       </column>
-      <column id="163" parent="19" name="emissao">
+      <column id="161" parent="19" name="emissao">
         <data-type>date</data-type>
       </column>
-      <column id="164" parent="19" name="vencimento">
+      <column id="162" parent="19" name="vencimento">
         <data-type>date</data-type>
       </column>
-      <column id="165" parent="19" name="parcela">
+      <column id="163" parent="19" name="parcela">
         <data-type>int(11)</data-type>
       </column>
-      <column id="166" parent="19" name="valor">
+      <column id="164" parent="19" name="valor">
         <data-type>double</data-type>
       </column>
-      <column id="167" parent="19" name="desconto_porcentagem">
-        <data-type>double</data-type>
-        <default-expression>&apos;0&apos;</default-expression>
-      </column>
-      <column id="168" parent="19" name="desconto_real">
+      <column id="165" parent="19" name="desconto_porcentagem">
         <data-type>double</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="169" parent="19" name="descricao">
+      <column id="166" parent="19" name="desconto_real">
+        <data-type>double</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="167" parent="19" name="descricao">
         <data-type>varchar(200)</data-type>
       </column>
-      <column id="170" parent="19" name="data_pagto">
+      <column id="168" parent="19" name="data_pagto">
         <data-type>date</data-type>
       </column>
-      <column id="171" parent="19" name="valor_pagto">
+      <column id="169" parent="19" name="valor_pagto">
         <data-type>double</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="172" parent="19" name="conta_id">
+      <column id="170" parent="19" name="conta_id">
         <data-type>int(11)</data-type>
       </column>
-      <column id="173" parent="19" name="id_empresa">
+      <column id="171" parent="19" name="id_empresa">
         <data-type>int(11)</data-type>
       </column>
-      <column id="174" parent="19" name="cc2_id">
+      <column id="172" parent="19" name="cc2_id">
         <data-type>int(11)</data-type>
       </column>
-      <column id="175" parent="19" name="cc3_id">
+      <column id="173" parent="19" name="cc3_id">
         <data-type>int(11)</data-type>
       </column>
-      <column id="176" parent="19" name="cc4_id">
+      <column id="174" parent="19" name="cc4_id">
         <data-type>int(11)</data-type>
       </column>
-      <column id="177" parent="19" name="ativo">
+      <column id="175" parent="19" name="ativo">
         <data-type>tinyint(1)</data-type>
         <default-expression>&apos;1&apos;</default-expression>
       </column>
-      <index id="178" parent="19" name="w1">
+      <index id="176" parent="19" name="w1">
         <columns>conta_id</columns>
         <desc-columns></desc-columns>
       </index>
-      <index id="179" parent="19" name="w2">
+      <index id="177" parent="19" name="w2">
         <columns>id_empresa</columns>
         <desc-columns></desc-columns>
       </index>
-      <index id="180" parent="19" name="w3">
+      <index id="178" parent="19" name="w3">
         <columns>cc2_id</columns>
         <desc-columns></desc-columns>
       </index>
-      <index id="181" parent="19" name="w4">
+      <index id="179" parent="19" name="w4">
         <columns>cc3_id</columns>
         <desc-columns></desc-columns>
       </index>
-      <index id="182" parent="19" name="w5">
+      <index id="180" parent="19" name="w5">
         <columns>cc4_id</columns>
         <desc-columns></desc-columns>
       </index>
-      <index id="183" parent="19" name="w6">
+      <index id="181" parent="19" name="w6">
         <columns>tipo
 vencimento
 ativo</columns>
         <desc-columns></desc-columns>
       </index>
-      <index id="184" parent="19" name="w7">
+      <index id="182" parent="19" name="w7">
         <columns>tipo
 data_pagto
 ativo</columns>
         <desc-columns></desc-columns>
       </index>
-      <key id="185" parent="19" name="PRIMARY">
+      <key id="183" parent="19" name="PRIMARY">
         <columns>id_titulo</columns>
         <primary>1</primary>
       </key>
-      <column id="186" parent="20" name="id_usuario">
+      <column id="184" parent="20" name="id_usuario">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="187" parent="20" name="usuario">
+      <column id="185" parent="20" name="usuario">
         <mandatory>1</mandatory>
         <data-type>varchar(30)</data-type>
       </column>
-      <column id="188" parent="20" name="senha">
+      <column id="186" parent="20" name="senha">
         <mandatory>1</mandatory>
         <data-type>varchar(30)</data-type>
       </column>
-      <column id="189" parent="20" name="foto">
+      <column id="187" parent="20" name="foto">
         <mandatory>1</mandatory>
         <data-type>varchar(100)</data-type>
         <default-expression>&apos;img/placeholders/avatars/avatar9.jpg&apos;</default-expression>
       </column>
-      <column id="190" parent="20" name="nome">
+      <column id="188" parent="20" name="nome">
         <mandatory>1</mandatory>
         <data-type>varchar(100)</data-type>
       </column>
-      <column id="191" parent="20" name="email">
+      <column id="189" parent="20" name="email">
         <mandatory>1</mandatory>
         <data-type>varchar(100)</data-type>
       </column>
-      <column id="192" parent="20" name="nivel">
+      <column id="190" parent="20" name="nivel">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="193" parent="20" name="nivel_nome">
+      <column id="191" parent="20" name="nivel_nome">
         <mandatory>1</mandatory>
         <data-type>varchar(100)</data-type>
       </column>
-      <column id="194" parent="20" name="empresa">
+      <column id="192" parent="20" name="empresa">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="195" parent="20" name="filial">
+      <column id="193" parent="20" name="filial">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <key id="196" parent="20" name="PRIMARY">
+      <key id="194" parent="20" name="PRIMARY">
         <columns>id_usuario</columns>
         <primary>1</primary>
       </key>

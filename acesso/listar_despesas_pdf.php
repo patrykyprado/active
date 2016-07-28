@@ -157,7 +157,7 @@ $mpdf->SetTitle('Despesas'); //Titulo
 //$mpdf->SetProtection(array('copy','print'), '', '#minhasenha'); // Permite apenas copiar e imprimir
 //$mpdf->SetHeader($head);
 //$rodape = '{DATE j/m/Y H:i}|{PAGENO}/{nb}';
-$rodape = '{PAGENO}/{nb}';
+$rodape = '{PAGENO} / {nb}';
 $mpdf->SetFooter($rodape);
 $mpdf->SetDisplayMode('fullpage');
 $mpdf->SetMargins(2,2,7,15);

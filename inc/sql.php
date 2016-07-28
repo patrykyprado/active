@@ -134,7 +134,15 @@ function func_lista_cliente_fornecedor($pagina, $busca){
         $sql_busca = " WHERE (cf.nome_fantasia LIKE '%$busca%' OR cf.razao_social LIKE '%$busca%' OR cf.documento LIKE '%$busca%' OR cf.codigo LIKE '$busca' OR cf.convenio LIKE '%$busca%')";
     }
     if($pagina == 0){
-        $sql_lista_cliente_fornecedor= "SELECT cf.*, c.convenio as convenio_nome FROM cliente_fornecedor cf 
+        $sql_lista_cliente_fornecedor= "SELECT cf.codigo, UPPER(cf.razao_social) as razao_social,
+  UPPER(cf.nome_fantasia) as nome_fantasia,
+  UPPER(cf.nascimento) as nascimento,
+  UPPER(cf.documento) as documento,
+  UPPER(cf.rg) as rg,
+  UPPER(cf.convenio) as convenio,
+  UPPER(cf.convenio_validade) as convenio_validade,
+  UPPER(cf.status_cliente) as status_cliente, c.convenio as convenio_nome 
+  FROM cliente_fornecedor cf 
  INNER JOIN convenios c 
  ON cf.tipo_convenio = c.id $sql_busca";
     }
@@ -162,20 +170,15 @@ WHERE c.codigo = $id_cliente";
 
 function func_edicao_cliente($dados_cliente){
     global $conn;
-    $sql_editar_cliente = "UPDATE cliente_fornecedor SET razao_social = '".$dados_cliente['razao_social']."', nome_fantasia ='".$dados_cliente['nome_fantasia']."', cnpj='".$dados_cliente['cnpj']."',
-       endereco = '".$dados_cliente['endereco']."', numero = '".$dados_cliente['numero']."', bairro ='".$dados_cliente['bairro']."', cidade ='".$dados_cliente['cidade']."',
-        uf = '".$dados_cliente['uf']."', cep='".$dados_cliente['cep']."', telefone='".$dados_cliente['telefone']."', celular='".$dados_cliente['celular']."',
-       contatos = '".$dados_cliente['contatos']."', emails ='".$dados_cliente['email']."',
+    $sql_editar_cliente = "UPDATE cliente_fornecedor SET razao_social = '".utf8_decode($dados_cliente['razao_social'])."', nome_fantasia ='".utf8_decode($dados_cliente['nome_fantasia'])."', documento='".utf8_decode($dados_cliente['cnpj'])."',
+       endereco = '".utf8_decode($dados_cliente['endereco'])."', numero = '".$dados_cliente['numero']."', bairro ='".utf8_decode($dados_cliente['bairro'])."', cidade ='".utf8_decode($dados_cliente['cidade'])."',
+        uf = '".utf8_decode($dados_cliente['uf'])."', cep='".utf8_decode($dados_cliente['cep'])."', telefone='".utf8_decode($dados_cliente['telefone'])."', celular='".utf8_decode($dados_cliente['celular'])."',
+       contatos = '".utf8_decode($dados_cliente['contatos'])."', emails ='".$dados_cliente['email']."',
          site = '".$dados_cliente['site']."' WHERE codigo ='".$dados_cliente['codigo']."'";
     //ATUALIZA OS DADOS DO CLIENTE NO BANCO DE DADOS
     $sql_edicao_cliente = $conn->prepare($sql_editar_cliente);
     $sql_edicao_cliente->execute();
-    $total_alterado = $sql_edicao_cliente->rowCount();
-    if($total_alterado == 0){
-        return 'Nenhuma alteração foi realizada!';
-    } else {
-        return 'Todos os dados foram atualizados!';
-    }
+    return $sql_edicao_cliente;
 
 }
 
@@ -579,7 +582,7 @@ function func_buscar_titulos_periodo($idEmpresa, $idFilial, $dataInicio, $dataFi
     }
     if($pago == 2){
         $sql .= " AND tit.vencimento BETWEEN '".format_data_us($dataInicio)."' AND '".format_data_us($dataFim)."' 
-        AND (tit.data_pagto IS NULL OR tit.data_pagto = '') AND tit.valor_pagto = 0 ";
+        AND (tit.data_pagto IS NULL OR tit.data_pagto = '0000-00-00') AND tit.valor_pagto = 0 ";
         $orderBy = 'tit.vencimento';
     }
     if($pago == 1){
