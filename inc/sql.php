@@ -329,7 +329,7 @@ function func_drop_contas($idEmpresa, $idFilial){
         $sql .= " AND id_empresa = {$idEmpresa} ";
     }
     if(!empty($idFilial)){
-        $sql .= " AND cc2_id = {$idFilial} ";
+        $sql .= " AND (cc2_id = {$idFilial} OR cc2_id = 0) ";
     }
 
     $sql .= "ORDER BY nome_conta ";
@@ -485,10 +485,12 @@ function func_dados_cliente($id){
 function func_buscar_titulos($clienteFornecedor, $tipo, $pago){
     global $conn;
     $sql = "
-    SELECT tit.*, c.nome_conta, c.layout
+    SELECT tit.*, c.nome_conta, c.layout, u.nome as nome_usuario_baixa
      FROM titulos tit 
      INNER JOIN conta c 
-     ON c.id = tit.conta_id
+     ON c.id = tit.conta_id 
+     LEFT JOIN usuarios u 
+     ON u.id_usuario = tit.usuario_baixa 
       WHERE tit.cliente_fornecedor = {$clienteFornecedor} AND tit.tipo = {$tipo} 
     ";
     if($pago == 1){
@@ -542,6 +544,10 @@ function func_dados_boleto_id($idTitulo){
 
 function func_atualizar_titulo($dados){
     global $conn;
+    $sqlBaixa = '';
+    if(!empty($dados['id_usuario'])){
+        $sqlBaixa = ", arquivo_baixa = 'MANUAL', usuario_baixa = '".$dados['id_usuario']."', data_hora_baixa = NOW() ";
+    }
     $sql = "
    UPDATE titulos 
    SET emissao =  '".format_data_us($dados['emissao'])."',
@@ -553,6 +559,7 @@ function func_atualizar_titulo($dados){
    data_pagto =  '".format_data_us($dados['data_pagto'])."',
    valor_pagto =  '".format_valor_db($dados['valor_pagto'])."',
    conta_id =  '".format_valor_db($dados['conta'])."'
+   {$sqlBaixa}
    WHERE id_titulo = '".$dados['id_titulo']."'
     ";
     $sql_executar = $conn->prepare($sql);
@@ -590,6 +597,18 @@ function func_buscar_titulos_periodo($idEmpresa, $idFilial, $dataInicio, $dataFi
         $orderBy = 'tit.data_pagto';
     }
     $sql .= " ORDER BY {$orderBy}";
+    $sql_executar = $conn->prepare($sql);
+    $sql_executar->execute();
+    return $sql_executar;
+}
+
+function func_atualizar_senha($idUsuario, $novaSenha){
+    global $conn;
+    $sql = "
+    UPDATE usuarios 
+    SET senha = '".$novaSenha."' 
+      WHERE id_usuario = {$idUsuario}
+    ";
     $sql_executar = $conn->prepare($sql);
     $sql_executar->execute();
     return $sql_executar;

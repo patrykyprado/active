@@ -8,6 +8,9 @@ $sql_cc2 = func_drop_cc2($usuario_empresa, $usuario_filial);
 $botaoPdf = '';
 
 if(isset($_GET['busca'])){
+    if(!empty($usuario_filial)){
+        $_GET['cc2'] = $usuario_filial;
+    }
     $sql_titulos = func_buscar_titulos_periodo($_GET['cc1'],$_GET['cc2'],$_GET['inicio'],$_GET['fim'],1,$_GET['efetivado']);
     $botaoPdf = '<a target="_blank" href="listar_despesas_pdf.php?'.requestCompleto().'"><button class="btn btn-danger"><i class="fa fa-file-pdf-o"></i> Gerar PDF</button></a>';
 }

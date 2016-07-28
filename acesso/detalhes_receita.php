@@ -161,7 +161,7 @@ $sql_receitas_efetivados = func_buscar_titulos($dados_cliente['codigo'], 2, 2);
                                     <td align="right">
                                         R$ <?= format_valor($dados_efetivado['valor']);?>
                                     </td>
-                                    <td align="center">
+                                    <td align="center" style="cursor: help" title="Baixa efetivada em <?= format_data_hora($dados_efetivado['data_hora_baixa']).' por '.utf8_encode($dados_efetivado['nome_usuario_baixa']);?>.">
                                         <?= format_data($dados_efetivado['data_pagto']);?>
                                     </td>
                                     <td align="right">

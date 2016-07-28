@@ -9,6 +9,9 @@ require_once("../externos/mpdf/mpdf.php");
 require_once('../inc/conectar.php');
 require_once('../inc/sql.php');
 require_once('../inc/restricao.php');
+if(!empty($usuario_filial)){
+    $_GET['cc2'] = $usuario_filial;
+}
 $sql_cc1 = func_dados_cc1($_GET['cc1']);
 $dados_cc1 = $sql_cc1->fetch(PDO::FETCH_ASSOC);
 $sql_cc2 = func_dados_cc2($_GET['cc2']);

@@ -24,5 +24,13 @@ $usuario_empresa = $dados_usuario['empresa'];
 $usuario_filial = $dados_usuario['filial'];
 $usuario_foto = $dados_usuario['foto'];
 $usuario_id = $dados_usuario['id_usuario'];
+
+if(!isset($_SESSION['user_id'])){
+    session_destroy();
+    echo "<script language='javascript'>
+alert('Você não tem permissão para acessar essa página.') ;
+location.href='../index.php';
+</script>";
+}
 require_once('../inc/funcoes.php');
 ?>

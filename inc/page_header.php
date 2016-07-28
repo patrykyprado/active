@@ -7,6 +7,13 @@
  * The header of each page
  *
  */
+if(isset($_GET['sair'])){
+    session_destroy();
+    echo "<script language='javascript'>
+alert('Você saiu do sistema.') ;
+location.href='../index.php';
+</script>";
+}
 ?>
 <!-- Header -->
 <!-- In the PHP version you can set the following options from inc/config file -->
@@ -72,13 +79,13 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-right">
                 <li class="dropdown-header">
-                    <strong><?php echo $usuario_nivel_nome;?></strong>
+                    <strong><?php echo utf8_encode($usuario_nivel_nome);?></strong>
                 </li>
 
                 <li>
-                    <a href="perfil.php">
-                        <i class="fa fa-pencil-square fa-fw pull-right"></i>
-                        Perfil
+                    <a href="alterar_senha.php">
+                        <i class="fa fa-lock fa-fw pull-right"></i>
+                        Alterar Senha
                     </a>
                 </li>
                 <li class="divider"><li>

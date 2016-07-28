@@ -9,6 +9,10 @@ $sql_titulo = func_dados_boleto_id($_GET['id']);
 $dados_titulo = $sql_titulo->fetch(PDO::FETCH_ASSOC);
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
+    $_POST['id_usuario'] = '';
+    if(!empty($_POST['valor_pagto']) && !empty($_POST['data_pagto'])){
+        $_POST['id_usuario'] = $usuario_id;
+    }
     $sql_atualizar = func_atualizar_titulo($_POST);
     if($sql_atualizar->rowCount() >= 1){
         echo "<script language='javascript'>
