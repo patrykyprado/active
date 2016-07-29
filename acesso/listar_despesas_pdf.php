@@ -69,7 +69,7 @@ $html_texto = '
     <tr  style="margin-bottom:20px">
         <td colspan="2" align="center"><img height="80px" src="../img/sistema/logo.jpg" /><br>
         <font size="-4">'.date('d/m/Y H:i:s').'<br>
-            '.$usuario_nome.'</font>
+            '.utf8_encode($usuario_nome).'</font>
         </td>
         <td colspan="7" align="center"><b>Relatório de Despesas</b><br>
         <b>Empresa: </b> '.utf8_encode($dados_cc1['nome']).'<br>

@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd737e4f-c330-415b-b9c5-8679b8003b05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/acesso/alterar_senha.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/acesso/detalhes_receita.php" afterPath="$PROJECT_DIR$/acesso/detalhes_receita.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/acesso/editar_titulo.php" afterPath="$PROJECT_DIR$/acesso/editar_titulo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/acesso/listar_despesas.php" afterPath="$PROJECT_DIR$/acesso/listar_despesas.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/acesso/listar_despesas_pdf.php" afterPath="$PROJECT_DIR$/acesso/listar_despesas_pdf.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/page_header.php" afterPath="$PROJECT_DIR$/inc/page_header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/restricao.php" afterPath="$PROJECT_DIR$/inc/restricao.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/sql.php" afterPath="$PROJECT_DIR$/inc/sql.php" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,12 +54,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listar_despesas_pdf.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/acesso/listar_despesas_pdf.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="71" column="40" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
+              <folding>
+                <marker date="1469802721000" expanded="true" signature="1576:2659" ph="..." />
+                <marker date="1469802721000" expanded="true" signature="1584:2659" ph="..." />
+                <marker date="1469802721000" expanded="true" signature="1600:1615" ph="..." />
+                <marker date="1469802721000" expanded="true" signature="1689:2659" ph="..." />
+                <marker date="1469802721000" expanded="true" signature="1697:2659" ph="..." />
+                <marker date="1469802721000" expanded="true" signature="1715:1733" ph="..." />
+                <marker date="1469802721000" expanded="true" signature="1734:2218" ph="..." />
+                <marker date="1469802721000" expanded="true" signature="1774:1945" ph="..." />
+                <marker date="1469802721000" expanded="true" signature="1854:1895" ph="..." />
+                <marker date="1469802721000" expanded="true" signature="1854:1931" ph="..." />
+                <marker date="1469802721000" expanded="true" signature="1985:2208" ph="..." />
+                <marker date="1469802721000" expanded="true" signature="2256:2659" ph="..." />
+                <marker date="1469802721000" expanded="true" signature="3416:3974" ph="..." />
+                <marker date="1469802721000" expanded="true" signature="4428:4614" ph="..." />
+                <marker date="1469802721000" expanded="true" signature="4728:5030" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -233,7 +250,6 @@
         <option value="$PROJECT_DIR$/acesso/inativar_cliente.php" />
         <option value="$PROJECT_DIR$/acesso/cad_cliente.php" />
         <option value="$PROJECT_DIR$/acesso/listar_despesas.php" />
-        <option value="$PROJECT_DIR$/acesso/listar_despesas_pdf.php" />
         <option value="$PROJECT_DIR$/acesso/cad_titulo.php" />
         <option value="$PROJECT_DIR$/acesso/editar_titulo.php" />
         <option value="$PROJECT_DIR$/acesso/detalhes_receita.php" />
@@ -242,6 +258,7 @@
         <option value="$PROJECT_DIR$/inc/sql.php" />
         <option value="$PROJECT_DIR$/acesso/alterar_senha.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql" />
+        <option value="$PROJECT_DIR$/acesso/listar_despesas_pdf.php" />
       </list>
     </option>
   </component>
@@ -300,6 +317,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -348,8 +367,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,7 +386,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="SearchEverywhereHistoryKey" value="cons&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;sql&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/sql.php&#10;ssql&#9;null&#9;null&#10;page&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_header.php&#10;cad_cl&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/cad_cliente.php&#10;cad&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/cad_titulo.php&#10;hea&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_header.php&#10;co&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;detalhes&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/detalhes_receita.php&#10;consol&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;listar_de&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_despesas.php&#10;CAD_CL&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/cad_cliente.php&#10;con&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;listar&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;side&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_sidebar.php&#10;lista&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_despesas.php&#10;restricao&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/restricao.php&#10;base&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/base.php&#10;funco&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/funcoes.php&#10;editar&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/editar_titulo.php&#10;detalhe&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/detalhes_receita.php&#10;sq&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/sql.php&#10;detalh&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/detalhes_receita.php&#10;cad_titulo&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/cad_titulo.php&#10;bolet&#9;FILE&#9;file:///Users/Patryky/desenv/active/externos/boleto/boleto_bradesco.php&#10;conso&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;cad_&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/cad_cliente.php&#10;pesqu&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/pesquisar_clientefornecedor.php&#10;main&#9;FILE&#9;file:///Users/Patryky/desenv/active/css/main.css&#10;templa&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/template_start.php&#10;confi&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/config.php&#10;start&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/template_start.php&#10;index&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/index.php&#10;console&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/4aae0dcb-4cc1-4f38-acd0-bf57153935b8/console.sql&#10;l&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;listar_clien&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;index2&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/index2.php&#10;fit&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/fitness.php&#10;load&#9;FILE&#9;file:///Users/Patryky/desenv/active/img/jquery.easytree/loading.gif&#10;res&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/restricao.php&#10;li&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;jquery_masked.js&#9;FILE&#9;file:///Users/Patryky/desenv/active/js/jquery_masked.js&#10;funcoes.&#9;FILE&#9;file:///Users/Patryky/desenv/active/js/funcoes.js&#10;func_cad&#9;null&#9;null&#10;config&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/config.php&#10;c&#9;FILE&#9;file:///Users/Patryky/desenv/active/css/main.css&#10;restri&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/restricao.php&#10;sidebar_alt&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_sidebar_alt.php&#10;page_h&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_header.php&#10;head.&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_head.php" />
+    <property name="SearchEverywhereHistoryKey" value="_pdf&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_despesas_pdf.php&#10;cons&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;sql&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/sql.php&#10;ssql&#9;null&#9;null&#10;page&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_header.php&#10;cad_cl&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/cad_cliente.php&#10;cad&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/cad_titulo.php&#10;hea&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_header.php&#10;co&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;detalhes&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/detalhes_receita.php&#10;consol&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;listar_de&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_despesas.php&#10;CAD_CL&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/cad_cliente.php&#10;con&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;listar&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;side&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_sidebar.php&#10;lista&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_despesas.php&#10;restricao&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/restricao.php&#10;base&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/base.php&#10;funco&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/funcoes.php&#10;editar&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/editar_titulo.php&#10;detalhe&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/detalhes_receita.php&#10;sq&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/sql.php&#10;detalh&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/detalhes_receita.php&#10;cad_titulo&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/cad_titulo.php&#10;bolet&#9;FILE&#9;file:///Users/Patryky/desenv/active/externos/boleto/boleto_bradesco.php&#10;conso&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql&#10;cad_&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/cad_cliente.php&#10;pesqu&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/pesquisar_clientefornecedor.php&#10;main&#9;FILE&#9;file:///Users/Patryky/desenv/active/css/main.css&#10;templa&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/template_start.php&#10;confi&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/config.php&#10;start&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/template_start.php&#10;index&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/index.php&#10;console&#9;FILE&#9;file:///Users/Patryky/Library/Preferences/PhpStorm2016.1/consoles/db/4aae0dcb-4cc1-4f38-acd0-bf57153935b8/console.sql&#10;l&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;listar_clien&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;index2&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/index2.php&#10;fit&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/fitness.php&#10;load&#9;FILE&#9;file:///Users/Patryky/desenv/active/img/jquery.easytree/loading.gif&#10;res&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/restricao.php&#10;li&#9;FILE&#9;file:///Users/Patryky/desenv/active/acesso/listar_clientes.php&#10;jquery_masked.js&#9;FILE&#9;file:///Users/Patryky/desenv/active/js/jquery_masked.js&#10;funcoes.&#9;FILE&#9;file:///Users/Patryky/desenv/active/js/funcoes.js&#10;func_cad&#9;null&#9;null&#10;config&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/config.php&#10;c&#9;FILE&#9;file:///Users/Patryky/desenv/active/css/main.css&#10;restri&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/restricao.php&#10;sidebar_alt&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_sidebar_alt.php&#10;page_h&#9;FILE&#9;file:///Users/Patryky/desenv/active/inc/page_header.php" />
     <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -455,7 +472,9 @@
       <workItem from="1469567763011" duration="16183000" />
       <workItem from="1469633915206" duration="15123000" />
       <workItem from="1469710356665" duration="13060000" />
-      <workItem from="1469741888588" duration="176000" />
+      <workItem from="1469741888588" duration="693000" />
+      <workItem from="1469754709987" duration="77000" />
+      <workItem from="1469802586856" duration="178000" />
     </task>
     <task id="LOCAL-00001" summary="Atualizado">
       <created>1469017803310</created>
@@ -499,21 +518,29 @@
       <option name="project" value="LOCAL" />
       <updated>1469717857095</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adicionado melhorias.">
+      <created>1469742069306</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1469742069306</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78488000" />
+    <option name="totallyTimeSpent" value="79260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25036603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14494875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -525,7 +552,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25226587" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -852,13 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acesso/listar_despesas_pdf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/acesso/editar_titulo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -894,6 +913,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/sqlsrv.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="1629" column="9" selection-start-line="1629" selection-start-column="9" selection-end-line="1629" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/inc/page_header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -904,10 +930,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/sqlsrv.php">
+    <entry file="file://$PROJECT_DIR$/acesso/alterar_senha.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="1629" column="9" selection-start-line="1629" selection-start-column="9" selection-end-line="1629" selection-end-column="9" />
+        <state relative-caret-position="495">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+          <folding>
+            <marker date="1469733541000" expanded="true" signature="394:478" ph="..." />
+            <marker date="1469733541000" expanded="true" signature="600:697" ph="..." />
+            <marker date="1469733541000" expanded="true" signature="805:905" ph="..." />
+            <marker date="1469733541000" expanded="true" signature="1103:1179" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1004,24 +1036,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acesso/alterar_senha.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-          <folding>
-            <marker date="1469733541000" expanded="true" signature="394:478" ph="..." />
-            <marker date="1469733541000" expanded="true" signature="600:697" ph="..." />
-            <marker date="1469733541000" expanded="true" signature="805:905" ph="..." />
-            <marker date="1469733541000" expanded="true" signature="1103:1179" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/efa9de2a-b6e0-4160-8b73-44abbb762276/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acesso/listar_despesas_pdf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="71" column="40" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
+          <folding>
+            <marker date="1469802721000" expanded="true" signature="1576:2659" ph="..." />
+            <marker date="1469802721000" expanded="true" signature="1584:2659" ph="..." />
+            <marker date="1469802721000" expanded="true" signature="1600:1615" ph="..." />
+            <marker date="1469802721000" expanded="true" signature="1689:2659" ph="..." />
+            <marker date="1469802721000" expanded="true" signature="1697:2659" ph="..." />
+            <marker date="1469802721000" expanded="true" signature="1715:1733" ph="..." />
+            <marker date="1469802721000" expanded="true" signature="1734:2218" ph="..." />
+            <marker date="1469802721000" expanded="true" signature="1774:1945" ph="..." />
+            <marker date="1469802721000" expanded="true" signature="1854:1895" ph="..." />
+            <marker date="1469802721000" expanded="true" signature="1854:1931" ph="..." />
+            <marker date="1469802721000" expanded="true" signature="1985:2208" ph="..." />
+            <marker date="1469802721000" expanded="true" signature="2256:2659" ph="..." />
+            <marker date="1469802721000" expanded="true" signature="3416:3974" ph="..." />
+            <marker date="1469802721000" expanded="true" signature="4428:4614" ph="..." />
+            <marker date="1469802721000" expanded="true" signature="4728:5030" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
